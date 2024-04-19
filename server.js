@@ -1,6 +1,8 @@
 const express = require('express')
 const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
 mongoose.set('strictQuery', false);
+
 var routes = require('./route/routes.js');
 // const cors = require('cors');
 
@@ -12,13 +14,18 @@ var routes = require('./route/routes.js');
 // ));
 
 const app = express()
-app.listen(9992,function check(err)
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.listen(3000,function check(err)
 {
     if(err)
     console.log("error")
     else
     console.log("started")
 });
+
+
 
 const uri = 'mongodb://localhost:27017/mits';
 
@@ -32,4 +39,3 @@ db.once('open', () => {
 });
 
 app.use(routes);
-app.use(express.json);

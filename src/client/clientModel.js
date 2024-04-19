@@ -9,7 +9,8 @@ var clientSchema = new Schema({
 
     email:{
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
 
     password:{
@@ -19,4 +20,4 @@ var clientSchema = new Schema({
 })
 
 
-module.exports = mongoose.model('client', clientSchema)
+module.exports = mongoose.model('clients', clientSchema)
