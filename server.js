@@ -2,20 +2,17 @@ const express = require('express')
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 mongoose.set('strictQuery', false);
-
 var routes = require('./route/routes.js');
-// const cors = require('cors');
-
-// app.use(cors(
-//   {
-//     origin: "http://localhost:4200"
-//   }
-
-// ));
+const cors = require('cors');
 
 const app = express()
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(cors(
+  {
+    origin: "http://localhost:4200"
+  }
+));
 
 app.listen(3000,function check(err)
 {
