@@ -7,5 +7,6 @@ const router = express.Router();
 router.route('/client/login').post(clientController.loginClient)
 router.route('/client/register').post(clientController.createClient)
 router.route('/admin/login').post(adminController.adminLogin)
+router.route('/admin/allUser').get(clientController.getAllUserDetails)
 
 module.exports = router;

@@ -32,4 +32,17 @@ var loginClient = async (req, res) =>{
     }
 }
 
-module.exports = { createClient, loginClient };
+var getAllUserDetails = async(req, res) =>{
+    try{
+        result = await clientService.getAllUsersDB();
+        if(res.status){
+            res.send({"status": true, "data": result});
+        }else{
+            res.send({"status": false, "message": result.message});
+        }
+    }catch(error){
+        res.send({"status": false, "message":error.msg});
+    }
+}
+
+module.exports = { createClient, loginClient, getAllUserDetails };

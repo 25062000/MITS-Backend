@@ -67,3 +67,15 @@ module.exports.logInClientDB = (clientDetails) =>{
 }
 
 
+module.exports.getAllUsersDB = ()=>{
+    return new Promise( function myFun(resolve, reject){
+        clientModel.find().then(result =>{
+            resolve(result);
+        }).catch(error=>{
+            console.log(error);
+            reject({ status: false, msg:"Error occured"});
+        });
+    })
+}
+
+
