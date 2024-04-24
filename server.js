@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 mongoose.set('strictQuery', false);
 var routes = require('./route/routes.js');
 const cors = require('cors');
+const jwt = require('jsonwebtoken');
 
 const app = express()
 app.use(bodyParser.json());

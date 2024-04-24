@@ -6,7 +6,7 @@ var adminLogin = async (req, res) =>{
         console.log(req.body);
         result = await adminService.logInadminDB(req.body);
         if(result.status){
-            res.send({ "status": true, "message": result.msg });
+            res.send({ "status": true, "message": result.msg , "data": result.data});
         }else{
             res.send({ "status": false, "message": result.msg});
         }

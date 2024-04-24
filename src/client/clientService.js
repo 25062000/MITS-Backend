@@ -1,5 +1,6 @@
 var clientModel = require('./clientModel.js');
 const bcrypt = require("bcrypt");
+const jwt = require('jsonwebtoken');
 const saltRounds = 10;
 
 module.exports.createClientDB = (clientDetails) =>{
@@ -39,13 +40,21 @@ module.exports.logInClientDB = (clientDetails) =>{
     return new Promise(function myFn(resolve, reject){
         clientModel.findOne({email: clientDetails.email})
             .then(result =>{
-
                 if(result != undefined && result!=null){
-
                     bcrypt.compare(clientDetails.password, result.password)
                         .then(compare => {
                             if (compare) {
-                                resolve({ status: true, msg: "Employee Validated Successfully" });
+                                let token;
+                                try{
+                                    token = jwt.sign({
+                                        clientID: result.id,
+                                        email:result.email
+                                    },"8Zz5tw0Ionm3XPZZfN0NOml3z9FMfmpgXwovR9fp",  { expiresIn: "1h" });
+                                    resolve({ status: true, msg: "Employee Validated Successfully", data: { clientID: result.id, email: result.email, token: token} });
+                                }catch(error){
+                                    reject({ status: false, msg: "Error while creating JWT"});
+                                };
+                                
                             } else {
                                 reject({ status: false, msg: "Employee Validation failed" });
                             }
