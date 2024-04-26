@@ -48,9 +48,10 @@ module.exports.logInClientDB = (clientDetails) =>{
                                 try{
                                     token = jwt.sign({
                                         clientID: result.id,
-                                        email:result.email
+                                        email:result.email,
+                                        role:'user'
                                     },"8Zz5tw0Ionm3XPZZfN0NOml3z9FMfmpgXwovR9fp",  { expiresIn: "1h" });
-                                    resolve({ status: true, msg: "Employee Validated Successfully", data: { clientID: result.id, email: result.email, token: token} });
+                                    resolve({ status: true, msg: "Employee Validated Successfully", data: { clientID: result.id, email: result.email, token: token, role: 'user'} });
                                 }catch(error){
                                     reject({ status: false, msg: "Error while creating JWT"});
                                 };

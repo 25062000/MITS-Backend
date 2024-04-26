@@ -13,9 +13,10 @@ module.exports.logInadminDB = (clientDetails) =>{
                         try{
                             token = jwt.sign({
                                 userID: result.id,
-                                email:result.email
+                                email:result.email,
+                                role:'admin'
                             },"8Zz5tw0Ionm3XPZZfN0NOml3z9FMfmpgXwovR9fp",  { expiresIn: "1h" });
-                            resolve({ status: true, msg: "Validated Successfully", data: { userId: result.id, email: result.email, accesToken: token} });
+                            resolve({ status: true, msg: "Validated Successfully", data: { userId: result.id, email: result.email, accesToken: token, role: 'admin'} });
                         }catch(error){
                             reject({ status: false, msg: "Error while creating JWT"});
                         };
