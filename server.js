@@ -5,6 +5,7 @@ mongoose.set('strictQuery', false);
 var routes = require('./route/routes.js');
 const cors = require('cors');
 const jwt = require('jsonwebtoken');
+const middleware = require('./middleware/authMiddleware.js');
 
 const app = express()
 app.use(bodyParser.json());
@@ -18,11 +19,10 @@ app.use(cors(
 app.listen(3000,function check(err)
 {
     if(err)
-    console.log("error")
+      console.log("error");
     else
-    console.log("started")
+      console.log("started");
 });
-
 
 
 const uri = 'mongodb://localhost:27017/mits';
@@ -36,4 +36,5 @@ db.once('open', () => {
   console.log('Connected to MongoDB');
 });
 
+app.use(middleware.setCurrentUser)
 app.use(routes);
