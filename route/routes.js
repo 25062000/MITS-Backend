@@ -23,8 +23,10 @@ const upload =multer({storage: storage});
 
 router.route('/client/login').post(clientController.loginClient)
 router.route('/client/register').post(clientController.createClient)
+router.get('/client/getEncFiles', clientController.getEncFiles);
 
 router.route('/admin/login').post(adminController.adminLogin)
 router.get('/admin/allUser', setCurrentUser, isAdmin, clientController.getAllUserDetails);
 router.post('/admin/uploadFiles', setCurrentUser, isAdmin, upload.single('logo'), adminController.uploadFiles);
+
 module.exports = router;

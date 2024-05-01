@@ -20,9 +20,7 @@ var adminLogin = async (req, res) =>{
 
 var uploadFiles = async(req, res, next)=> {
     try {
-        console.log(req.file);
         const originalFilename = req.file.originalname;
-        console.log('Uploaded filename:', originalFilename);
         const filePath = path.join(__dirname, '../..', 'uploads', originalFilename); 
 
         fs.access(filePath, fs.constants.F_OK, (err) => {
