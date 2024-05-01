@@ -1,8 +1,9 @@
 const jwt = require('jsonwebtoken');
 const secretKey ="8Zz5tw0Ionm3XPZZfN0NOml3z9FMfmpgXwovR9fp";
+const multer = require('multer');
 
 function setCurrentUser(req, res, next){
-    // console.log("middelware executed");
+    console.log("middelware executed");
     var token = req.header("Authorization");
     if (token && token.startsWith("Bearer ")){
         token = token.substring(7);
@@ -45,4 +46,4 @@ function isUser(req, res, next){
     }
 }
 
-module.exports = { setCurrentUser, isAdmin, isUser };
+module.exports = { setCurrentUser, isAdmin, isUser};

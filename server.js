@@ -5,9 +5,11 @@ mongoose.set('strictQuery', false);
 var routes = require('./route/routes.js');
 const cors = require('cors');
 const jwt = require('jsonwebtoken');
-const middleware = require('./middleware/authMiddleware.js');
+const multer = require('multer');
+// const middleware = require('./middleware/authMiddleware.js');
 
 const app = express()
+// app.use(multer({dest:__dirname+'/uploads/'}).any());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors(
@@ -36,5 +38,5 @@ db.once('open', () => {
   console.log('Connected to MongoDB');
 });
 
-app.use(middleware.setCurrentUser)
+// app.use(middleware.setCurrentUser)
 app.use(routes);
