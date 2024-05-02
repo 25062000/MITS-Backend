@@ -2,6 +2,7 @@ var clientModel = require('./clientModel.js');
 const bcrypt = require("bcrypt");
 const jwt = require('jsonwebtoken');
 const saltRounds = 10;
+var requestManagementModel = require('./requestsManagementModel.js');
 
 module.exports.createClientDB = (clientDetails) =>{
 
@@ -16,7 +17,6 @@ module.exports.createClientDB = (clientDetails) =>{
         bcrypt.hash(clientDetails.password, saltRounds)
         .then(hash => {
             clientModelData.password = hash; 
-
 
             clientModelData.save()
                 .then(result => {
@@ -88,4 +88,22 @@ module.exports.getAllUsersDB = ()=>{
     })
 }
 
+module.exports.createRequestDB = (requestedFiles) =>{
+    console.log("RequestedFiles", requestedFiles);
 
+    return new Promise(function myFn(resolve, reject){
+
+        var requestModelData = new requestManagementModel();
+        requestModelData.clientID = requestedFiles.clientID;
+        requestModelData.requestedFiles = requestedFiles.requestedFiles;
+
+        requestModelData.save()
+            .then(result => {
+                resolve(true);
+            })
+            .catch(error => {
+                console.log("Servicefile", error)
+                reject(false);
+        });
+    });
+}

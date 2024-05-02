@@ -60,4 +60,21 @@ var getEncFiles = async(req, res) =>{
     }
 }
 
-module.exports = { createClient, loginClient, getAllUserDetails, getEncFiles };
+
+var requestFiles = async(req, res) =>{
+    try{
+        console.log(req.body);
+        var status = await clientService.createRequestDB(req.body);
+        console.log("status",status);
+        if(status){
+            res.send({ "status": true, "message": "Requests Sent"})
+        }else{
+            res.sedn({ "status": false, "message": "Error sending requests"})
+        }
+
+    }catch(error){
+        res.send({"status": false, "message": error});
+    }
+}
+
+module.exports = { createClient, loginClient, getAllUserDetails, getEncFiles, requestFiles };
