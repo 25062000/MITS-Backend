@@ -111,18 +111,13 @@ module.exports.createRequestDB = (requestedFiles) =>{
     });
 }
 
-// module.exports.getAllRequestFiles = () =>{
-//     return new Promise( function myFun(resolve, reject){
-//        let query = [{
-//         $lookup:{
-//             from: "requestsManagement",
-//             localField: "clientID",
-//             foreignField: "clientID",
-//             as:"clientRequestFiles"
-//         }
-//       }]
-//       client.aggregate(query).toArray().then( result =>{
-//         console.log(resultData);
-//       })
-//     })
-// }
+module.exports.getAllRequestFiles = () =>{
+    return new Promise( function myFun(resolve, reject){
+        requestsManagement.find().then( result =>{
+            resolve(result);
+        }).catch(error => {
+            console.log("Servicefile", error)
+            reject(false);
+        });
+    })
+}

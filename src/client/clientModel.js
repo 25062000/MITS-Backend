@@ -21,7 +21,7 @@ var clientSchema = new Schema({
 
 var requestsManagementSchema = new Schema({
     clientID:{
-        type: String,
+        type: String, // Referencing the 'clients' collection
         required: true
     },
     requestedFiles:{
