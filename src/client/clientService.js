@@ -1,8 +1,11 @@
-var clientModel = require('./clientModel.js');
+// var clientModel = require('./clientModel.js');
+const { client, requestsManagement } = require('./clientModel.js');
 const bcrypt = require("bcrypt");
 const jwt = require('jsonwebtoken');
 const saltRounds = 10;
-var requestManagementModel = require('./requestsManagementModel.js');
+// var requestManagementModel = require('./requestsManagementModel.js');
+
+
 
 module.exports.createClientDB = (clientDetails) =>{
 
@@ -10,7 +13,7 @@ module.exports.createClientDB = (clientDetails) =>{
 
     return new Promise(function myFn(resolve, reject){
 
-        var clientModelData = new clientModel();
+        var clientModelData = new client();
         var hashPassword;
         clientModelData.name = clientDetails.name;
         clientModelData.email = clientDetails.email;
@@ -38,7 +41,7 @@ module.exports.createClientDB = (clientDetails) =>{
 
 module.exports.logInClientDB = (clientDetails) =>{
     return new Promise(function myFn(resolve, reject){
-        clientModel.findOne({email: clientDetails.email})
+        client.findOne({email: clientDetails.email})
             .then(result =>{
                 if(result != undefined && result!=null){
                     bcrypt.compare(clientDetails.password, result.password)
@@ -79,7 +82,7 @@ module.exports.logInClientDB = (clientDetails) =>{
 
 module.exports.getAllUsersDB = ()=>{
     return new Promise( function myFun(resolve, reject){
-        clientModel.find().then(result =>{
+        client.find().then(result =>{
             resolve(result);
         }).catch(error=>{
             console.log(error);
@@ -93,7 +96,7 @@ module.exports.createRequestDB = (requestedFiles) =>{
 
     return new Promise(function myFn(resolve, reject){
 
-        var requestModelData = new requestManagementModel();
+        var requestModelData = new requestsManagement();
         requestModelData.clientID = requestedFiles.clientID;
         requestModelData.requestedFiles = requestedFiles.requestedFiles;
 
@@ -107,3 +110,19 @@ module.exports.createRequestDB = (requestedFiles) =>{
         });
     });
 }
+
+// module.exports.getAllRequestFiles = () =>{
+//     return new Promise( function myFun(resolve, reject){
+//        let query = [{
+//         $lookup:{
+//             from: "requestsManagement",
+//             localField: "clientID",
+//             foreignField: "clientID",
+//             as:"clientRequestFiles"
+//         }
+//       }]
+//       client.aggregate(query).toArray().then( result =>{
+//         console.log(resultData);
+//       })
+//     })
+// }

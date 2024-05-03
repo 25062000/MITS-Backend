@@ -19,5 +19,21 @@ var clientSchema = new Schema({
     }
 })
 
+var requestsManagementSchema = new Schema({
+    clientID:{
+        type: String,
+        required: true
+    },
+    requestedFiles:{
+        type: Array,
+        required: true,
+    }
 
-module.exports = mongoose.model('clients', clientSchema)
+})
+
+const client = mongoose.model('clients', clientSchema);
+const requestsManagement = mongoose.model('requestsManagement', requestsManagementSchema, 'requestsManagement');
+
+// module.exports = mongoose.model('clients', clientSchema)
+
+module.exports = { client, requestsManagement};

@@ -77,4 +77,19 @@ var requestFiles = async(req, res) =>{
     }
 }
 
-module.exports = { createClient, loginClient, getAllUserDetails, getEncFiles, requestFiles };
+var getAllRequestedFiles = async(req, res) =>{
+    try{
+        result = await clientService.getAllRequestFiles();
+        console.log("getAllRequestedFiles", result);
+        if(result.status){
+            res.send({"status": true, "data": result});
+        }else{
+            res.send({"status": false, "message": result.message});
+        }
+    }catch(error){
+        res.send({"status": false, "message":error.msg});
+    }
+
+}
+
+module.exports = { createClient, loginClient, getAllUserDetails, getEncFiles, requestFiles, getAllRequestedFiles };
