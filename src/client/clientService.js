@@ -3,6 +3,7 @@ const { client, requestsManagement } = require('./clientModel.js');
 const bcrypt = require("bcrypt");
 const jwt = require('jsonwebtoken');
 const saltRounds = 10;
+const mongoose = require('mongoose');
 // var requestManagementModel = require('./requestsManagementModel.js');
 
 
@@ -121,3 +122,18 @@ module.exports.getAllRequestFiles = () =>{
         });
     })
 }
+
+module.exports.acceptRequestedFiles = (filesWantToAccept) => {
+    return new Promise((resolve, reject) => {
+        console.log("Files want to accept", filesWantToAccept);
+        client.updateOne({ _id: filesWantToAccept.clientID}, { $set: { requests: filesWantToAccept.requestedFiles } })
+            .then(result => {
+                console.log(result);
+                resolve(true);
+            })
+            .catch(error => {
+                console.log(error);
+                reject(false);
+            });
+    });
+};

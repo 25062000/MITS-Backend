@@ -63,7 +63,7 @@ var getEncFiles = async(req, res) =>{
 
 var requestFiles = async(req, res) =>{
     try{
-        console.log(req.body);
+     
         var status = await clientService.createRequestDB(req.body);
         console.log("status",status);
         if(status){
@@ -90,4 +90,19 @@ var getAllRequestedFiles = async(req, res) =>{
     }
 }
 
-module.exports = { createClient, loginClient, getAllUserDetails, getEncFiles, requestFiles, getAllRequestedFiles };
+var acceptRequestedFiles = async(req, res) =>{
+    try{
+        console.log(req.body);
+        result = await clientService.acceptRequestedFiles(req.body);
+        if(res.status){
+            res.send({"status": true, "message":"Files are accepted"})
+        }else{
+            res.send({"status": false, "message":"Error occured"});
+        }
+    }catch(error){
+        res.send({"status": false, "message": "Error occured while accepting files"});
+    }
+}
+
+module.exports = { createClient, loginClient, getAllUserDetails, getEncFiles,
+     requestFiles, getAllRequestedFiles, acceptRequestedFiles};

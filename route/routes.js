@@ -30,5 +30,6 @@ router.route('/admin/login').post(adminController.adminLogin)
 router.get('/admin/allUser', setCurrentUser, isAdmin, clientController.getAllUserDetails);
 router.post('/admin/uploadFiles', setCurrentUser, isAdmin, upload.single('logo'), adminController.uploadFiles);
 router.get('/admin/getAllRequestedFiles', clientController.getAllRequestedFiles);
+router.post('/admin/acceptRequestFiles', clientController.acceptRequestedFiles);
 
 module.exports = router;

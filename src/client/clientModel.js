@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
+const MyObjectId = mongoose.Types.ObjectId;
 
 var clientSchema = new Schema({
     name:{
@@ -16,12 +17,15 @@ var clientSchema = new Schema({
     password:{
         type: String,
         required: true
-    }
+    }, 
 })
+
+const client = mongoose.model('clients', clientSchema);
 
 var requestsManagementSchema = new Schema({
     clientID:{
-        type: String, // Referencing the 'clients' collection
+        type: MyObjectId, // Referencing the 'clients' collection
+        ref: 'client',
         required: true
     },
     requestedFiles:{
@@ -31,7 +35,6 @@ var requestsManagementSchema = new Schema({
 
 })
 
-const client = mongoose.model('clients', clientSchema);
 const requestsManagement = mongoose.model('requestsManagement', requestsManagementSchema, 'requestsManagement');
 
 // module.exports = mongoose.model('clients', clientSchema)
