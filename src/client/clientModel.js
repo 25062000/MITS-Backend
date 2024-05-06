@@ -1,3 +1,4 @@
+const { request } = require('express');
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 const MyObjectId = mongoose.Types.ObjectId;
@@ -18,6 +19,10 @@ var clientSchema = new Schema({
         type: String,
         required: true
     }, 
+    
+    requests:{
+        type: Array
+    }
 })
 
 const client = mongoose.model('clients', clientSchema);
@@ -25,18 +30,15 @@ const client = mongoose.model('clients', clientSchema);
 var requestsManagementSchema = new Schema({
     clientID:{
         type: MyObjectId, // Referencing the 'clients' collection
-        ref: 'client',
+        ref: 'clients',
         required: true
     },
     requestedFiles:{
         type: Array,
-        required: true,
     }
 
 })
 
 const requestsManagement = mongoose.model('requestsManagement', requestsManagementSchema, 'requestsManagement');
-
-// module.exports = mongoose.model('clients', clientSchema)
 
 module.exports = { client, requestsManagement};

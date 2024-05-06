@@ -1,6 +1,7 @@
 var clientService = require('./clientService.js');
 var path = require('path');
 var fs = require('fs');
+const { client } = require('./clientModel.js');
 
 var createClient = async (req, res) =>{
     try{
@@ -49,10 +50,16 @@ var getAllUserDetails = async(req, res) =>{
 
 var getEncFiles = async(req, res) =>{
     try{
+        console.log(req.body);
+        var permittedFiles = await clientService.getPermittedFiles(req.body);
+        console.log("Permitted Files", permittedFiles);
         var getDir = path.join(__dirname,'../..', 'uploads');
         var files = fs.readdirSync(getDir, {withFileTypes: true})
             .filter(item => !item.isDirectory())
             .map(item => item.name)
+            .filter(fileName => !permittedFiles.includes(fileName));
+        console.log("Get Enc files", files);
+     
         res.send({ "status": true, "message": "Successfully", "data": files});
 
     }catch(error){
@@ -63,7 +70,6 @@ var getEncFiles = async(req, res) =>{
 
 var requestFiles = async(req, res) =>{
     try{
-     
         var status = await clientService.createRequestDB(req.body);
         console.log("status",status);
         if(status){
@@ -92,7 +98,6 @@ var getAllRequestedFiles = async(req, res) =>{
 
 var acceptRequestedFiles = async(req, res) =>{
     try{
-        console.log(req.body);
         result = await clientService.acceptRequestedFiles(req.body);
         if(res.status){
             res.send({"status": true, "message":"Files are accepted"})
@@ -104,5 +109,35 @@ var acceptRequestedFiles = async(req, res) =>{
     }
 }
 
+var rejectRequestFiles = async(req, res) =>{
+    try{
+        console.log("RejectFiles",req.body);
+        result = await clientService.rejectRequestFiles(req.body);
+        console.log(result);
+        if(res.status){
+            res.send({"status": true, "message":"Files are rejected"})
+        }else{
+            res.send({"status": false, "message":"Error occured"});
+        }
+    }catch(error){
+        console.log(error);
+        res.send({"status": false, "message": "Error occured while rejecting files"});
+    }
+};
+
+var getPermittedFiles = async(req, res) =>{
+    try{
+        result = await clientService.getPermittedFiles(req.body);
+        if(res.status){
+            res.send({"status": true, "message":"Permitted files", "data": result})
+        }else{
+            res.send({"status": false, "message":"Error occured"});
+        }
+    }catch(error){
+        console.log(error);
+        res.send({"status": false, "message": "Error occured while getting permitted files"});
+    }
+}
+
 module.exports = { createClient, loginClient, getAllUserDetails, getEncFiles,
-     requestFiles, getAllRequestedFiles, acceptRequestedFiles};
+     requestFiles, getAllRequestedFiles, acceptRequestedFiles, rejectRequestFiles,getPermittedFiles};

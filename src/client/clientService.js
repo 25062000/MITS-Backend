@@ -1,12 +1,8 @@
-// var clientModel = require('./clientModel.js');
 const { client, requestsManagement } = require('./clientModel.js');
 const bcrypt = require("bcrypt");
 const jwt = require('jsonwebtoken');
 const saltRounds = 10;
 const mongoose = require('mongoose');
-// var requestManagementModel = require('./requestsManagementModel.js');
-
-
 
 module.exports.createClientDB = (clientDetails) =>{
 
@@ -93,16 +89,23 @@ module.exports.getAllUsersDB = ()=>{
 }
 
 module.exports.createRequestDB = (requestedFiles) =>{
-    console.log("RequestedFiles", requestedFiles);
-
     return new Promise(function myFn(resolve, reject){
 
-        var requestModelData = new requestsManagement();
-        requestModelData.clientID = requestedFiles.clientID;
-        requestModelData.requestedFiles = requestedFiles.requestedFiles;
-
-        requestModelData.save()
-            .then(result => {
+        requestsManagement.findOne({ clientID: requestedFiles.clientID })
+        .then(existingDocument => {
+            if (existingDocument) {
+                return requestsManagement.updateOne(
+                    { _id: existingDocument._id },
+                    { $addToSet: { requestedFiles: { $each: requestedFiles.requestedFiles } } }
+                );
+            } else {
+                var requestModelData = new requestsManagement({
+                    clientID: requestedFiles.clientID,
+                    requestedFiles: requestedFiles.requestedFiles
+                });
+                return requestModelData.save();
+            }
+        }).then(result => {
                 resolve(true);
             })
             .catch(error => {
@@ -114,7 +117,7 @@ module.exports.createRequestDB = (requestedFiles) =>{
 
 module.exports.getAllRequestFiles = () =>{
     return new Promise( function myFun(resolve, reject){
-        requestsManagement.find().then( result =>{
+        requestsManagement.find().populate('clientID', 'name email').then( result =>{
             resolve(result);
         }).catch(error => {
             console.log("Servicefile", error)
@@ -125,10 +128,16 @@ module.exports.getAllRequestFiles = () =>{
 
 module.exports.acceptRequestedFiles = (filesWantToAccept) => {
     return new Promise((resolve, reject) => {
-        console.log("Files want to accept", filesWantToAccept);
-        client.updateOne({ _id: filesWantToAccept.clientID}, { $set: { requests: filesWantToAccept.requestedFiles } })
+        client.updateOne({ _id: filesWantToAccept.clientID}, { $set: { requests: filesWantToAccept.requestedFiles  } })
             .then(result => {
-                console.log(result);
+                return requestsManagement.updateOne(
+                    { clientID: filesWantToAccept.clientID,
+                    "requestedFiles.name": { $in: filesWantToAccept.requestedFiles }
+                     },
+                    { $pull: { requestedFiles: { name: { $in: filesWantToAccept.requestedFiles } }}}
+                );
+            })
+            .then(result => {
                 resolve(true);
             })
             .catch(error => {
@@ -136,4 +145,36 @@ module.exports.acceptRequestedFiles = (filesWantToAccept) => {
                 reject(false);
             });
     });
+};
+
+
+module.exports.rejectRequestFiles = (filesWantToReject) =>{
+    return new Promise((resolve, reject) =>{
+        requestsManagement.updateOne({
+            clientID: filesWantToReject.clientID,
+            "requestedFiles.name": { $in: filesWantToReject.requestedFiles}
+        }, { $pull: { requestedFiles: { name: { $in: filesWantToReject.requestedFiles } }}}
+        ).then(result => {
+            console.log("RequestsManagement document updated successfully:", result);
+            resolve(true);
+        })
+        .catch(error => {
+            console.log(error);
+            reject(false);
+        });
+    })
+};
+
+
+module.exports.getPermittedFiles=(clientID)=>{
+    const objectIdString = clientID.clientID;       
+    const objectId = new mongoose.Types.ObjectId(objectIdString);
+    return new Promise((resolve, reject)=>{
+        client.findOne({_id: objectId}).then(result =>{
+            resolve(result.requests);
+        }).catch(error =>{
+            console.log(error);
+            reject(false);
+        })
+    })
 };
