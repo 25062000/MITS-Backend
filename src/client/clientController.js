@@ -98,8 +98,23 @@ var getAllRequestedFiles = async(req, res) =>{
 
 var acceptRequestedFiles = async(req, res) =>{
     try{
+        console.log("Accept",req.body);
         result = await clientService.acceptRequestedFiles(req.body);
         if(res.status){
+            var clientId =req.body.clientID._id;
+            var requestedFiles = req.body.requestedFiles;
+            console.log("RF", requestedFiles);
+            requestedFiles.forEach(element => {
+                var src = path.join(__dirname,'../..', 'uploads/',element);
+                var destDir = path.join(__dirname,'../..', 'userData/',clientId);
+                var dest = path.join(destDir,'/',element)
+                fs.mkdir(destDir, { recursive: true }, (err) => {
+                    if (err) throw err;
+                    fs.symlink(src, dest,(err)=>{
+                        if(err) throw err;
+                    })
+                })
+            });
             res.send({"status": true, "message":"Files are accepted"})
         }else{
             res.send({"status": false, "message":"Error occured"});

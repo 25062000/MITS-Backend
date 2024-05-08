@@ -1,0 +1,7456 @@
+SYMBOLSET
+
+    SYMBOL
+        NAME "ACHARE02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ACHARE02.png"
+    END
+    SYMBOL
+        NAME "ACHARE51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ACHARE51.png"
+    END
+    SYMBOL
+        NAME "ACHBRT07"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ACHBRT07.png"
+    END
+    SYMBOL
+        NAME "ACHRES51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ACHRES51.png"
+    END
+    SYMBOL
+        NAME "ACHRES61"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ACHRES61.png"
+    END
+    SYMBOL
+        NAME "ACHRES71"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ACHRES71.png"
+    END
+    SYMBOL
+        NAME "AIRARE02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/AIRARE02.png"
+    END
+    SYMBOL
+        NAME "AISDEF01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/AISDEF01.png"
+    END
+    SYMBOL
+        NAME "AISONE01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/AISONE01.png"
+    END
+    SYMBOL
+        NAME "AISSIX01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/AISSIX01.png"
+    END
+    SYMBOL
+        NAME "AISSLP01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/AISSLP01.png"
+    END
+    SYMBOL
+        NAME "AISVES01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/AISVES01.png"
+    END
+    SYMBOL
+        NAME "ARPATG01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ARPATG01.png"
+    END
+    SYMBOL
+        NAME "ARPONE01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ARPONE01.png"
+    END
+    SYMBOL
+        NAME "ARPSIX01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ARPSIX01.png"
+    END
+    SYMBOL
+        NAME "BCNCAR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNCAR01.png"
+    END
+    SYMBOL
+        NAME "BCNCAR02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNCAR02.png"
+    END
+    SYMBOL
+        NAME "BCNCAR03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNCAR03.png"
+    END
+    SYMBOL
+        NAME "BCNCAR04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNCAR04.png"
+    END
+    SYMBOL
+        NAME "BCNDEF13"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNDEF13.png"
+    END
+    SYMBOL
+        NAME "BCNGEN01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNGEN01.png"
+    END
+    SYMBOL
+        NAME "BCNGEN03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNGEN03.png"
+    END
+    SYMBOL
+        NAME "BCNISD21"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNISD21.png"
+    END
+    SYMBOL
+        NAME "BCNLAT15"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNLAT15.png"
+    END
+    SYMBOL
+        NAME "BCNLAT16"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNLAT16.png"
+    END
+    SYMBOL
+        NAME "BCNLAT21"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNLAT21.png"
+    END
+    SYMBOL
+        NAME "BCNLAT22"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNLAT22.png"
+    END
+    SYMBOL
+        NAME "BCNLTC01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNLTC01.png"
+    END
+    SYMBOL
+        NAME "BCNSAW13"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSAW13.png"
+    END
+    SYMBOL
+        NAME "BCNSAW21"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSAW21.png"
+    END
+    SYMBOL
+        NAME "BCNSPP13"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSPP13.png"
+    END
+    SYMBOL
+        NAME "BCNSPP21"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSPP21.png"
+    END
+    SYMBOL
+        NAME "BCNSTK02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSTK02.png"
+    END
+    SYMBOL
+        NAME "BCNTOW01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW01.png"
+    END
+    SYMBOL
+        NAME "BLKADJ01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BLKADJ01.png"
+    END
+    SYMBOL
+        NAME "BOYBAR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYBAR01.png"
+    END
+    SYMBOL
+        NAME "BOYCAN01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN01.png"
+    END
+    SYMBOL
+        NAME "BOYCAR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAR01.png"
+    END
+    SYMBOL
+        NAME "BOYCAR02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAR02.png"
+    END
+    SYMBOL
+        NAME "BOYCAR03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAR03.png"
+    END
+    SYMBOL
+        NAME "BOYCAR04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAR04.png"
+    END
+    SYMBOL
+        NAME "BOYCON01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON01.png"
+    END
+    SYMBOL
+        NAME "BOYDEF03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYDEF03.png"
+    END
+    SYMBOL
+        NAME "BOYGEN03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYGEN03.png"
+    END
+    SYMBOL
+        NAME "BOYINB01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYINB01.png"
+    END
+    SYMBOL
+        NAME "BOYISD12"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYISD12.png"
+    END
+    SYMBOL
+        NAME "BOYLAT13"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYLAT13.png"
+    END
+    SYMBOL
+        NAME "BOYLAT14"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYLAT14.png"
+    END
+    SYMBOL
+        NAME "BOYLAT23"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYLAT23.png"
+    END
+    SYMBOL
+        NAME "BOYLAT24"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYLAT24.png"
+    END
+    SYMBOL
+        NAME "BOYMOR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYMOR01.png"
+    END
+    SYMBOL
+        NAME "BOYMOR03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYMOR03.png"
+    END
+    SYMBOL
+        NAME "BOYMOR11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYMOR11.png"
+    END
+    SYMBOL
+        NAME "BOYPIL01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL01.png"
+    END
+    SYMBOL
+        NAME "BOYSAW12"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSAW12.png"
+    END
+    SYMBOL
+        NAME "BOYSPH01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPH01.png"
+    END
+    SYMBOL
+        NAME "BOYSPP11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPP11.png"
+    END
+    SYMBOL
+        NAME "BOYSPP15"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPP15.png"
+    END
+    SYMBOL
+        NAME "BOYSPP25"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPP25.png"
+    END
+    SYMBOL
+        NAME "BOYSPR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPR01.png"
+    END
+    SYMBOL
+        NAME "BOYSUP01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSUP01.png"
+    END
+    SYMBOL
+        NAME "BOYSUP02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSUP02.png"
+    END
+    SYMBOL
+        NAME "BOYSUP03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSUP03.png"
+    END
+    SYMBOL
+        NAME "BRIDGE01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BRIDGE01.png"
+    END
+    SYMBOL
+        NAME "BRTHNO01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BRTHNO01.png"
+    END
+    SYMBOL
+        NAME "BUAARE02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BUAARE02.png"
+    END
+    SYMBOL
+        NAME "BUIREL01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BUIREL01.png"
+    END
+    SYMBOL
+        NAME "BUIREL04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BUIREL04.png"
+    END
+    SYMBOL
+        NAME "BUIREL05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BUIREL05.png"
+    END
+    SYMBOL
+        NAME "BUIREL13"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BUIREL13.png"
+    END
+    SYMBOL
+        NAME "BUIREL14"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BUIREL14.png"
+    END
+    SYMBOL
+        NAME "BUIREL15"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BUIREL15.png"
+    END
+    SYMBOL
+        NAME "BUISGL01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BUISGL01.png"
+    END
+    SYMBOL
+        NAME "BUISGL11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BUISGL11.png"
+    END
+    SYMBOL
+        NAME "CAIRNS01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CAIRNS01.png"
+    END
+    SYMBOL
+        NAME "CAIRNS11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CAIRNS11.png"
+    END
+    SYMBOL
+        NAME "CBLARE51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CBLARE51.png"
+    END
+    SYMBOL
+        NAME "CGUSTA02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CGUSTA02.png"
+    END
+    SYMBOL
+        NAME "CHCRDEL1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CHCRDEL1.png"
+    END
+    SYMBOL
+        NAME "CHCRID01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CHCRID01.png"
+    END
+    SYMBOL
+        NAME "CHIMNY01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CHIMNY01.png"
+    END
+    SYMBOL
+        NAME "CHIMNY11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CHIMNY11.png"
+    END
+    SYMBOL
+        NAME "CHINFO06"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CHINFO06.png"
+    END
+    SYMBOL
+        NAME "CHINFO07"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CHINFO07.png"
+    END
+    SYMBOL
+        NAME "CHINFO08"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CHINFO08.png"
+    END
+    SYMBOL
+        NAME "CHINFO09"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CHINFO09.png"
+    END
+    SYMBOL
+        NAME "CHINFO10"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CHINFO10.png"
+    END
+    SYMBOL
+        NAME "CHINFO11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CHINFO11.png"
+    END
+    SYMBOL
+        NAME "CHKSYM01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CHKSYM01.png"
+    END
+    SYMBOL
+        NAME "CLRLIN01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CLRLIN01.png"
+    END
+    SYMBOL
+        NAME "CRANES01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CRANES01.png"
+    END
+    SYMBOL
+        NAME "CTNARE51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CTNARE51.png"
+    END
+    SYMBOL
+        NAME "CTYARE51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CTYARE51.png"
+    END
+    SYMBOL
+        NAME "CTYARE71"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CTYARE71.png"
+    END
+    SYMBOL
+        NAME "CURDEF01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CURDEF01.png"
+    END
+    SYMBOL
+        NAME "CURENT01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CURENT01.png"
+    END
+    SYMBOL
+        NAME "CURSRA01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CURSRA01.png"
+    END
+    SYMBOL
+        NAME "CURSRB01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CURSRB01.png"
+    END
+    SYMBOL
+        NAME "DANGER01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DANGER01.png"
+    END
+    SYMBOL
+        NAME "DANGER02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DANGER02.png"
+    END
+    SYMBOL
+        NAME "DANGER03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DANGER03.png"
+    END
+    SYMBOL
+        NAME "DAYSQR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DAYSQR01.png"
+    END
+    SYMBOL
+        NAME "DAYSQR21"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DAYSQR21.png"
+    END
+    SYMBOL
+        NAME "DAYTRI01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DAYTRI01.png"
+    END
+    SYMBOL
+        NAME "DAYTRI05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DAYTRI05.png"
+    END
+    SYMBOL
+        NAME "DAYTRI21"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DAYTRI21.png"
+    END
+    SYMBOL
+        NAME "DAYTRI25"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DAYTRI25.png"
+    END
+    SYMBOL
+        NAME "DIRBOY01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DIRBOY01.png"
+    END
+    SYMBOL
+        NAME "DIRBOYA1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DIRBOYA1.png"
+    END
+    SYMBOL
+        NAME "DIRBOYB1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DIRBOYB1.png"
+    END
+    SYMBOL
+        NAME "DISMAR03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DISMAR03.png"
+    END
+    SYMBOL
+        NAME "DISMAR04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DISMAR04.png"
+    END
+    SYMBOL
+        NAME "DNGHILIT"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DNGHILIT.png"
+    END
+    SYMBOL
+        NAME "DOMES001"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DOMES001.png"
+    END
+    SYMBOL
+        NAME "DOMES011"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DOMES011.png"
+    END
+    SYMBOL
+        NAME "DSHAER01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DSHAER01.png"
+    END
+    SYMBOL
+        NAME "DSHAER11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DSHAER11.png"
+    END
+    SYMBOL
+        NAME "DWRTPT51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DWRTPT51.png"
+    END
+    SYMBOL
+        NAME "DWRUTE51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DWRUTE51.png"
+    END
+    SYMBOL
+        NAME "EBBSTR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/EBBSTR01.png"
+    END
+    SYMBOL
+        NAME "EBLVRM11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/EBLVRM11.png"
+    END
+    SYMBOL
+        NAME "ENTRES51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ENTRES51.png"
+    END
+    SYMBOL
+        NAME "ENTRES61"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ENTRES61.png"
+    END
+    SYMBOL
+        NAME "ENTRES71"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ENTRES71.png"
+    END
+    SYMBOL
+        NAME "ERBLTIK1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ERBLTIK1.png"
+    END
+    SYMBOL
+        NAME "EVENTS02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/EVENTS02.png"
+    END
+    SYMBOL
+        NAME "FAIRWY51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FAIRWY51.png"
+    END
+    SYMBOL
+        NAME "FAIRWY52"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FAIRWY52.png"
+    END
+    SYMBOL
+        NAME "FLASTK01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FLASTK01.png"
+    END
+    SYMBOL
+        NAME "FLASTK11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FLASTK11.png"
+    END
+    SYMBOL
+        NAME "FLDSTR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FLDSTR01.png"
+    END
+    SYMBOL
+        NAME "FLGSTF01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FLGSTF01.png"
+    END
+    SYMBOL
+        NAME "FOGSIG01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FOGSIG01.png"
+    END
+    SYMBOL
+        NAME "FORSTC01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FORSTC01.png"
+    END
+    SYMBOL
+        NAME "FORSTC11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FORSTC11.png"
+    END
+    SYMBOL
+        NAME "FOULGND1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FOULGND1.png"
+    END
+    SYMBOL
+        NAME "FRYARE51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FRYARE51.png"
+    END
+    SYMBOL
+        NAME "FRYARE52"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FRYARE52.png"
+    END
+    SYMBOL
+        NAME "FSHFAC02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FSHFAC02.png"
+    END
+    SYMBOL
+        NAME "FSHFAC03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FSHFAC03.png"
+    END
+    SYMBOL
+        NAME "FSHGRD01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FSHGRD01.png"
+    END
+    SYMBOL
+        NAME "FSHHAV01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FSHHAV01.png"
+    END
+    SYMBOL
+        NAME "FSHRES51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FSHRES51.png"
+    END
+    SYMBOL
+        NAME "FSHRES61"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FSHRES61.png"
+    END
+    SYMBOL
+        NAME "FSHRES71"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FSHRES71.png"
+    END
+    SYMBOL
+        NAME "GATCON03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/GATCON03.png"
+    END
+    SYMBOL
+        NAME "GATCON04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/GATCON04.png"
+    END
+    SYMBOL
+        NAME "HILTOP01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/HILTOP01.png"
+    END
+    SYMBOL
+        NAME "HILTOP11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/HILTOP11.png"
+    END
+    SYMBOL
+        NAME "HRBFAC09"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/HRBFAC09.png"
+    END
+    SYMBOL
+        NAME "HULKES01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/HULKES01.png"
+    END
+    SYMBOL
+        NAME "INFARE51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/INFARE51.png"
+    END
+    SYMBOL
+        NAME "INFORM01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/INFORM01.png"
+    END
+    SYMBOL
+        NAME "ISODGR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ISODGR01.png"
+    END
+    SYMBOL
+        NAME "ITZARE51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ITZARE51.png"
+    END
+    SYMBOL
+        NAME "LIGHTDEF"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LIGHTDEF.png"
+    END
+    SYMBOL
+        NAME "LIGHTS11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LIGHTS11.png"
+    END
+    SYMBOL
+        NAME "LIGHTS12"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LIGHTS12.png"
+    END
+    SYMBOL
+        NAME "LIGHTS13"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LIGHTS13.png"
+    END
+    SYMBOL
+        NAME "LIGHTS81"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LIGHTS81.png"
+    END
+    SYMBOL
+        NAME "LIGHTS82"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LIGHTS82.png"
+    END
+    SYMBOL
+        NAME "LITFLT01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LITFLT01.png"
+    END
+    SYMBOL
+        NAME "LITFLT02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LITFLT02.png"
+    END
+    SYMBOL
+        NAME "LITVES01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LITVES01.png"
+    END
+    SYMBOL
+        NAME "LITVES02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LITVES02.png"
+    END
+    SYMBOL
+        NAME "LNDARE01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LNDARE01.png"
+    END
+    SYMBOL
+        NAME "LOCMAG01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LOCMAG01.png"
+    END
+    SYMBOL
+        NAME "LOCMAG51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LOCMAG51.png"
+    END
+    SYMBOL
+        NAME "LOWACC01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LOWACC01.png"
+    END
+    SYMBOL
+        NAME "MAGVAR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/MAGVAR01.png"
+    END
+    SYMBOL
+        NAME "MAGVAR51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/MAGVAR51.png"
+    END
+    SYMBOL
+        NAME "MARCUL02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/MARCUL02.png"
+    END
+    SYMBOL
+        NAME "MONUMT02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/MONUMT02.png"
+    END
+    SYMBOL
+        NAME "MONUMT12"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/MONUMT12.png"
+    END
+    SYMBOL
+        NAME "MORFAC03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/MORFAC03.png"
+    END
+    SYMBOL
+        NAME "MORFAC04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/MORFAC04.png"
+    END
+    SYMBOL
+        NAME "MSTCON04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/MSTCON04.png"
+    END
+    SYMBOL
+        NAME "MSTCON14"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/MSTCON14.png"
+    END
+    SYMBOL
+        NAME "NORTHAR1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NORTHAR1.png"
+    END
+    SYMBOL
+        NAME "NOTBRD11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NOTBRD11.png"
+    END
+    SYMBOL
+        NAME "OBSTRN01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/OBSTRN01.png"
+    END
+    SYMBOL
+        NAME "OBSTRN02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/OBSTRN02.png"
+    END
+    SYMBOL
+        NAME "OBSTRN03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/OBSTRN03.png"
+    END
+    SYMBOL
+        NAME "OBSTRN18"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/OBSTRN18.png"
+    END
+    SYMBOL
+        NAME "OFSPLF01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/OFSPLF01.png"
+    END
+    SYMBOL
+        NAME "OSPONE02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/OSPONE02.png"
+    END
+    SYMBOL
+        NAME "OSPSIX02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/OSPSIX02.png"
+    END
+    SYMBOL
+        NAME "OWNSHP01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/OWNSHP01.png"
+    END
+    SYMBOL
+        NAME "OWNSHP05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/OWNSHP05.png"
+    END
+    SYMBOL
+        NAME "PASTRK01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/PASTRK01.png"
+    END
+    SYMBOL
+        NAME "PASTRK02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/PASTRK02.png"
+    END
+    SYMBOL
+        NAME "PILBOP02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/PILBOP02.png"
+    END
+    SYMBOL
+        NAME "PILPNT02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/PILPNT02.png"
+    END
+    SYMBOL
+        NAME "PLNPOS01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/PLNPOS01.png"
+    END
+    SYMBOL
+        NAME "PLNPOS02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/PLNPOS02.png"
+    END
+    SYMBOL
+        NAME "PLNSPD03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/PLNSPD03.png"
+    END
+    SYMBOL
+        NAME "PLNSPD04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/PLNSPD04.png"
+    END
+    SYMBOL
+        NAME "POSGEN01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/POSGEN01.png"
+    END
+    SYMBOL
+        NAME "POSGEN03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/POSGEN03.png"
+    END
+    SYMBOL
+        NAME "POSGEN04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/POSGEN04.png"
+    END
+    SYMBOL
+        NAME "POSITN02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/POSITN02.png"
+    END
+    SYMBOL
+        NAME "PRCARE12"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/PRCARE12.png"
+    END
+    SYMBOL
+        NAME "PRCARE51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/PRCARE51.png"
+    END
+    SYMBOL
+        NAME "PRDINS02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/PRDINS02.png"
+    END
+    SYMBOL
+        NAME "PRICKE03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/PRICKE03.png"
+    END
+    SYMBOL
+        NAME "PRICKE04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/PRICKE04.png"
+    END
+    SYMBOL
+        NAME "QUAPOS01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/QUAPOS01.png"
+    END
+    SYMBOL
+        NAME "QUARRY01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/QUARRY01.png"
+    END
+    SYMBOL
+        NAME "QUESMRK1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/QUESMRK1.png"
+    END
+    SYMBOL
+        NAME "RACNSP01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RACNSP01.png"
+    END
+    SYMBOL
+        NAME "RADRFL03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RADRFL03.png"
+    END
+    SYMBOL
+        NAME "RASCAN01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RASCAN01.png"
+    END
+    SYMBOL
+        NAME "RASCAN11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RASCAN11.png"
+    END
+    SYMBOL
+        NAME "RCLDEF01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RCLDEF01.png"
+    END
+    SYMBOL
+        NAME "RCTLPT52"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RCTLPT52.png"
+    END
+    SYMBOL
+        NAME "RDOCAL02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RDOCAL02.png"
+    END
+    SYMBOL
+        NAME "RDOCAL03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RDOCAL03.png"
+    END
+    SYMBOL
+        NAME "RDOSTA02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RDOSTA02.png"
+    END
+    SYMBOL
+        NAME "RECDEF51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RECDEF51.png"
+    END
+    SYMBOL
+        NAME "RECTRC55"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RECTRC55.png"
+    END
+    SYMBOL
+        NAME "RECTRC56"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RECTRC56.png"
+    END
+    SYMBOL
+        NAME "RECTRC57"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RECTRC57.png"
+    END
+    SYMBOL
+        NAME "RECTRC58"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RECTRC58.png"
+    END
+    SYMBOL
+        NAME "REFPNT02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/REFPNT02.png"
+    END
+    SYMBOL
+        NAME "RETRFL01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RETRFL01.png"
+    END
+    SYMBOL
+        NAME "RETRFL02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RETRFL02.png"
+    END
+    SYMBOL
+        NAME "RFNERY01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RFNERY01.png"
+    END
+    SYMBOL
+        NAME "RFNERY11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RFNERY11.png"
+    END
+    SYMBOL
+        NAME "ROLROL01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ROLROL01.png"
+    END
+    SYMBOL
+        NAME "RSCSTA02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RSCSTA02.png"
+    END
+    SYMBOL
+        NAME "RSRDEF51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RSRDEF51.png"
+    END
+    SYMBOL
+        NAME "RTLDEF51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RTLDEF51.png"
+    END
+    SYMBOL
+        NAME "RTPBCN02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RTPBCN02.png"
+    END
+    SYMBOL
+        NAME "SCALEB10"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SCALEB10.png"
+    END
+    SYMBOL
+        NAME "SCALEB11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SCALEB11.png"
+    END
+    SYMBOL
+        NAME "SILBUI01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SILBUI01.png"
+    END
+    SYMBOL
+        NAME "SILBUI11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SILBUI11.png"
+    END
+    SYMBOL
+        NAME "SISTAT02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SISTAT02.png"
+    END
+    SYMBOL
+        NAME "SMCFAC02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SMCFAC02.png"
+    END
+    SYMBOL
+        NAME "SNDWAV02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SNDWAV02.png"
+    END
+    SYMBOL
+        NAME "SPRING02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SPRING02.png"
+    END
+    SYMBOL
+        NAME "SWPARE51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SWPARE51.png"
+    END
+    SYMBOL
+        NAME "TIDCUR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TIDCUR01.png"
+    END
+    SYMBOL
+        NAME "TIDCUR02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TIDCUR02.png"
+    END
+    SYMBOL
+        NAME "TIDCUR03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TIDCUR03.png"
+    END
+    SYMBOL
+        NAME "TIDEHT01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TIDEHT01.png"
+    END
+    SYMBOL
+        NAME "TIDSTR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TIDSTR01.png"
+    END
+    SYMBOL
+        NAME "TMARDEF1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TMARDEF1.png"
+    END
+    SYMBOL
+        NAME "TMARDEF2"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TMARDEF2.png"
+    END
+    SYMBOL
+        NAME "TMBYRD01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TMBYRD01.png"
+    END
+    SYMBOL
+        NAME "TNKCON02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TNKCON02.png"
+    END
+    SYMBOL
+        NAME "TNKCON12"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TNKCON12.png"
+    END
+    SYMBOL
+        NAME "TNKFRM01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TNKFRM01.png"
+    END
+    SYMBOL
+        NAME "TNKFRM11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TNKFRM11.png"
+    END
+    SYMBOL
+        NAME "TOPMAR02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR02.png"
+    END
+    SYMBOL
+        NAME "TOPMAR04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR04.png"
+    END
+    SYMBOL
+        NAME "TOPMAR05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR05.png"
+    END
+    SYMBOL
+        NAME "TOPMAR06"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR06.png"
+    END
+    SYMBOL
+        NAME "TOPMAR07"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR07.png"
+    END
+    SYMBOL
+        NAME "TOPMAR08"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR08.png"
+    END
+    SYMBOL
+        NAME "TOPMAR10"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR10.png"
+    END
+    SYMBOL
+        NAME "TOPMAR12"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR12.png"
+    END
+    SYMBOL
+        NAME "TOPMAR13"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR13.png"
+    END
+    SYMBOL
+        NAME "TOPMAR14"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR14.png"
+    END
+    SYMBOL
+        NAME "TOPMAR16"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR16.png"
+    END
+    SYMBOL
+        NAME "TOPMAR17"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR17.png"
+    END
+    SYMBOL
+        NAME "TOPMAR18"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR18.png"
+    END
+    SYMBOL
+        NAME "TOPMAR22"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR22.png"
+    END
+    SYMBOL
+        NAME "TOPMAR24"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR24.png"
+    END
+    SYMBOL
+        NAME "TOPMAR25"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR25.png"
+    END
+    SYMBOL
+        NAME "TOPMAR26"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR26.png"
+    END
+    SYMBOL
+        NAME "TOPMAR27"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR27.png"
+    END
+    SYMBOL
+        NAME "TOPMAR28"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR28.png"
+    END
+    SYMBOL
+        NAME "TOPMAR30"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR30.png"
+    END
+    SYMBOL
+        NAME "TOPMAR32"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR32.png"
+    END
+    SYMBOL
+        NAME "TOPMAR33"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR33.png"
+    END
+    SYMBOL
+        NAME "TOPMAR34"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR34.png"
+    END
+    SYMBOL
+        NAME "TOPMAR36"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR36.png"
+    END
+    SYMBOL
+        NAME "TOPMAR65"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR65.png"
+    END
+    SYMBOL
+        NAME "TOPMAR85"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR85.png"
+    END
+    SYMBOL
+        NAME "TOPMAR86"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR86.png"
+    END
+    SYMBOL
+        NAME "TOPMAR87"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR87.png"
+    END
+    SYMBOL
+        NAME "TOPMAR88"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR88.png"
+    END
+    SYMBOL
+        NAME "TOPMAR89"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR89.png"
+    END
+    SYMBOL
+        NAME "TOWERS01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS01.png"
+    END
+    SYMBOL
+        NAME "TOWERS02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS02.png"
+    END
+    SYMBOL
+        NAME "TOWERS03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS03.png"
+    END
+    SYMBOL
+        NAME "TOWERS05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS05.png"
+    END
+    SYMBOL
+        NAME "TOWERS12"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS12.png"
+    END
+    SYMBOL
+        NAME "TOWERS15"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS15.png"
+    END
+    SYMBOL
+        NAME "TREPNT04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TREPNT04.png"
+    END
+    SYMBOL
+        NAME "TREPNT05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TREPNT05.png"
+    END
+    SYMBOL
+        NAME "TSLDEF51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TSLDEF51.png"
+    END
+    SYMBOL
+        NAME "TSSCRS51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TSSCRS51.png"
+    END
+    SYMBOL
+        NAME "TSSLPT51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TSSLPT51.png"
+    END
+    SYMBOL
+        NAME "TSSRON51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TSSRON51.png"
+    END
+    SYMBOL
+        NAME "TWRDEF51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TWRDEF51.png"
+    END
+    SYMBOL
+        NAME "TWRTPT52"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TWRTPT52.png"
+    END
+    SYMBOL
+        NAME "TWRTPT53"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TWRTPT53.png"
+    END
+    SYMBOL
+        NAME "UNITFTH1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/UNITFTH1.png"
+    END
+    SYMBOL
+        NAME "UNITMTR1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/UNITMTR1.png"
+    END
+    SYMBOL
+        NAME "UWTROC03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/UWTROC03.png"
+    END
+    SYMBOL
+        NAME "UWTROC04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/UWTROC04.png"
+    END
+    SYMBOL
+        NAME "VECGND01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/VECGND01.png"
+    END
+    SYMBOL
+        NAME "VECGND21"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/VECGND21.png"
+    END
+    SYMBOL
+        NAME "VECWTR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/VECWTR01.png"
+    END
+    SYMBOL
+        NAME "VECWTR21"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/VECWTR21.png"
+    END
+    SYMBOL
+        NAME "WATTUR02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/WATTUR02.png"
+    END
+    SYMBOL
+        NAME "WAYPNT01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/WAYPNT01.png"
+    END
+    SYMBOL
+        NAME "WAYPNT03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/WAYPNT03.png"
+    END
+    SYMBOL
+        NAME "WAYPNT11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/WAYPNT11.png"
+    END
+    SYMBOL
+        NAME "WEDKLP03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/WEDKLP03.png"
+    END
+    SYMBOL
+        NAME "WIMCON01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/WIMCON01.png"
+    END
+    SYMBOL
+        NAME "WIMCON11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/WIMCON11.png"
+    END
+    SYMBOL
+        NAME "WNDFRM51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/WNDFRM51.png"
+    END
+    SYMBOL
+        NAME "WNDFRM61"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/WNDFRM61.png"
+    END
+    SYMBOL
+        NAME "WNDMIL02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/WNDMIL02.png"
+    END
+    SYMBOL
+        NAME "WNDMIL12"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/WNDMIL12.png"
+    END
+    SYMBOL
+        NAME "WRECKS01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/WRECKS01.png"
+    END
+    SYMBOL
+        NAME "WRECKS04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/WRECKS04.png"
+    END
+    SYMBOL
+        NAME "WRECKS05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/WRECKS05.png"
+    END
+    SYMBOL
+        NAME "ACHPNT01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ACHPNT01.png"
+    END
+    SYMBOL
+        NAME "NMKINF01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF01.png"
+    END
+    SYMBOL
+        NAME "NMKPRH02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKPRH02.png"
+    END
+    SYMBOL
+        NAME "NMKPRH12"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKPRH12.png"
+    END
+    SYMBOL
+        NAME "NMKPRH13"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKPRH13.png"
+    END
+    SYMBOL
+        NAME "NMKRCD01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKRCD01.png"
+    END
+    SYMBOL
+        NAME "NMKRCD02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKRCD02.png"
+    END
+    SYMBOL
+        NAME "NMKRCD03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKRCD03.png"
+    END
+    SYMBOL
+        NAME "NMKRCD04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKRCD04.png"
+    END
+    SYMBOL
+        NAME "BOYLAT50"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYLAT50.png"
+    END
+    SYMBOL
+        NAME "BOYLAT51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYLAT51.png"
+    END
+    SYMBOL
+        NAME "LIGHTS14"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LIGHTS14.png"
+    END
+    SYMBOL
+        NAME "LITDEF11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LITDEF11.png"
+    END
+    SYMBOL
+        NAME "OBSTRN11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/OBSTRN11.png"
+    END
+    SYMBOL
+        NAME "DAYTRI52"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DAYTRI52.png"
+    END
+    SYMBOL
+        NAME "DAYSQR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DAYSQR01.png"
+    END
+    SYMBOL
+        NAME "DAYSQR21"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DAYSQR21.png"
+    END
+    SYMBOL
+        NAME "DAYSQR51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DAYSQR51.png"
+    END
+    SYMBOL
+        NAME "DAYTRI01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DAYTRI01.png"
+    END
+    SYMBOL
+        NAME "DAYTRI05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DAYTRI05.png"
+    END
+    SYMBOL
+        NAME "DAYTRI21"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DAYTRI21.png"
+    END
+    SYMBOL
+        NAME "DAYTRI25"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DAYTRI25.png"
+    END
+    SYMBOL
+        NAME "DAYTRI51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DAYTRI51.png"
+    END
+    SYMBOL
+        NAME "DAYREC51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DAYREC51.png"
+    END
+    SYMBOL
+        NAME "LIGHTS95"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LIGHTS95.png"
+    END
+    SYMBOL
+        NAME "LIGHTS94"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LIGHTS94.png"
+    END
+    SYMBOL
+        NAME "LIGHTS96"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LIGHTS96.png"
+    END
+    SYMBOL
+        NAME "LIGHTS90"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LIGHTS90.png"
+    END
+    SYMBOL
+        NAME "LIGHTS91"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LIGHTS91.png"
+    END
+    SYMBOL
+        NAME "LIGHTS92"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LIGHTS92.png"
+    END
+    SYMBOL
+        NAME "LIGHTS93"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LIGHTS93.png"
+    END
+    SYMBOL
+        NAME "BOYPIL78"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL78.png"
+    END
+    SYMBOL
+        NAME "BOYPIL79"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL79.png"
+    END
+    SYMBOL
+        NAME "BOYPIL01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL01.png"
+    END
+    SYMBOL
+        NAME "BOYPIL60"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL60.png"
+    END
+    SYMBOL
+        NAME "BOYPIL61"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL61.png"
+    END
+    SYMBOL
+        NAME "BOYPIL62"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL62.png"
+    END
+    SYMBOL
+        NAME "BOYPIL63"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL63.png"
+    END
+    SYMBOL
+        NAME "BOYPIL64"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL64.png"
+    END
+    SYMBOL
+        NAME "BOYPIL65"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL65.png"
+    END
+    SYMBOL
+        NAME "BOYPIL66"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL66.png"
+    END
+    SYMBOL
+        NAME "BOYPIL67"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL67.png"
+    END
+    SYMBOL
+        NAME "BOYPIL68"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL68.png"
+    END
+    SYMBOL
+        NAME "BOYPIL69"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL69.png"
+    END
+    SYMBOL
+        NAME "BOYPIL70"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL70.png"
+    END
+    SYMBOL
+        NAME "BOYPIL71"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL71.png"
+    END
+    SYMBOL
+        NAME "BOYPIL72"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL72.png"
+    END
+    SYMBOL
+        NAME "BOYPIL73"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL73.png"
+    END
+    SYMBOL
+        NAME "BOYPIL74"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL74.png"
+    END
+    SYMBOL
+        NAME "BOYPIL75"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL75.png"
+    END
+    SYMBOL
+        NAME "BOYPIL76"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL76.png"
+    END
+    SYMBOL
+        NAME "BOYPIL77"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL77.png"
+    END
+    SYMBOL
+        NAME "BCNTOW68"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW68.png"
+    END
+    SYMBOL
+        NAME "BCNGEN01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNGEN01.png"
+    END
+    SYMBOL
+        NAME "BOYCON60"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON60.png"
+    END
+    SYMBOL
+        NAME "BOYCON61"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON61.png"
+    END
+    SYMBOL
+        NAME "BOYCON62"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON62.png"
+    END
+    SYMBOL
+        NAME "BOYCAN61"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN61.png"
+    END
+    SYMBOL
+        NAME "BOYCAN62"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN62.png"
+    END
+    SYMBOL
+        NAME "BOYCAN63"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN63.png"
+    END
+    SYMBOL
+        NAME "RESTRN51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RESTRN51.png"
+    END
+    SYMBOL
+        NAME "ACHARE51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ACHARE51.png"
+    END
+    SYMBOL
+        NAME "ACHPNT02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ACHPNT02.png"
+    END
+    SYMBOL
+        NAME "DANGER51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DANGER51.png"
+    END
+    SYMBOL
+        NAME "DANGER52"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DANGER52.png"
+    END
+    SYMBOL
+        NAME "QUAPOS01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/QUAPOS01.png"
+    END
+    SYMBOL
+        NAME "QUAPOS02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/QUAPOS02.png"
+    END
+    SYMBOL
+        NAME "QUAPOS03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/QUAPOS03.png"
+    END
+    SYMBOL
+        NAME "ISODGR51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ISODGR51.png"
+    END
+    SYMBOL
+        NAME "BOYSPR04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPR04.png"
+    END
+    SYMBOL
+        NAME "BOYSPR05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPR05.png"
+    END
+    SYMBOL
+        NAME "SOUNDG00"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG00.png"
+    END
+    SYMBOL
+        NAME "SOUNDG01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG01.png"
+    END
+    SYMBOL
+        NAME "SOUNDG02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG02.png"
+    END
+    SYMBOL
+        NAME "SOUNDG03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG03.png"
+    END
+    SYMBOL
+        NAME "SOUNDG04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG04.png"
+    END
+    SYMBOL
+        NAME "SOUNDG05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG05.png"
+    END
+    SYMBOL
+        NAME "SOUNDG06"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG06.png"
+    END
+    SYMBOL
+        NAME "SOUNDG07"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG07.png"
+    END
+    SYMBOL
+        NAME "SOUNDG08"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG08.png"
+    END
+    SYMBOL
+        NAME "SOUNDG09"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG09.png"
+    END
+    SYMBOL
+        NAME "SOUNDG10"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG10.png"
+    END
+    SYMBOL
+        NAME "SOUNDG11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG11.png"
+    END
+    SYMBOL
+        NAME "SOUNDG12"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG12.png"
+    END
+    SYMBOL
+        NAME "SOUNDG13"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG13.png"
+    END
+    SYMBOL
+        NAME "SOUNDG14"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG14.png"
+    END
+    SYMBOL
+        NAME "SOUNDG15"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG15.png"
+    END
+    SYMBOL
+        NAME "SOUNDG16"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG16.png"
+    END
+    SYMBOL
+        NAME "SOUNDG17"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG17.png"
+    END
+    SYMBOL
+        NAME "SOUNDG18"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG18.png"
+    END
+    SYMBOL
+        NAME "SOUNDG19"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG19.png"
+    END
+    SYMBOL
+        NAME "SOUNDG20"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG20.png"
+    END
+    SYMBOL
+        NAME "SOUNDG21"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG21.png"
+    END
+    SYMBOL
+        NAME "SOUNDG22"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG22.png"
+    END
+    SYMBOL
+        NAME "SOUNDG23"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG23.png"
+    END
+    SYMBOL
+        NAME "SOUNDG24"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG24.png"
+    END
+    SYMBOL
+        NAME "SOUNDG25"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG25.png"
+    END
+    SYMBOL
+        NAME "SOUNDG26"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG26.png"
+    END
+    SYMBOL
+        NAME "SOUNDG27"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG27.png"
+    END
+    SYMBOL
+        NAME "SOUNDG28"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG28.png"
+    END
+    SYMBOL
+        NAME "SOUNDG29"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG29.png"
+    END
+    SYMBOL
+        NAME "SOUNDG30"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG30.png"
+    END
+    SYMBOL
+        NAME "SOUNDG31"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG31.png"
+    END
+    SYMBOL
+        NAME "SOUNDG32"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG32.png"
+    END
+    SYMBOL
+        NAME "SOUNDG33"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG33.png"
+    END
+    SYMBOL
+        NAME "SOUNDG34"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG34.png"
+    END
+    SYMBOL
+        NAME "SOUNDG35"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG35.png"
+    END
+    SYMBOL
+        NAME "SOUNDG36"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG36.png"
+    END
+    SYMBOL
+        NAME "SOUNDG37"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG37.png"
+    END
+    SYMBOL
+        NAME "SOUNDG38"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG38.png"
+    END
+    SYMBOL
+        NAME "SOUNDG39"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG39.png"
+    END
+    SYMBOL
+        NAME "SOUNDG40"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG40.png"
+    END
+    SYMBOL
+        NAME "SOUNDG41"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG41.png"
+    END
+    SYMBOL
+        NAME "SOUNDG42"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG42.png"
+    END
+    SYMBOL
+        NAME "SOUNDG43"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG43.png"
+    END
+    SYMBOL
+        NAME "SOUNDG44"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG44.png"
+    END
+    SYMBOL
+        NAME "SOUNDG45"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG45.png"
+    END
+    SYMBOL
+        NAME "SOUNDG46"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG46.png"
+    END
+    SYMBOL
+        NAME "SOUNDG47"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG47.png"
+    END
+    SYMBOL
+        NAME "SOUNDG48"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG48.png"
+    END
+    SYMBOL
+        NAME "SOUNDG49"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG49.png"
+    END
+    SYMBOL
+        NAME "SOUNDG50"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG50.png"
+    END
+    SYMBOL
+        NAME "SOUNDG51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG51.png"
+    END
+    SYMBOL
+        NAME "SOUNDG52"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG52.png"
+    END
+    SYMBOL
+        NAME "SOUNDG53"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG53.png"
+    END
+    SYMBOL
+        NAME "SOUNDG54"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG54.png"
+    END
+    SYMBOL
+        NAME "SOUNDG55"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG55.png"
+    END
+    SYMBOL
+        NAME "SOUNDG56"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG56.png"
+    END
+    SYMBOL
+        NAME "SOUNDG57"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG57.png"
+    END
+    SYMBOL
+        NAME "SOUNDG58"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG58.png"
+    END
+    SYMBOL
+        NAME "SOUNDG59"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDG59.png"
+    END
+    SYMBOL
+        NAME "SOUNDGA1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDGA1.png"
+    END
+    SYMBOL
+        NAME "SOUNDGB1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDGB1.png"
+    END
+    SYMBOL
+        NAME "SOUNDGC2"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDGC2.png"
+    END
+    SYMBOL
+        NAME "STARPT01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/STARPT01.png"
+    END
+    SYMBOL
+        NAME "SOUNDS00"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS00.png"
+    END
+    SYMBOL
+        NAME "SOUNDS01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS01.png"
+    END
+    SYMBOL
+        NAME "SOUNDS02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS02.png"
+    END
+    SYMBOL
+        NAME "SOUNDS03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS03.png"
+    END
+    SYMBOL
+        NAME "SOUNDS04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS04.png"
+    END
+    SYMBOL
+        NAME "SOUNDS05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS05.png"
+    END
+    SYMBOL
+        NAME "SOUNDS06"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS06.png"
+    END
+    SYMBOL
+        NAME "SOUNDS07"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS07.png"
+    END
+    SYMBOL
+        NAME "SOUNDS08"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS08.png"
+    END
+    SYMBOL
+        NAME "SOUNDS09"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS09.png"
+    END
+    SYMBOL
+        NAME "SOUNDS10"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS10.png"
+    END
+    SYMBOL
+        NAME "SOUNDS11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS11.png"
+    END
+    SYMBOL
+        NAME "SOUNDS12"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS12.png"
+    END
+    SYMBOL
+        NAME "SOUNDS13"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS13.png"
+    END
+    SYMBOL
+        NAME "SOUNDS14"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS14.png"
+    END
+    SYMBOL
+        NAME "SOUNDS15"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS15.png"
+    END
+    SYMBOL
+        NAME "SOUNDS16"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS16.png"
+    END
+    SYMBOL
+        NAME "SOUNDS17"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS17.png"
+    END
+    SYMBOL
+        NAME "SOUNDS18"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS18.png"
+    END
+    SYMBOL
+        NAME "SOUNDS19"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS19.png"
+    END
+    SYMBOL
+        NAME "SOUNDS20"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS20.png"
+    END
+    SYMBOL
+        NAME "SOUNDS21"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS21.png"
+    END
+    SYMBOL
+        NAME "SOUNDS22"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS22.png"
+    END
+    SYMBOL
+        NAME "SOUNDS23"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS23.png"
+    END
+    SYMBOL
+        NAME "SOUNDS24"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS24.png"
+    END
+    SYMBOL
+        NAME "SOUNDS25"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS25.png"
+    END
+    SYMBOL
+        NAME "SOUNDS26"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS26.png"
+    END
+    SYMBOL
+        NAME "SOUNDS27"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS27.png"
+    END
+    SYMBOL
+        NAME "SOUNDS28"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS28.png"
+    END
+    SYMBOL
+        NAME "SOUNDS29"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS29.png"
+    END
+    SYMBOL
+        NAME "SOUNDS30"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS30.png"
+    END
+    SYMBOL
+        NAME "SOUNDS31"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS31.png"
+    END
+    SYMBOL
+        NAME "SOUNDS32"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS32.png"
+    END
+    SYMBOL
+        NAME "SOUNDS33"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS33.png"
+    END
+    SYMBOL
+        NAME "SOUNDS34"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS34.png"
+    END
+    SYMBOL
+        NAME "SOUNDS35"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS35.png"
+    END
+    SYMBOL
+        NAME "SOUNDS36"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS36.png"
+    END
+    SYMBOL
+        NAME "SOUNDS37"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS37.png"
+    END
+    SYMBOL
+        NAME "SOUNDS38"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS38.png"
+    END
+    SYMBOL
+        NAME "SOUNDS39"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS39.png"
+    END
+    SYMBOL
+        NAME "SOUNDS40"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS40.png"
+    END
+    SYMBOL
+        NAME "SOUNDS41"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS41.png"
+    END
+    SYMBOL
+        NAME "SOUNDS42"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS42.png"
+    END
+    SYMBOL
+        NAME "SOUNDS43"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS43.png"
+    END
+    SYMBOL
+        NAME "SOUNDS44"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS44.png"
+    END
+    SYMBOL
+        NAME "SOUNDS45"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS45.png"
+    END
+    SYMBOL
+        NAME "SOUNDS46"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS46.png"
+    END
+    SYMBOL
+        NAME "SOUNDS47"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS47.png"
+    END
+    SYMBOL
+        NAME "SOUNDS48"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS48.png"
+    END
+    SYMBOL
+        NAME "SOUNDS49"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS49.png"
+    END
+    SYMBOL
+        NAME "SOUNDS50"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS50.png"
+    END
+    SYMBOL
+        NAME "SOUNDS51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS51.png"
+    END
+    SYMBOL
+        NAME "SOUNDS52"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS52.png"
+    END
+    SYMBOL
+        NAME "SOUNDS53"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS53.png"
+    END
+    SYMBOL
+        NAME "SOUNDS54"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS54.png"
+    END
+    SYMBOL
+        NAME "SOUNDS55"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS55.png"
+    END
+    SYMBOL
+        NAME "SOUNDS56"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS56.png"
+    END
+    SYMBOL
+        NAME "SOUNDS57"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS57.png"
+    END
+    SYMBOL
+        NAME "SOUNDS58"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS58.png"
+    END
+    SYMBOL
+        NAME "SOUNDS59"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SOUNDS59.png"
+    END
+    SYMBOL
+        NAME "ADDMRK01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ADDMRK01.png"
+    END
+    SYMBOL
+        NAME "ADDMRK02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ADDMRK02.png"
+    END
+    SYMBOL
+        NAME "ADDMRK03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ADDMRK03.png"
+    END
+    SYMBOL
+        NAME "ADDMRK04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ADDMRK04.png"
+    END
+    SYMBOL
+        NAME "ADDMRK05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ADDMRK05.png"
+    END
+    SYMBOL
+        NAME "ADDMRK06"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ADDMRK06.png"
+    END
+    SYMBOL
+        NAME "ADDMRK07"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ADDMRK07.png"
+    END
+    SYMBOL
+        NAME "ADDMRK08"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ADDMRK08.png"
+    END
+    SYMBOL
+        NAME "ADDMRK09"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ADDMRK09.png"
+    END
+    SYMBOL
+        NAME "ADDMRK10"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ADDMRK10.png"
+    END
+    SYMBOL
+        NAME "BCNLAT23"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNLAT23.png"
+    END
+    SYMBOL
+        NAME "BCNSTK03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSTK03.png"
+    END
+    SYMBOL
+        NAME "BORDER01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BORDER01.png"
+    END
+    SYMBOL
+        NAME "BOYLAT25"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYLAT25.png"
+    END
+    SYMBOL
+        NAME "BOYLAT26"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYLAT26.png"
+    END
+    SYMBOL
+        NAME "BOYLAT27"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYLAT27.png"
+    END
+    SYMBOL
+        NAME "BUNSTA01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BUNSTA01.png"
+    END
+    SYMBOL
+        NAME "BUNSTA02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BUNSTA02.png"
+    END
+    SYMBOL
+        NAME "BUNSTA03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BUNSTA03.png"
+    END
+    SYMBOL
+        NAME "CATHAF01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CATHAF01.png"
+    END
+    SYMBOL
+        NAME "CATHAF02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CATHAF02.png"
+    END
+    SYMBOL
+        NAME "CATHAF04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CATHAF04.png"
+    END
+    SYMBOL
+        NAME "CUSTOM01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CUSTOM01.png"
+    END
+    SYMBOL
+        NAME "DISMAR05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DISMAR05.png"
+    END
+    SYMBOL
+        NAME "DISMAR06"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/DISMAR06.png"
+    END
+    SYMBOL
+        NAME "HECMTR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/HECMTR01.png"
+    END
+    SYMBOL
+        NAME "HECMTR02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/HECMTR02.png"
+    END
+    SYMBOL
+        NAME "HGWTMK01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/HGWTMK01.png"
+    END
+    SYMBOL
+        NAME "HRBFAC10"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/HRBFAC10.png"
+    END
+    SYMBOL
+        NAME "HRBFAC11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/HRBFAC11.png"
+    END
+    SYMBOL
+        NAME "HRBFAC12"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/HRBFAC12.png"
+    END
+    SYMBOL
+        NAME "HRBFAC13"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/HRBFAC13.png"
+    END
+    SYMBOL
+        NAME "HRBFAC14"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/HRBFAC14.png"
+    END
+    SYMBOL
+        NAME "HRBFAC15"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/HRBFAC15.png"
+    END
+    SYMBOL
+        NAME "HRBFAC16"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/HRBFAC16.png"
+    END
+    SYMBOL
+        NAME "HRBFAC17"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/HRBFAC17.png"
+    END
+    SYMBOL
+        NAME "HRBFAC18"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/HRBFAC18.png"
+    END
+    SYMBOL
+        NAME "NMKINF02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF02.png"
+    END
+    SYMBOL
+        NAME "NMKINF03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF03.png"
+    END
+    SYMBOL
+        NAME "NMKINF04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF04.png"
+    END
+    SYMBOL
+        NAME "NMKINF05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF05.png"
+    END
+    SYMBOL
+        NAME "NMKINF19"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF19.png"
+    END
+    SYMBOL
+        NAME "NMKINF22"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF22.png"
+    END
+    SYMBOL
+        NAME "NMKINF23"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF23.png"
+    END
+    SYMBOL
+        NAME "NMKINF24"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF24.png"
+    END
+    SYMBOL
+        NAME "NMKINF25"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF25.png"
+    END
+    SYMBOL
+        NAME "NMKINF28"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF28.png"
+    END
+    SYMBOL
+        NAME "NMKINF29"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF29.png"
+    END
+    SYMBOL
+        NAME "NMKINF30"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF30.png"
+    END
+    SYMBOL
+        NAME "NMKINF31"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF31.png"
+    END
+    SYMBOL
+        NAME "NMKINF32"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF32.png"
+    END
+    SYMBOL
+        NAME "NMKINF33"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF33.png"
+    END
+    SYMBOL
+        NAME "NMKINF34"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF34.png"
+    END
+    SYMBOL
+        NAME "NMKINF35"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF35.png"
+    END
+    SYMBOL
+        NAME "NMKINF36"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF36.png"
+    END
+    SYMBOL
+        NAME "NMKINF37"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF37.png"
+    END
+    SYMBOL
+        NAME "NMKINF38"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF38.png"
+    END
+    SYMBOL
+        NAME "NMKINF39"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF39.png"
+    END
+    SYMBOL
+        NAME "NMKINF40"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF40.png"
+    END
+    SYMBOL
+        NAME "NMKINF41"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF41.png"
+    END
+    SYMBOL
+        NAME "NMKINF42"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF42.png"
+    END
+    SYMBOL
+        NAME "NMKINF43"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF43.png"
+    END
+    SYMBOL
+        NAME "NMKINF44"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF44.png"
+    END
+    SYMBOL
+        NAME "NMKINF45"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF45.png"
+    END
+    SYMBOL
+        NAME "NMKINF46"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF46.png"
+    END
+    SYMBOL
+        NAME "NMKINF47"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF47.png"
+    END
+    SYMBOL
+        NAME "NMKINF48"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF48.png"
+    END
+    SYMBOL
+        NAME "NMKINF49"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF49.png"
+    END
+    SYMBOL
+        NAME "NMKINF50"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF50.png"
+    END
+    SYMBOL
+        NAME "NMKINF51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF51.png"
+    END
+    SYMBOL
+        NAME "NMKINF52"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF52.png"
+    END
+    SYMBOL
+        NAME "NMKINF53"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF53.png"
+    END
+    SYMBOL
+        NAME "NMKINF54"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF54.png"
+    END
+    SYMBOL
+        NAME "NMKINF55"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF55.png"
+    END
+    SYMBOL
+        NAME "NMKPRH01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKPRH01.png"
+    END
+    SYMBOL
+        NAME "NMKPRH04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKPRH04.png"
+    END
+    SYMBOL
+        NAME "NMKPRH05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKPRH05.png"
+    END
+    SYMBOL
+        NAME "NMKPRH06"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKPRH06.png"
+    END
+    SYMBOL
+        NAME "NMKPRH08"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKPRH08.png"
+    END
+    SYMBOL
+        NAME "NMKPRH10"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKPRH10.png"
+    END
+    SYMBOL
+        NAME "NMKPRH11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKPRH11.png"
+    END
+    SYMBOL
+        NAME "NMKPRH14"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKPRH14.png"
+    END
+    SYMBOL
+        NAME "NMKPRH15"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKPRH15.png"
+    END
+    SYMBOL
+        NAME "NMKPRH16"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKPRH16.png"
+    END
+    SYMBOL
+        NAME "NMKPRH17"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKPRH17.png"
+    END
+    SYMBOL
+        NAME "NMKPRH18"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKPRH18.png"
+    END
+    SYMBOL
+        NAME "NMKPRH19"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKPRH19.png"
+    END
+    SYMBOL
+        NAME "NMKPRH20"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKPRH20.png"
+    END
+    SYMBOL
+        NAME "NMKPRH21"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKPRH21.png"
+    END
+    SYMBOL
+        NAME "NMKPRH22"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKPRH22.png"
+    END
+    SYMBOL
+        NAME "NMKRCD05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKRCD05.png"
+    END
+    SYMBOL
+        NAME "NMKRCD06"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKRCD06.png"
+    END
+    SYMBOL
+        NAME "NMKREG01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKREG01.png"
+    END
+    SYMBOL
+        NAME "NMKREG02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKREG02.png"
+    END
+    SYMBOL
+        NAME "NMKREG03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKREG03.png"
+    END
+    SYMBOL
+        NAME "NMKREG04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKREG04.png"
+    END
+    SYMBOL
+        NAME "NMKREG05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKREG05.png"
+    END
+    SYMBOL
+        NAME "NMKREG06"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKREG06.png"
+    END
+    SYMBOL
+        NAME "NMKREG07"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKREG07.png"
+    END
+    SYMBOL
+        NAME "NMKREG08"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKREG08.png"
+    END
+    SYMBOL
+        NAME "NMKREG09"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKREG09.png"
+    END
+    SYMBOL
+        NAME "NMKREG10"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKREG10.png"
+    END
+    SYMBOL
+        NAME "NMKREG11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKREG11.png"
+    END
+    SYMBOL
+        NAME "NMKREG12"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKREG12.png"
+    END
+    SYMBOL
+        NAME "NMKREG13"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKREG13.png"
+    END
+    SYMBOL
+        NAME "NMKREG14"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKREG14.png"
+    END
+    SYMBOL
+        NAME "NMKREG15"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKREG15.png"
+    END
+    SYMBOL
+        NAME "NMKREG16"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKREG16.png"
+    END
+    SYMBOL
+        NAME "NMKREG17"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKREG17.png"
+    END
+    SYMBOL
+        NAME "NMKREG18"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKREG18.png"
+    END
+    SYMBOL
+        NAME "NMKREG19"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKREG19.png"
+    END
+    SYMBOL
+        NAME "NMKREG20"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKREG20.png"
+    END
+    SYMBOL
+        NAME "NOTMRK01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NOTMRK01.png"
+    END
+    SYMBOL
+        NAME "NOTMRK02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NOTMRK02.png"
+    END
+    SYMBOL
+        NAME "NOTMRK03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NOTMRK03.png"
+    END
+    SYMBOL
+        NAME "PIER0001"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/PIER0001.png"
+    END
+    SYMBOL
+        NAME "RADHLT01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RADHLT01.png"
+    END
+    SYMBOL
+        NAME "REFDMP01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/REFDMP01.png"
+    END
+    SYMBOL
+        NAME "SSENTR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SSENTR01.png"
+    END
+    SYMBOL
+        NAME "SSLOCK01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SSLOCK01.png"
+    END
+    SYMBOL
+        NAME "SSWARS01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/SSWARS01.png"
+    END
+    SYMBOL
+        NAME "TERMNL01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TERMNL01.png"
+    END
+    SYMBOL
+        NAME "TERMNL02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TERMNL02.png"
+    END
+    SYMBOL
+        NAME "TERMNL03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TERMNL03.png"
+    END
+    SYMBOL
+        NAME "TERMNL04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TERMNL04.png"
+    END
+    SYMBOL
+        NAME "TERMNL05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TERMNL05.png"
+    END
+    SYMBOL
+        NAME "TERMNL06"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TERMNL06.png"
+    END
+    SYMBOL
+        NAME "TERMNL07"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TERMNL07.png"
+    END
+    SYMBOL
+        NAME "TERMNL08"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TERMNL08.png"
+    END
+    SYMBOL
+        NAME "TERMNL09"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TERMNL09.png"
+    END
+    SYMBOL
+        NAME "TERMNL10"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TERMNL10.png"
+    END
+    SYMBOL
+        NAME "TERMNL11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TERMNL11.png"
+    END
+    SYMBOL
+        NAME "TERMNL12"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TERMNL12.png"
+    END
+    SYMBOL
+        NAME "TERMNL13"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TERMNL13.png"
+    END
+    SYMBOL
+        NAME "TOPMA100"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMA100.png"
+    END
+    SYMBOL
+        NAME "TOPMA101"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMA101.png"
+    END
+    SYMBOL
+        NAME "TOPMA102"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMA102.png"
+    END
+    SYMBOL
+        NAME "TOPMA103"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMA103.png"
+    END
+    SYMBOL
+        NAME "TOPMA104"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMA104.png"
+    END
+    SYMBOL
+        NAME "TOPMA105"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMA105.png"
+    END
+    SYMBOL
+        NAME "TOPMA106"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMA106.png"
+    END
+    SYMBOL
+        NAME "TOPMA107"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMA107.png"
+    END
+    SYMBOL
+        NAME "TOPMA108"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMA108.png"
+    END
+    SYMBOL
+        NAME "TOPMA109"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMA109.png"
+    END
+    SYMBOL
+        NAME "TOPMA110"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMA110.png"
+    END
+    SYMBOL
+        NAME "TOPMA111"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMA111.png"
+    END
+    SYMBOL
+        NAME "TOPMA112"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMA112.png"
+    END
+    SYMBOL
+        NAME "TOPMA113"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMA113.png"
+    END
+    SYMBOL
+        NAME "TOPMA114"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMA114.png"
+    END
+    SYMBOL
+        NAME "TOPMA115"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMA115.png"
+    END
+    SYMBOL
+        NAME "TOPMA116"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMA116.png"
+    END
+    SYMBOL
+        NAME "TOPMA117"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMA117.png"
+    END
+    SYMBOL
+        NAME "TRNBSN01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TRNBSN01.png"
+    END
+    SYMBOL
+        NAME "CARTRF01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CARTRF01.png"
+    END
+    SYMBOL
+        NAME "VTCLMK01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/VTCLMK01.png"
+    END
+    SYMBOL
+        NAME "WTLVGG01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/WTLVGG01.png"
+    END
+    SYMBOL
+        NAME "WTLVGG02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/WTLVGG02.png"
+    END
+    SYMBOL
+        NAME "NMKINF06"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF06.png"
+    END
+    SYMBOL
+        NAME "NMKINF07"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF07.png"
+    END
+    SYMBOL
+        NAME "NMKINF08"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF08.png"
+    END
+    SYMBOL
+        NAME "NMKINF09"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF09.png"
+    END
+    SYMBOL
+        NAME "NMKINF10"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF10.png"
+    END
+    SYMBOL
+        NAME "NMKINF11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF11.png"
+    END
+    SYMBOL
+        NAME "NMKINF12"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF12.png"
+    END
+    SYMBOL
+        NAME "NMKINF13"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF13.png"
+    END
+    SYMBOL
+        NAME "NMKINF14"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF14.png"
+    END
+    SYMBOL
+        NAME "NMKINF15"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF15.png"
+    END
+    SYMBOL
+        NAME "NMKINF16"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF16.png"
+    END
+    SYMBOL
+        NAME "NMKINF17"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF17.png"
+    END
+    SYMBOL
+        NAME "NMKINF18"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF18.png"
+    END
+    SYMBOL
+        NAME "NMKINF20"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF20.png"
+    END
+    SYMBOL
+        NAME "NMKINF21"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF21.png"
+    END
+    SYMBOL
+        NAME "NMKINF26"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF26.png"
+    END
+    SYMBOL
+        NAME "NMKINF27"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKINF27.png"
+    END
+    SYMBOL
+        NAME "NMKPRH07"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NMKPRH07.png"
+    END
+    SYMBOL
+        NAME "BOYCAN60"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN60.png"
+    END
+    SYMBOL
+        NAME "BOYBAR60"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYBAR60.png"
+    END
+    SYMBOL
+        NAME "BOYBAR61"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYBAR61.png"
+    END
+    SYMBOL
+        NAME "BOYBAR62"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYBAR62.png"
+    END
+    SYMBOL
+        NAME "BOYSPH60"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPH60.png"
+    END
+    SYMBOL
+        NAME "BOYSPH61"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPH61.png"
+    END
+    SYMBOL
+        NAME "BOYSPH62"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPH62.png"
+    END
+    SYMBOL
+        NAME "BOYCAN64"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN64.png"
+    END
+    SYMBOL
+        NAME "BOYSPH05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPH05.png"
+    END
+    SYMBOL
+        NAME "BOYCON64"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON64.png"
+    END
+    SYMBOL
+        NAME "BOYSPH65"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPH65.png"
+    END
+    SYMBOL
+        NAME "BOYSPH66"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPH66.png"
+    END
+    SYMBOL
+        NAME "BOYSPH67"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPH67.png"
+    END
+    SYMBOL
+        NAME "BOYCAN68"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN68.png"
+    END
+    SYMBOL
+        NAME "BOYCAN70"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN70.png"
+    END
+    SYMBOL
+        NAME "BOYCAN71"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN71.png"
+    END
+    SYMBOL
+        NAME "BOYCAN69"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN69.png"
+    END
+    SYMBOL
+        NAME "BOYCAN72"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN72.png"
+    END
+    SYMBOL
+        NAME "BOYCAN73"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN73.png"
+    END
+    SYMBOL
+        NAME "BOYPIL80"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL80.png"
+    END
+    SYMBOL
+        NAME "BOYCON66"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON66.png"
+    END
+    SYMBOL
+        NAME "BOYCON67"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON67.png"
+    END
+    SYMBOL
+        NAME "BOYSPH74"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPH74.png"
+    END
+    SYMBOL
+        NAME "BOYCAN74"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN74.png"
+    END
+    SYMBOL
+        NAME "BOYCAN75"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN75.png"
+    END
+    SYMBOL
+        NAME "BOYCON68"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON68.png"
+    END
+    SYMBOL
+        NAME "BOYCAN76"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN76.png"
+    END
+    SYMBOL
+        NAME "BOYCON71"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON71.png"
+    END
+    SYMBOL
+        NAME "BOYCON72"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON72.png"
+    END
+    SYMBOL
+        NAME "BOYCON69"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON69.png"
+    END
+    SYMBOL
+        NAME "BOYCON70"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON70.png"
+    END
+    SYMBOL
+        NAME "BOYSUP60"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSUP60.png"
+    END
+    SYMBOL
+        NAME "BOYSUP61"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSUP61.png"
+    END
+    SYMBOL
+        NAME "BOYSUP62"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSUP62.png"
+    END
+    SYMBOL
+        NAME "BOYCON73"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON73.png"
+    END
+    SYMBOL
+        NAME "BOYPIL81"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL81.png"
+    END
+    SYMBOL
+        NAME "BOYCAN77"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN77.png"
+    END
+    SYMBOL
+        NAME "BOYCAN78"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN78.png"
+    END
+    SYMBOL
+        NAME "BOYCAN79"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN79.png"
+    END
+    SYMBOL
+        NAME "BOYSPR68"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPR68.png"
+    END
+    SYMBOL
+        NAME "BCNLAT50"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNLAT50.png"
+    END
+    SYMBOL
+        NAME "BOYCON77"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON77.png"
+    END
+    SYMBOL
+        NAME "BOYSPH77"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPH77.png"
+    END
+    SYMBOL
+        NAME "BOYCON78"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON78.png"
+    END
+    SYMBOL
+        NAME "BOYSPH75"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPH75.png"
+    END
+    SYMBOL
+        NAME "BOYSPR69"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPR69.png"
+    END
+    SYMBOL
+        NAME "BOYSPR70"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPR70.png"
+    END
+    SYMBOL
+        NAME "BOYSPR71"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPR71.png"
+    END
+    SYMBOL
+        NAME "BOYSPR62"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPR62.png"
+    END
+    SYMBOL
+        NAME "BCNSPR62"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSPR62.png"
+    END
+    SYMBOL
+        NAME "BCNTOW01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW01.png"
+    END
+    SYMBOL
+        NAME "BCNTOW61"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW61.png"
+    END
+    SYMBOL
+        NAME "BCNTOW60"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW60.png"
+    END
+    SYMBOL
+        NAME "BCNTOW62"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW62.png"
+    END
+    SYMBOL
+        NAME "TOWERS01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS01.png"
+    END
+    SYMBOL
+        NAME "TOWERS03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS03.png"
+    END
+    SYMBOL
+        NAME "TOWERS05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS05.png"
+    END
+    SYMBOL
+        NAME "TOWERS78"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS78.png"
+    END
+    SYMBOL
+        NAME "TOWERS62"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS62.png"
+    END
+    SYMBOL
+        NAME "TOWERS79"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS79.png"
+    END
+    SYMBOL
+        NAME "BCNGEN60"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNGEN60.png"
+    END
+    SYMBOL
+        NAME "BCNGEN61"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNGEN61.png"
+    END
+    SYMBOL
+        NAME "BCNSTK02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSTK02.png"
+    END
+    SYMBOL
+        NAME "BCNSTK60"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSTK60.png"
+    END
+    SYMBOL
+        NAME "BCNSTK61"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSTK61.png"
+    END
+    SYMBOL
+        NAME "BCNGEN68"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNGEN68.png"
+    END
+    SYMBOL
+        NAME "BCNGEN69"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNGEN69.png"
+    END
+    SYMBOL
+        NAME "BCNGEN70"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNGEN70.png"
+    END
+    SYMBOL
+        NAME "BCNGEN71"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNGEN71.png"
+    END
+    SYMBOL
+        NAME "BOYSPH68"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPH68.png"
+    END
+    SYMBOL
+        NAME "BOYSPH69"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPH69.png"
+    END
+    SYMBOL
+        NAME "BOYSPH70"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPH70.png"
+    END
+    SYMBOL
+        NAME "BOYSPH71"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPH71.png"
+    END
+    SYMBOL
+        NAME "BCNTOW76"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW76.png"
+    END
+    SYMBOL
+        NAME "BCNLTC01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNLTC01.png"
+    END
+    SYMBOL
+        NAME "TOWERS60"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS60.png"
+    END
+    SYMBOL
+        NAME "TOWERS61"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS61.png"
+    END
+    SYMBOL
+        NAME "BCNGEN76"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNGEN76.png"
+    END
+    SYMBOL
+        NAME "BCNSTK78"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSTK78.png"
+    END
+    SYMBOL
+        NAME "TOPMAR23"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR23.png"
+    END
+    SYMBOL
+        NAME "BCNTOW69"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW69.png"
+    END
+    SYMBOL
+        NAME "BCNTOW70"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW70.png"
+    END
+    SYMBOL
+        NAME "BCNTOW71"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW71.png"
+    END
+    SYMBOL
+        NAME "BCNTOW64"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW64.png"
+    END
+    SYMBOL
+        NAME "BCNTOW05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW05.png"
+    END
+    SYMBOL
+        NAME "BCNTOW65"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW65.png"
+    END
+    SYMBOL
+        NAME "BCNGEN05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNGEN05.png"
+    END
+    SYMBOL
+        NAME "BCNGEN79"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNGEN79.png"
+    END
+    SYMBOL
+        NAME "BCNGEN64"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNGEN64.png"
+    END
+    SYMBOL
+        NAME "BOYSPR72"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPR72.png"
+    END
+    SYMBOL
+        NAME "BCNGEN65"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNGEN65.png"
+    END
+    SYMBOL
+        NAME "BCNSTK62"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSTK62.png"
+    END
+    SYMBOL
+        NAME "TOWERS77"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS77.png"
+    END
+    SYMBOL
+        NAME "BOYBAR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYBAR01.png"
+    END
+    SYMBOL
+        NAME "RSCSTA02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/RSCSTA02.png"
+    END
+    SYMBOL
+        NAME "BOYSPH01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPH01.png"
+    END
+    SYMBOL
+        NAME "BOYGEN03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYGEN03.png"
+    END
+    SYMBOL
+        NAME "LITVES01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LITVES01.png"
+    END
+    SYMBOL
+        NAME "LITVES60"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LITVES60.png"
+    END
+    SYMBOL
+        NAME "LITVES61"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LITVES61.png"
+    END
+    SYMBOL
+        NAME "BOYSUP65"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSUP65.png"
+    END
+    SYMBOL
+        NAME "BOYSUP01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSUP01.png"
+    END
+    SYMBOL
+        NAME "BOYSUP02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSUP02.png"
+    END
+    SYMBOL
+        NAME "BOYSPR60"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPR60.png"
+    END
+    SYMBOL
+        NAME "BOYSPR61"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPR61.png"
+    END
+    SYMBOL
+        NAME "BOYSPR65"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPR65.png"
+    END
+    SYMBOL
+        NAME "BOYCON01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON01.png"
+    END
+    SYMBOL
+        NAME "BCNSTK01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSTK01.png"
+    END
+    SYMBOL
+        NAME "BCNSTK05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSTK05.png"
+    END
+    SYMBOL
+        NAME "BOYMOR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYMOR01.png"
+    END
+    SYMBOL
+        NAME "BOYMOR03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYMOR03.png"
+    END
+    SYMBOL
+        NAME "BOYSUP03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSUP03.png"
+    END
+    SYMBOL
+        NAME "LITFLT01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LITFLT01.png"
+    END
+    SYMBOL
+        NAME "BOYSPR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPR01.png"
+    END
+    SYMBOL
+        NAME "CAIRNS01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CAIRNS01.png"
+    END
+    SYMBOL
+        NAME "NOTBRD11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NOTBRD11.png"
+    END
+    SYMBOL
+        NAME "PRICKE03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/PRICKE03.png"
+    END
+    SYMBOL
+        NAME "PRICKE04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/PRICKE04.png"
+    END
+    SYMBOL
+        NAME "TOWERS80"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS80.png"
+    END
+    SYMBOL
+        NAME "TOWERS81"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS81.png"
+    END
+    SYMBOL
+        NAME "TOWERS82"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS82.png"
+    END
+    SYMBOL
+        NAME "TOWERS83"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS83.png"
+    END
+    SYMBOL
+        NAME "TOWERS84"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS84.png"
+    END
+    SYMBOL
+        NAME "TOWERS85"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS85.png"
+    END
+    SYMBOL
+        NAME "TOWERS86"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS86.png"
+    END
+    SYMBOL
+        NAME "TOWERS87"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS87.png"
+    END
+    SYMBOL
+        NAME "BCNTOW85"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW85.png"
+    END
+    SYMBOL
+        NAME "TOWERS89"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS89.png"
+    END
+    SYMBOL
+        NAME "PILBOP02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/PILBOP02.png"
+    END
+    SYMBOL
+        NAME "TOWERS02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS02.png"
+    END
+    SYMBOL
+        NAME "PILBOP04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/PILBOP04.png"
+    END
+    SYMBOL
+        NAME "TOWERS12"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS12.png"
+    END
+    SYMBOL
+        NAME "TOWERS15"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS15.png"
+    END
+    SYMBOL
+        NAME "BCNGEN80"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNGEN80.png"
+    END
+    SYMBOL
+        NAME "BCNSTK79"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSTK79.png"
+    END
+    SYMBOL
+        NAME "BCNSTK80"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSTK80.png"
+    END
+    SYMBOL
+        NAME "TOPMAR99"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR99.png"
+    END
+    SYMBOL
+        NAME "BOYCAN80"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN80.png"
+    END
+    SYMBOL
+        NAME "BCNSTK08"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSTK08.png"
+    END
+    SYMBOL
+        NAME "BCNSTK81"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSTK81.png"
+    END
+    SYMBOL
+        NAME "BOYCON63"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON63.png"
+    END
+    SYMBOL
+        NAME "BOYCON65"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON65.png"
+    END
+    SYMBOL
+        NAME "BOYMOR31"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYMOR31.png"
+    END
+    SYMBOL
+        NAME "NOTBRD12"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NOTBRD12.png"
+    END
+    SYMBOL
+        NAME "TOWERS63"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS63.png"
+    END
+    SYMBOL
+        NAME "LITFLT61"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LITFLT61.png"
+    END
+    SYMBOL
+        NAME "LITFLT10"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/LITFLT10.png"
+    END
+    SYMBOL
+        NAME "TOWERS69"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS69.png"
+    END
+    SYMBOL
+        NAME "TOWERS68"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS68.png"
+    END
+    SYMBOL
+        NAME "TOWERS70"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS70.png"
+    END
+    SYMBOL
+        NAME "TOWERS71"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS71.png"
+    END
+    SYMBOL
+        NAME "BCNSTK77"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSTK77.png"
+    END
+    SYMBOL
+        NAME "BCNTOW73"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW73.png"
+    END
+    SYMBOL
+        NAME "TOWERS90"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS90.png"
+    END
+    SYMBOL
+        NAME "TOWERS91"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS91.png"
+    END
+    SYMBOL
+        NAME "TOWERS92"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS92.png"
+    END
+    SYMBOL
+        NAME "TOWERS93"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS93.png"
+    END
+    SYMBOL
+        NAME "TOWERS94"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS94.png"
+    END
+    SYMBOL
+        NAME "BCNTOW86"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW86.png"
+    END
+    SYMBOL
+        NAME "BCNTOW87"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW87.png"
+    END
+    SYMBOL
+        NAME "BCNTOW88"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW88.png"
+    END
+    SYMBOL
+        NAME "BCNTOW89"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW89.png"
+    END
+    SYMBOL
+        NAME "BCNTOW90"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW90.png"
+    END
+    SYMBOL
+        NAME "BCNTOW91"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW91.png"
+    END
+    SYMBOL
+        NAME "TOPSHP11"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP11.png"
+    END
+    SYMBOL
+        NAME "TOPSHP12"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP12.png"
+    END
+    SYMBOL
+        NAME "TOPSHP13"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP13.png"
+    END
+    SYMBOL
+        NAME "TOPSHP14"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP14.png"
+    END
+    SYMBOL
+        NAME "TOPSHP17"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP17.png"
+    END
+    SYMBOL
+        NAME "TOPSHP16"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP16.png"
+    END
+    SYMBOL
+        NAME "TOPSHP21"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP21.png"
+    END
+    SYMBOL
+        NAME "TOPSHP22"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP22.png"
+    END
+    SYMBOL
+        NAME "TOPSHP23"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP23.png"
+    END
+    SYMBOL
+        NAME "TOPSHP24"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP24.png"
+    END
+    SYMBOL
+        NAME "TOPSHP28"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP28.png"
+    END
+    SYMBOL
+        NAME "TOPSHP34"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP34.png"
+    END
+    SYMBOL
+        NAME "TOPSHP32"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP32.png"
+    END
+    SYMBOL
+        NAME "TOPSHP42"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP42.png"
+    END
+    SYMBOL
+        NAME "TOPSHP44"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP44.png"
+    END
+    SYMBOL
+        NAME "TOPSHP47"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP47.png"
+    END
+    SYMBOL
+        NAME "TOPSHP48"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP48.png"
+    END
+    SYMBOL
+        NAME "TOPSHP51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP51.png"
+    END
+    SYMBOL
+        NAME "TOPSHP58"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP58.png"
+    END
+    SYMBOL
+        NAME "TOPSHP61"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP61.png"
+    END
+    SYMBOL
+        NAME "TOPSHP62"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP62.png"
+    END
+    SYMBOL
+        NAME "TOPSHP65"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP65.png"
+    END
+    SYMBOL
+        NAME "TOPSHP63"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP63.png"
+    END
+    SYMBOL
+        NAME "TOPSHP64"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP64.png"
+    END
+    SYMBOL
+        NAME "TOPSHP69"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP69.png"
+    END
+    SYMBOL
+        NAME "TOPSHP19"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP19.png"
+    END
+    SYMBOL
+        NAME "TOPSHP20"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP20.png"
+    END
+    SYMBOL
+        NAME "BCNLAT24"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNLAT24.png"
+    END
+    SYMBOL
+        NAME "TOPSHP25"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP25.png"
+    END
+    SYMBOL
+        NAME "TOPSHP67"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP67.png"
+    END
+    SYMBOL
+        NAME "TOPSHP29"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP29.png"
+    END
+    SYMBOL
+        NAME "TOPSHP30"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP30.png"
+    END
+    SYMBOL
+        NAME "TOPSHP15"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP15.png"
+    END
+    SYMBOL
+        NAME "TOPSHP43"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP43.png"
+    END
+    SYMBOL
+        NAME "TOPSHP50"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP50.png"
+    END
+    SYMBOL
+        NAME "TOPSHP70"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP70.png"
+    END
+    SYMBOL
+        NAME "TOPSHP35"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP35.png"
+    END
+    SYMBOL
+        NAME "TOPSHP10"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP10.png"
+    END
+    SYMBOL
+        NAME "TOPSHP09"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP09.png"
+    END
+    SYMBOL
+        NAME "TOPSHP71"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP71.png"
+    END
+    SYMBOL
+        NAME "TOPSHP31"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP31.png"
+    END
+    SYMBOL
+        NAME "TOPSHP55"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP55.png"
+    END
+    SYMBOL
+        NAME "BOYCAN65"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN65.png"
+    END
+    SYMBOL
+        NAME "TOPSHPA9"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPA9.png"
+    END
+    SYMBOL
+        NAME "TOPMAR98"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR98.png"
+    END
+    SYMBOL
+        NAME "TOPSHP36"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP36.png"
+    END
+    SYMBOL
+        NAME "TOPSHP37"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP37.png"
+    END
+    SYMBOL
+        NAME "TOPSHP41"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP41.png"
+    END
+    SYMBOL
+        NAME "TOPSHP73"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP73.png"
+    END
+    SYMBOL
+        NAME "TOPSHP72"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP72.png"
+    END
+    SYMBOL
+        NAME "BOYCAN81"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN81.png"
+    END
+    SYMBOL
+        NAME "TOPSHP74"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP74.png"
+    END
+    SYMBOL
+        NAME "TOPSHP92"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP92.png"
+    END
+    SYMBOL
+        NAME "TOPSHP90"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP90.png"
+    END
+    SYMBOL
+        NAME "TOPSHP91"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP91.png"
+    END
+    SYMBOL
+        NAME "TOPSHP93"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP93.png"
+    END
+    SYMBOL
+        NAME "TOPSHP94"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP94.png"
+    END
+    SYMBOL
+        NAME "TOPSHP95"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP95.png"
+    END
+    SYMBOL
+        NAME "TOPSHP96"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP96.png"
+    END
+    SYMBOL
+        NAME "TOPSHP76"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP76.png"
+    END
+    SYMBOL
+        NAME "TOPSHP97"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP97.png"
+    END
+    SYMBOL
+        NAME "TOPSHP85"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP85.png"
+    END
+    SYMBOL
+        NAME "TOPSHP86"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP86.png"
+    END
+    SYMBOL
+        NAME "TOPSHP01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP01.png"
+    END
+    SYMBOL
+        NAME "TOPSHP84"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP84.png"
+    END
+    SYMBOL
+        NAME "TOPSHP77"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP77.png"
+    END
+    SYMBOL
+        NAME "TOPSHP99"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP99.png"
+    END
+    SYMBOL
+        NAME "TOPSHP89"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP89.png"
+    END
+    SYMBOL
+        NAME "TOPSHP83"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP83.png"
+    END
+    SYMBOL
+        NAME "TOPSHPA1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPA1.png"
+    END
+    SYMBOL
+        NAME "TOPSHP82"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP82.png"
+    END
+    SYMBOL
+        NAME "TOPSHPA0"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPA0.png"
+    END
+    SYMBOL
+        NAME "TOPSHPB0"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPB0.png"
+    END
+    SYMBOL
+        NAME "TOPSHPA2"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPA2.png"
+    END
+    SYMBOL
+        NAME "TOPSHPA3"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPA3.png"
+    END
+    SYMBOL
+        NAME "TOPSHPA4"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPA4.png"
+    END
+    SYMBOL
+        NAME "TOPSHP81"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP81.png"
+    END
+    SYMBOL
+        NAME "TOPSHPD1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPD1.png"
+    END
+    SYMBOL
+        NAME "TOPSHPA5"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPA5.png"
+    END
+    SYMBOL
+        NAME "TOPSHPA6"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPA6.png"
+    END
+    SYMBOL
+        NAME "TOPSHP05"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP05.png"
+    END
+    SYMBOL
+        NAME "TOPSHPA7"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPA7.png"
+    END
+    SYMBOL
+        NAME "TOPSHPA8"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPA8.png"
+    END
+    SYMBOL
+        NAME "TOPSHP08"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP08.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ19"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ19.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ21"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ21.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ20"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ20.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ22"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ22.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ23"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ23.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ24"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ24.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ25"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ25.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ26"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ26.png"
+    END
+    SYMBOL
+        NAME "TOPSHPD3"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPD3.png"
+    END
+    SYMBOL
+        NAME "TOPSHP87"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP87.png"
+    END
+    SYMBOL
+        NAME "TOPSHP88"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP88.png"
+    END
+    SYMBOL
+        NAME "TOPSHP38"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP38.png"
+    END
+    SYMBOL
+        NAME "TOPSHP39"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP39.png"
+    END
+    SYMBOL
+        NAME "TOPSHP40"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP40.png"
+    END
+    SYMBOL
+        NAME "TOPSHP18"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP18.png"
+    END
+    SYMBOL
+        NAME "BOYCON79"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON79.png"
+    END
+    SYMBOL
+        NAME "BOYCON80"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON80.png"
+    END
+    SYMBOL
+        NAME "BOYCON81"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON81.png"
+    END
+    SYMBOL
+        NAME "TOPSHPD2"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPD2.png"
+    END
+    SYMBOL
+        NAME "TOPSHP02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP02.png"
+    END
+    SYMBOL
+        NAME "TOPSHP03"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP03.png"
+    END
+    SYMBOL
+        NAME "TOPSHP04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP04.png"
+    END
+    SYMBOL
+        NAME "TOPSHP98"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP98.png"
+    END
+    SYMBOL
+        NAME "TOPSHP00"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP00.png"
+    END
+    SYMBOL
+        NAME "TOPSHP80"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP80.png"
+    END
+    SYMBOL
+        NAME "TOPSHP79"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP79.png"
+    END
+    SYMBOL
+        NAME "TOPSHP06"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP06.png"
+    END
+    SYMBOL
+        NAME "BOYCON74"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCON74.png"
+    END
+    SYMBOL
+        NAME "BOYCAN82"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN82.png"
+    END
+    SYMBOL
+        NAME "BOYCAN83"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYCAN83.png"
+    END
+    SYMBOL
+        NAME "TOPSHPI1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPI1.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ17"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ17.png"
+    END
+    SYMBOL
+        NAME "TOPSHPJ1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPJ1.png"
+    END
+    SYMBOL
+        NAME "TOPSHPJ2"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPJ2.png"
+    END
+    SYMBOL
+        NAME "TOPMAR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR01.png"
+    END
+    SYMBOL
+        NAME "TOPMAR91"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR91.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ07"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ07.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ27"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ27.png"
+    END
+    SYMBOL
+        NAME "TOPSHPP1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPP1.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ08"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ08.png"
+    END
+    SYMBOL
+        NAME "ZZZZZZ01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/ZZZZZZ01.png"
+    END
+    SYMBOL
+        NAME "TOPSHPI2"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPI2.png"
+    END
+    SYMBOL
+        NAME "TOPSHP54"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP54.png"
+    END
+    SYMBOL
+        NAME "TOPSHPR1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPR1.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ28"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ28.png"
+    END
+    SYMBOL
+        NAME "TOPSHPP2"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPP2.png"
+    END
+    SYMBOL
+        NAME "TOPSHP53"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP53.png"
+    END
+    SYMBOL
+        NAME "TOPSHP52"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP52.png"
+    END
+    SYMBOL
+        NAME "TOPSHPD4"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPD4.png"
+    END
+    SYMBOL
+        NAME "TOPSHP07"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP07.png"
+    END
+    SYMBOL
+        NAME "TOPSHPJ3"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPJ3.png"
+    END
+    SYMBOL
+        NAME "TOPSHPS1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPS1.png"
+    END
+    SYMBOL
+        NAME "BCNTOW63"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW63.png"
+    END
+    SYMBOL
+        NAME "BCNTOW66"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW66.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ30"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ30.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ31"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ31.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ32"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ32.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ29"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ29.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ18"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ18.png"
+    END
+    SYMBOL
+        NAME "TOWERS95"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS95.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ06"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ06.png"
+    END
+    SYMBOL
+        NAME "TOWERS96"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS96.png"
+    END
+    SYMBOL
+        NAME "TOPSHPT1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPT1.png"
+    END
+    SYMBOL
+        NAME "TOPSHPT2"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPT2.png"
+    END
+    SYMBOL
+        NAME "TOPSHPT3"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPT3.png"
+    END
+    SYMBOL
+        NAME "TOPSHPT4"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPT4.png"
+    END
+    SYMBOL
+        NAME "TOPSHPT5"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPT5.png"
+    END
+    SYMBOL
+        NAME "TOPSHPT6"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPT6.png"
+    END
+    SYMBOL
+        NAME "TOPSHPT7"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPT7.png"
+    END
+    SYMBOL
+        NAME "TOPSHPT8"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPT8.png"
+    END
+    SYMBOL
+        NAME "TOPSHPU1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPU1.png"
+    END
+    SYMBOL
+        NAME "TOPSHP78"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP78.png"
+    END
+    SYMBOL
+        NAME "TOWERS97"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS97.png"
+    END
+    SYMBOL
+        NAME "BOYPIL59"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYPIL59.png"
+    END
+    SYMBOL
+        NAME "BOYSUP66"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSUP66.png"
+    END
+    SYMBOL
+        NAME "TOPSHP68"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHP68.png"
+    END
+    SYMBOL
+        NAME "TOWERS98"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS98.png"
+    END
+    SYMBOL
+        NAME "TOWERS99"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS99.png"
+    END
+    SYMBOL
+        NAME "TOWERS59"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS59.png"
+    END
+    SYMBOL
+        NAME "TOWERS58"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS58.png"
+    END
+    SYMBOL
+        NAME "TOWERS57"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS57.png"
+    END
+    SYMBOL
+        NAME "TOWERS56"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS56.png"
+    END
+    SYMBOL
+        NAME "TOWERS55"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS55.png"
+    END
+    SYMBOL
+        NAME "BCNTOW74"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNTOW74.png"
+    END
+    SYMBOL
+        NAME "TOWERS72"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS72.png"
+    END
+    SYMBOL
+        NAME "TOWERS76"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS76.png"
+    END
+    SYMBOL
+        NAME "TOWERS75"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS75.png"
+    END
+    SYMBOL
+        NAME "TOWERS74"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS74.png"
+    END
+    SYMBOL
+        NAME "TOWERS64"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS64.png"
+    END
+    SYMBOL
+        NAME "TOWERS54"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS54.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ15"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ15.png"
+    END
+    SYMBOL
+        NAME "TOPSHQ16"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHQ16.png"
+    END
+    SYMBOL
+        NAME "TOWERS73"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS73.png"
+    END
+    SYMBOL
+        NAME "TOPSHPI3"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPI3.png"
+    END
+    SYMBOL
+        NAME "TOPSHPU2"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPU2.png"
+    END
+    SYMBOL
+        NAME "TOWERS53"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS53.png"
+    END
+    SYMBOL
+        NAME "TOWERS65"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS65.png"
+    END
+    SYMBOL
+        NAME "TOWERS67"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS67.png"
+    END
+    SYMBOL
+        NAME "TOWERS66"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS66.png"
+    END
+    SYMBOL
+        NAME "TOWERS52"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS52.png"
+    END
+    SYMBOL
+        NAME "TOWERS51"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS51.png"
+    END
+    SYMBOL
+        NAME "TOWERS50"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS50.png"
+    END
+    SYMBOL
+        NAME "TOWERS88"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS88.png"
+    END
+    SYMBOL
+        NAME "TOWERS49"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS49.png"
+    END
+    SYMBOL
+        NAME "TOWERS48"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOWERS48.png"
+    END
+    SYMBOL
+        NAME "WRECKS07"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/WRECKS07.png"
+    END
+    SYMBOL
+        NAME "TOPMAR92"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPMAR92.png"
+    END
+    SYMBOL
+        NAME "TOPSHPD5"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/TOPSHPD5.png"
+    END
+    SYMBOL
+        NAME "BCNSTK82"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSTK82.png"
+    END
+    SYMBOL
+        NAME "BCNSTK83"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BCNSTK83.png"
+    END
+    SYMBOL
+        NAME "BOYSPH78"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/BOYSPH78.png"
+    END
+    SYMBOL
+        NAME "ACHARE51_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 8 604 8 -99 -99 136 6 298 168 467 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "ACHARE51_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        140 0 305 164 469 0 -99 -99 0 2 600 2
+        END
+    END
+
+
+    SYMBOL
+        NAME "ACHARE51_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 502
+        END
+    END
+
+
+    SYMBOL
+        NAME "ACHARE51_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 250 106 354 304 354 402 253 -99 -99 47 0 351 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "ACHARE51_4"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 3 600 3 -99 -99 84 0 240 162 407 1
+        END
+    END
+    SYMBOL
+        NAME "ACHRES51_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 161
+        END
+    END
+
+
+    SYMBOL
+        NAME "ACHRES51_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 301 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "ACHRES51_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 150
+        END
+    END
+
+
+    SYMBOL
+        NAME "ACHRES51_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 304 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "ACHRES51_4"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 167
+        END
+    END
+
+
+    SYMBOL
+        NAME "ACHRES51_5"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 302 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "ACHRES51_6"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 502
+        END
+    END
+
+
+    SYMBOL
+        NAME "ACHRES51_7"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        18 331 124 435 322 435 420 334 -99 -99 65 81 369 81 -99 -99 431 0 0 431
+        END
+    END
+
+
+    SYMBOL
+        NAME "ACHRES51_8"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 301 0 -99 -99 149 2 149 160
+        END
+    END
+    SYMBOL
+        NAME "ADMARE01_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 150
+        END
+    END
+
+
+    SYMBOL
+        NAME "ADMARE01_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 304 0
+        END
+    END
+    SYMBOL
+        NAME "ESSARE01_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 150
+        END
+    END
+
+
+    SYMBOL
+        NAME "ESSARE01_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 304 0
+        END
+    END
+    SYMBOL
+        NAME "CBLARE51_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 4 604 4 -99 -99 136 7 297 168 467 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "CBLARE51_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        136 0 302 165 466 0 -99 -99 0 1 600 1
+        END
+    END
+
+
+    SYMBOL
+        NAME "CBLARE51_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        150 0 0 200 200 300 50 500
+        END
+    END
+
+
+    SYMBOL
+        NAME "CBLARE51_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        141 7 297 162 462 0 -99 -99 0 5 600 5
+        END
+    END
+    SYMBOL
+        NAME "CBLSUB06_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        150 0 0 200 200 300 50 500
+        END
+    END
+
+
+    SYMBOL
+        NAME "CBLSUB06_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 100 152 0 451 203 610 100
+        END
+    END
+
+
+    SYMBOL
+        NAME "CBLSUB06_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 102 151 0 449 204 604 102
+        END
+    END
+
+
+    SYMBOL
+        NAME "CBLSUB06_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 100 155 0 456 207 600 100
+        END
+    END
+    SYMBOL
+        NAME "CHCRDEL1_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 804 799 0
+        END
+    END
+    SYMBOL
+        NAME "CHCRID01_0"
+        TYPE ELLIPSE
+        FILLED False
+        POINTS
+        150 150
+        END
+    END
+    SYMBOL
+        NAME "CTNARE51_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        166 7 327 168 497 0 -99 -99 0 3 604 3
+        END
+    END
+
+
+    SYMBOL
+        NAME "CTNARE51_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        136 0 302 165 466 0 -99 -99 0 1 600 1
+        END
+    END
+
+
+    SYMBOL
+        NAME "CTNARE51_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 318 55 318 -99 -99 16 0 16 225
+        END
+    END
+
+
+    SYMBOL
+        NAME "CTNARE51_3"
+        TYPE ELLIPSE
+        FILLED False
+        POINTS
+        259 259
+        END
+    END
+
+
+    SYMBOL
+        NAME "CTNARE51_4"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 600 0 -99 -99 134 9 290 164 455 2
+        END
+    END
+    SYMBOL
+        NAME "CTYARE51_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        140 0 305 164 469 0 -99 -99 0 2 600 2
+        END
+    END
+    SYMBOL
+        NAME "DWLDEF01_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 76 309 147 0 233 305 299 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWLDEF01_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        96 448 500 448 -99 -99 0 0 0 304 104 304 204 259 204 43 101 0 0 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWLDEF01_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 325 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWLDEF01_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 310 205 155 0 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWLDEF01_4"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 53 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWLDEF01_5"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 96 13 68 26 43 43 26 60 9 86 0 109 2 139 11 167 17 190 51 208 70 220 92 220 117 208 141 195 162 175 186 152 211 131 237 118 256 107 273 105 295 105 318 105 335 107 357 107 359
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWLDEF01_6"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        205 310 0 155 205 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWLDEF01_7"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 325 0
+        END
+    END
+    SYMBOL
+        NAME "DWRTCL05_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 76 309 147 0 233 305 299 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWRTCL05_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        96 448 500 448 -99 -99 0 0 0 304 104 304 204 259 204 43 101 0 0 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWRTCL05_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 325 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWRTCL05_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 310 205 155 0 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWRTCL05_4"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 325 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWRTCL05_5"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        205 310 0 155 205 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWRTCL05_6"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 325 0
+        END
+    END
+    SYMBOL
+        NAME "DWRTCL06_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 76 309 147 0 233 305 299 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWRTCL06_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        96 448 500 448 -99 -99 0 0 0 304 104 304 204 259 204 43 101 0 0 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWRTCL06_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 310 205 155 0 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWRTCL06_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 155 1731 155 -99 -99 703 310 498 155 703 0
+        END
+    END
+    SYMBOL
+        NAME "DWRTCL07_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 76 309 147 0 233 305 299 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWRTCL07_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        96 448 500 448 -99 -99 0 0 0 304 104 304 204 259 204 43 101 0 0 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWRTCL07_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 325 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWRTCL07_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 310 205 155 0 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWRTCL07_4"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 325 0
+        END
+    END
+    SYMBOL
+        NAME "DWRTCL08_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 76 309 147 0 233 305 299 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWRTCL08_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        96 448 500 448 -99 -99 0 0 0 304 104 304 204 259 204 43 101 0 0 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWRTCL08_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 146 1041 146 -99 -99 338 310 543 155 338 0
+        END
+    END
+    SYMBOL
+        NAME "DWRUTE51_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        166 7 327 168 497 0 -99 -99 0 3 604 3
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWRUTE51_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        136 10 302 175 466 10 -99 -99 0 0 600 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWRUTE51_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 76 309 147 0 233 305 299 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWRUTE51_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 304 104 304 204 259 204 43 101 0 0 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "DWRUTE51_4"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 600 0 -99 -99 134 9 290 164 455 2
+        END
+    END
+    SYMBOL
+        NAME "ENTRES51_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 161
+        END
+    END
+
+
+    SYMBOL
+        NAME "ENTRES51_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 301 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "ENTRES51_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 150
+        END
+    END
+
+
+    SYMBOL
+        NAME "ENTRES51_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 304 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "ENTRES51_4"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 167
+        END
+    END
+
+
+    SYMBOL
+        NAME "ENTRES51_5"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 302 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "ENTRES51_6"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 311 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "ENTRES51_7"
+        TYPE ELLIPSE
+        FILLED False
+        POINTS
+        289 289
+        END
+    END
+
+
+    SYMBOL
+        NAME "ENTRES51_8"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 301 0 -99 -99 149 2 149 160
+        END
+    END
+    SYMBOL
+        NAME "ERBLNA01_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 999 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "ERBLNA01_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 1004 0
+        END
+    END
+    SYMBOL
+        NAME "ERBLNB01_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 198 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "ERBLNB01_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 1004 0
+        END
+    END
+    SYMBOL
+        NAME "FERYRT01_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 292 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "FERYRT01_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 292 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "FERYRT01_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        505 116 406 160 0 159 0 0 406 0 505 45 505 116
+        END
+    END
+
+
+    SYMBOL
+        NAME "FERYRT01_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        310 0 0 0
+        END
+    END
+    SYMBOL
+        NAME "FERYRT02_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 292 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "FERYRT02_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 292 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "FERYRT02_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        505 116 406 160 0 159 0 0 406 0 505 45 505 116
+        END
+    END
+
+
+    SYMBOL
+        NAME "FERYRT02_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        310 0 0 0
+        END
+    END
+    SYMBOL
+        NAME "FSHFAC02_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        202 0 202 153 0 153
+        END
+    END
+    SYMBOL
+        NAME "FSHRES51_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 161
+        END
+    END
+
+
+    SYMBOL
+        NAME "FSHRES51_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 301 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "FSHRES51_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 150
+        END
+    END
+
+
+    SYMBOL
+        NAME "FSHRES51_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 304 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "FSHRES51_4"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 167
+        END
+    END
+
+
+    SYMBOL
+        NAME "FSHRES51_5"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 302 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "FSHRES51_6"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        604 0 211 393 -99 -99 0 284 118 185 168 130 226 92 287 69 344 52 407 52 460 58 524 80 582 106 634 145 665 185 626 221 589 254 543 277 482 300 421 312 352 312 287 300 223 277 168 240 130 209 -99 -99 128 208 101 178 -99 -99 102 174 19 66
+        END
+    END
+
+
+    SYMBOL
+        NAME "FSHRES51_7"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 301 0 -99 -99 149 2 149 160
+        END
+    END
+    SYMBOL
+        NAME "HODATA01_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        1 1 601 1 -99 -99 0 300 300 0
+        END
+    END
+    SYMBOL
+        NAME "LOWACC01_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 79 130 79 130 0 0 0
+        END
+    END
+    SYMBOL
+        NAME "LOWACC11_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 79 130 79 130 0 0 0
+        END
+    END
+    SYMBOL
+        NAME "LOWACC21_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 79 130 79 130 0 0 0
+        END
+    END
+    SYMBOL
+        NAME "LOWACC31_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 79 130 79 130 0 0 0
+        END
+    END
+    SYMBOL
+        NAME "LOWACC41_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 79 130 79 130 0 0 0
+        END
+    END
+    SYMBOL
+        NAME "MARSYS51_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 292 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "MARSYS51_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 99
+        END
+    END
+
+
+    SYMBOL
+        NAME "MARSYS51_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 0 99
+        END
+    END
+
+
+    SYMBOL
+        NAME "MARSYS51_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        3 301 46 268 -99 -99 3 0 46 30 -99 -99 46 126 0 156 43 182
+        END
+    END
+
+
+    SYMBOL
+        NAME "MARSYS51_4"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 152 99 152 -99 -99 99 0 0 0 0 301 99 301
+        END
+    END
+
+
+    SYMBOL
+        NAME "MARSYS51_5"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 292 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "MARSYS51_6"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        306 0 0 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "MARSYS51_7"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        40 182 166 182 -99 -99 0 301 100 0 202 301
+        END
+    END
+
+
+    SYMBOL
+        NAME "MARSYS51_8"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        304 0 0 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "MARSYS51_9"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 6 11 0
+        END
+    END
+    SYMBOL
+        NAME "NAVARE51_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        140 0 305 164 469 0 -99 -99 0 2 600 2
+        END
+    END
+    SYMBOL
+        NAME "PIPARE51_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        166 7 327 168 497 0 -99 -99 0 3 604 3
+        END
+    END
+
+
+    SYMBOL
+        NAME "PIPARE51_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        136 0 302 165 466 0 -99 -99 0 1 600 1
+        END
+    END
+
+
+    SYMBOL
+        NAME "PIPARE51_2"
+        TYPE ELLIPSE
+        FILLED False
+        POINTS
+        95 95
+        END
+    END
+
+
+    SYMBOL
+        NAME "PIPARE51_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 397 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "PIPARE51_4"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 600 0 -99 -99 134 9 290 164 455 2
+        END
+    END
+    SYMBOL
+        NAME "PIPARE61_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        166 7 327 168 497 0 -99 -99 0 3 604 3
+        END
+    END
+
+
+    SYMBOL
+        NAME "PIPARE61_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        136 0 302 165 466 0 -99 -99 0 1 600 1
+        END
+    END
+
+
+    SYMBOL
+        NAME "PIPARE61_2"
+        TYPE ELLIPSE
+        FILLED False
+        POINTS
+        95 95
+        END
+    END
+
+
+    SYMBOL
+        NAME "PIPARE61_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 397 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "PIPARE61_4"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 600 0 -99 -99 134 9 290 164 455 2
+        END
+    END
+    SYMBOL
+        NAME "PIPSOL05_0"
+        TYPE ELLIPSE
+        FILLED False
+        POINTS
+        95 95
+        END
+    END
+
+
+    SYMBOL
+        NAME "PIPSOL05_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 397 0
+        END
+    END
+    SYMBOL
+        NAME "PIPSOL06_0"
+        TYPE ELLIPSE
+        FILLED False
+        POINTS
+        57 57
+        END
+    END
+
+
+    SYMBOL
+        NAME "PIPSOL06_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 398 0
+        END
+    END
+    SYMBOL
+        NAME "PLNRTE03_0"
+        TYPE VECTOR
+        FILLED True
+        POINTS
+        0 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "PLNRTE03_1"
+        TYPE ELLIPSE
+        FILLED False
+        POINTS
+        86 86
+        END
+    END
+    SYMBOL
+        NAME "PRCARE51_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        166 7 327 168 497 0 -99 -99 0 3 604 3
+        END
+    END
+
+
+    SYMBOL
+        NAME "PRCARE51_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        136 0 302 165 466 0 -99 -99 0 1 600 1
+        END
+    END
+
+
+    SYMBOL
+        NAME "PRCARE51_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 503 366 503 175 0 3 503 -99 -99 153 432 208 432 -99 -99 177 376 177 178
+        END
+    END
+
+
+    SYMBOL
+        NAME "PRCARE51_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 600 0 -99 -99 134 9 290 164 455 2
+        END
+    END
+    SYMBOL
+        NAME "QUESMRK1_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 300 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "QUESMRK1_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        86 443 139 443 -99 -99 0 96 13 68 26 43 43 26 60 9 86 0 109 2 139 11 167 17 190 51 208 70 220 92 220 117 208 141 195 162 175 186 152 211 131 237 118 256 107 273 105 295 105 318 105 335 107 357 107 359
+        END
+    END
+
+
+    SYMBOL
+        NAME "QUESMRK1_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 300 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "QUESMRK1_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 300 0
+        END
+    END
+    SYMBOL
+        NAME "RCRDEF01_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        163 0 316 84 174 171 -99 -99 101 86 307 86 -99 -99 0 266 304 266
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRDEF01_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 202 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRDEF01_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        4 176 316 176 -99 -99 0 0 210 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRDEF01_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        86 442 136 442 -99 -99 0 96 13 68 26 43 43 26 60 9 86 0 109 2 139 11 167 17 190 51 208 70 220 92 220 117 208 141 195 162 175 186 152 211 131 237 118 256 107 273 105 295 105 318 105 335 107 357 107 359
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRDEF01_4"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        102 185 305 185 -99 -99 0 0 304 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRDEF01_5"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 206 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRDEF01_6"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        6 0 306 0 -99 -99 7 185 206 185 -99 -99 152 103 0 187 167 271
+        END
+    END
+    SYMBOL
+        NAME "RCRTCL01_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 304 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL01_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        62 0 215 84 73 171 -99 -99 0 86 206 86
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL01_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 312 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL01_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 202 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL01_4"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        84 0 294 0 -99 -99 2 171 306 171 -99 -99 0 347 203 347
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL01_5"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 206 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL01_6"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        105 0 409 0 -99 -99 7 176 206 176 -99 -99 152 94 0 178 167 262
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL01_7"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 300 0
+        END
+    END
+    SYMBOL
+        NAME "RCRTCL02_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 304 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL02_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        62 0 215 84 73 171 -99 -99 0 86 206 86
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL02_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 312 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL02_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 202 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL02_4"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        82 0 292 0 -99 -99 0 171 304 171
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL02_5"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 304 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL02_6"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 300 0
+        END
+    END
+    SYMBOL
+        NAME "RCRTCL03_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        62 0 215 84 73 171 -99 -99 0 86 206 86
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL03_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 202 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL03_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        1083 0 1293 0 -99 -99 0 171 2305 171 -99 -99 999 347 1202 347 -99 -99 694 347 900 347 -99 -99 400 347 599 347 -99 -99 545 265 393 349 560 433
+        END
+    END
+    SYMBOL
+        NAME "RCRTCL04_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        62 0 215 84 73 171 -99 -99 0 86 206 86
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL04_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 202 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL04_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        1083 0 1293 0 -99 -99 0 171 2305 171
+        END
+    END
+    SYMBOL
+        NAME "RECDEF02_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 325 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RECDEF02_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 310 205 155 0 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RECDEF02_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 53 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RECDEF02_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 96 13 68 26 43 43 26 60 9 86 0 109 2 139 11 167 17 190 51 208 70 220 92 220 117 208 141 195 162 175 186 152 211 131 237 118 256 107 273 105 295 105 318 105 335 107 357 107 359
+        END
+    END
+
+
+    SYMBOL
+        NAME "RECDEF02_4"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        205 310 0 155 205 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RECDEF02_5"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 325 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RECDEF02_6"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 316 0
+        END
+    END
+    SYMBOL
+        NAME "RECTRC09_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 325 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RECTRC09_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 310 205 155 0 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RECTRC09_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 325 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RECTRC09_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        205 310 0 155 205 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RECTRC09_4"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 325 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RECTRC09_5"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 316 0
+        END
+    END
+    SYMBOL
+        NAME "RECTRC10_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 310 205 155 0 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RECTRC10_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 155 2013 155 -99 -99 1104 310 899 155 1104 0
+        END
+    END
+    SYMBOL
+        NAME "RECTRC11_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 325 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RECTRC11_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 310 205 155 0 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RECTRC11_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 325 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RECTRC11_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 325 0
+        END
+    END
+    SYMBOL
+        NAME "RECTRC12_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 310 205 155 0 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RECTRC12_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 1526 0
+        END
+    END
+    SYMBOL
+        NAME "RESARE51_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        150 0 150 150 -99 -99 0 0 300 0
+        END
+    END
+    SYMBOL
+        NAME "SCLBDY51_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 610 0 -99 -99 0 244 601 244 -99 -99 0 175 601 175
+        END
+    END
+    SYMBOL
+        NAME "TIDINF51_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        166 7 327 168 497 0 -99 -99 0 3 604 3
+        END
+    END
+
+
+    SYMBOL
+        NAME "TIDINF51_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        136 0 302 165 466 0 -99 -99 0 1 600 1
+        END
+    END
+
+
+    SYMBOL
+        NAME "TIDINF51_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 168 884 168 -99 -99 72 167 72 143 79 112 94 79 116 51 145 29 179 13 212 2 243 0 276 7 306 17 334 34 357 53 379 85 396 123 396 152 396 167 396 193 401 222 408 245 423 274 453 299 465 309 482 319 502 328 533 334 568 336 607 328 636 315 669 294 693 270 712 236 723 204 728 187 728 167
+        END
+    END
+
+
+    SYMBOL
+        NAME "TIDINF51_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 600 0 -99 -99 134 9 290 164 455 2
+        END
+    END
+    SYMBOL
+        NAME "UNITFTH1_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 1109 0 -99 -99 639 126 639 432 438 432 -99 -99 639 277 429 277
+        END
+    END
+    SYMBOL
+        NAME "UNITMTR1_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 1109 0 -99 -99 425 138 425 445 528 142 632 447 632 142
+        END
+    END
+    SYMBOL
+        NAME "RCRTCL11_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 304 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL11_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        62 0 215 84 73 168 -99 -99 0 82 206 82
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL11_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 312 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL11_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 202 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL11_4"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        84 347 294 347 -99 -99 2 171 306 171 -99 -99 0 0 203 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL11_5"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 206 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL11_6"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        105 261 409 261 -99 -99 7 90 206 90 -99 -99 152 0 0 84 167 171
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL11_7"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 300 0
+        END
+    END
+    SYMBOL
+        NAME "RCRTCL12_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 304 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL12_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 312 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL12_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        2 171 306 171 -99 -99 0 0 203 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL12_3"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 206 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL12_4"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        105 261 409 261 -99 -99 7 90 206 90 -99 -99 152 0 0 84 167 171
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL12_5"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 300 0
+        END
+    END
+    SYMBOL
+        NAME "RCRTCL13_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        62 0 215 84 73 168 -99 -99 0 82 206 82
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL13_1"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 0 202 0
+        END
+    END
+
+
+    SYMBOL
+        NAME "RCRTCL13_2"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        1083 437 1293 437 -99 -99 0 261 2305 261 -99 -99 999 90 1202 90 -99 -99 694 90 900 90 -99 -99 400 90 599 90 -99 -99 545 0 393 84 560 171
+        END
+    END
+    SYMBOL
+        NAME "RCRTCL14_0"
+        TYPE VECTOR
+        FILLED False
+        POINTS
+        0 261 2305 261 -99 -99 999 90 1202 90 -99 -99 694 90 900 90 -99 -99 400 90 599 90 -99 -99 545 0 393 84 560 171
+        END
+    END
+    SYMBOL
+        NAME "AIRARE02"
+        TYPE VECTOR
+        POINTS
+        188 528 424 528 355 449 355 349 618 349 375 186 375 64 316 0 245 64 245 186 0 343 249 345 249 455 188 528
+        END
+    END
+    SYMBOL
+        NAME "DIAMOND1"
+        TYPE VECTOR
+        POINTS
+        0 0 2250 4313 -99 -99 0 4313 2250 0
+        END
+    END
+    SYMBOL
+        NAME "DQUALA11"
+        TYPE VECTOR
+        POINTS
+        1209 210 1510 210 -99 -99 1451 91 1270 331 -99 -99 1271 91 1451 330 -99 -99 687 210 988 210 -99 -99 929 91 748 331 -99 -99 749 91 929 330 -99 -99 158 215 459 215 -99 -99 400 96 219 336 -99 -99 220 96 400 335 -99 -99 439 564 740 564 -99 -99 681 445 500 685 -99 -99 501 445 681 684 -99 -99 967 559 1268 559 -99 -99 1209 440 1028 680 -99 -99 1029 440 1209 679 -99 -99 717 900 1018 900 -99 -99 959 781 778 1021 -99 -99 779 781 959 1020 -99 -99 30 196 0 115 11 61 30 23 77 3 108 0 1535 0 1616 7 1666 30 1686 58 1697 88 1697 112 1697 150 1678 181 991 1095 964 1126 937 1157 910 1173 891 1176 872 1184 837 1180 818 1176 779 1165 760 1149 740 1126 717 1099 30 196
+        END
+    END
+    SYMBOL
+        NAME "DQUALA21"
+        TYPE VECTOR
+        POINTS
+        1209 210 1510 210 -99 -99 1451 91 1270 331 -99 -99 1271 91 1451 330 -99 -99 687 210 988 210 -99 -99 929 91 748 331 -99 -99 749 91 929 330 -99 -99 158 215 459 215 -99 -99 400 96 219 336 -99 -99 220 96 400 335 -99 -99 439 564 740 564 -99 -99 681 445 500 685 -99 -99 501 445 681 684 -99 -99 967 559 1268 559 -99 -99 1209 440 1028 680 -99 -99 1029 440 1209 679 -99 -99 30 196 0 115 11 61 30 23 77 3 108 0 1535 0 1616 7 1666 30 1686 58 1697 88 1697 112 1697 150 1678 181 991 1095 964 1126 937 1157 910 1173 891 1176 872 1184 837 1180 818 1176 779 1165 760 1149 740 1126 717 1099 30 196
+        END
+    END
+    SYMBOL
+        NAME "DQUALB01"
+        TYPE VECTOR
+        POINTS
+        1209 210 1510 210 -99 -99 1451 91 1270 331 -99 -99 1271 91 1451 330 -99 -99 687 210 988 210 -99 -99 929 91 748 331 -99 -99 749 91 929 330 -99 -99 158 215 459 215 -99 -99 400 96 219 336 -99 -99 220 96 400 335 -99 -99 683 603 984 603 -99 -99 925 484 744 724 -99 -99 745 484 925 723 -99 -99 30 196 0 115 11 61 30 23 77 3 108 0 1535 0 1616 7 1666 30 1686 58 1697 88 1697 112 1697 150 1678 181 991 1095 964 1126 937 1157 910 1173 891 1176 872 1184 837 1180 818 1176 779 1165 760 1149 740 1126 717 1099 30 196
+        END
+    END
+    SYMBOL
+        NAME "DQUALC01"
+        TYPE VECTOR
+        POINTS
+        1430 110 1249 350 -99 -99 1250 110 1430 349 -99 -99 908 110 727 350 -99 -99 728 110 908 349 -99 -99 379 115 198 355 -99 -99 199 115 379 354 -99 -99 192 0 147 14 112 28 77 53 49 88 24 130 10 168 0 217 7 269 17 311 35 357 80 395 136 420 185 430 -99 -99 178 4 1433 4 1475 18 1527 46 1559 77 1587 116 1594 144 1601 182 1604 217 1601 262 1594 304 1576 346 1559 371 1520 406 1492 423 1468 430 1433 427 182 427 -99 -99 140 232 440 232 -99 -99 1189 229 1489 229 -99 -99 658 227 958 227
+        END
+    END
+    SYMBOL
+        NAME "DQUALD01"
+        TYPE VECTOR
+        POINTS
+        1273 99 1092 339 -99 -99 1093 99 1273 338 -99 -99 504 109 323 349 -99 -99 324 109 504 348 -99 -99 192 0 147 14 112 28 77 53 49 88 24 130 10 168 0 217 7 269 17 311 35 357 80 395 136 420 185 430 -99 -99 178 4 1433 4 1475 18 1527 46 1559 77 1587 116 1594 144 1601 182 1604 217 1601 262 1594 304 1576 346 1559 371 1520 406 1492 423 1468 430 1433 427 182 427 -99 -99 268 226 568 224 -99 -99 1027 221 1349 221
+        END
+    END
+    SYMBOL
+        NAME "DQUALU01"
+        TYPE VECTOR
+        POINTS
+        192 0 147 14 112 28 77 53 49 88 24 130 10 168 0 217 7 269 17 311 35 357 80 395 136 420 185 430 -99 -99 178 4 1433 4 1475 18 1527 46 1559 77 1587 116 1594 144 1601 182 1604 217 1601 262 1594 304 1576 346 1559 371 1520 406 1492 423 1468 430 1433 427 182 427 -99 -99 717 105 718 296 728 325 749 345 780 360 814 362 837 352 866 334 884 317 894 293 894 105
+        END
+    END
+    SYMBOL
+        NAME "DRGARE01"
+        TYPE VECTOR
+        POINTS
+        0 0 -99 -99 200 200
+        END
+    END
+    SYMBOL
+        NAME "FOULAR11"
+        TYPE VECTOR
+        POINTS
+        570 444 389 684 -99 -99 390 444 570 683 -99 -99 2 0 180 240 -99 -99 176 3 0 243
+        END
+    END
+    SYMBOL
+        NAME "FSHFAC03"
+        TYPE VECTOR
+        POINTS
+        0 0 0 150 604 150 604 7 -99 -99 155 3 155 151 -99 -99 303 6 303 148 -99 -99 455 6 455 148
+        END
+    END
+    SYMBOL
+        NAME "FSHFAC04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FSHFAC04.png"
+    END
+    SYMBOL
+        NAME "FSHHAV02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FSHHAV02.png"
+    END
+    SYMBOL
+        NAME "ICEARE04"
+        TYPE VECTOR
+        POINTS
+        178 1331 394 1163 -99 -99 0 338 215 581 -99 -99 600 722 872 788 -99 -99 572 244 647 0 -99 -99 750 1228 1031 1144 -99 -99 1284 778 1350 1050 -99 -99 1172 310 1434 291
+        END
+    END
+    SYMBOL
+        NAME "MARCUL02"
+        TYPE VECTOR
+        POINTS
+        89 279 225 157 298 116 355 100 406 94 466 105 528 125 568 149 602 176 623 206 588 235 552 263 498 287 455 301 403 303 347 301 293 289 254 267 89 130 -99 -99 0 101 0 2 701 2 701 98 -99 -99 0 303 0 403 704 403 705 303 -99 -99 148 303 148 403 -99 -99 549 303 549 403 -99 -99 349 302 349 400 -99 -99 148 3 148 104 -99 -99 549 1 549 102 -99 -99 348 0 348 100
+        END
+    END
+    SYMBOL
+        NAME "MARSHES1"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/MARSHES1.png"
+    END
+    SYMBOL
+        NAME "NODATA03"
+        TYPE VECTOR
+        POINTS
+        0 396 200 395
+        END
+    END
+    SYMBOL
+        NAME "OVERSC01"
+        TYPE VECTOR
+        POINTS
+        0 0 0 400
+        END
+    END
+    SYMBOL
+        NAME "PRTSUR01"
+        TYPE VECTOR
+        POINTS
+        0 0 202 0
+        END
+    END
+    SYMBOL
+        NAME "QUESMRK1"
+        TYPE VECTOR
+        POINTS
+        0 96 13 68 26 43 43 26 60 9 86 0 109 2 139 11 167 17 190 51 208 70 220 92 220 117 208 141 195 162 175 186 152 211 131 237 118 256 107 273 105 295 105 318 105 335 107 357 107 359 -99 -99 86 443 139 443
+        END
+    END
+    SYMBOL
+        NAME "RCKLDG01"
+        TYPE VECTOR
+        POINTS
+        234 1332 450 1164 -99 -99 165 216 268 523 -99 -99 777 598 617 828 -99 -99 628 245 703 1 -99 -99 869 983 919 1272 -99 -99 1426 947 1541 692 -99 -99 1443 346 1193 265 -99 -99 268 517 0 379 -99 -99 626 826 599 560 -99 -99 229 1332 258 1075 -99 -99 872 983 1084 1153 -99 -99 1534 693 1270 804 -99 -99 1197 269 1402 134 -99 -99 703 0 813 235
+        END
+    END
+    SYMBOL
+        NAME "SNDWAV01"
+        TYPE VECTOR
+        POINTS
+        0 179 84 179 126 157 191 12 226 12 283 157 310 179 486 179 517 152 563 15 589 15 640 152 673 179 819 179 869 179 900 160 961 0 999 0 1056 157 1095 179 1179 179
+        END
+    END
+    SYMBOL
+        NAME "TSSJCT02"
+        TYPE VECTOR
+        POINTS
+        0 500 500 0
+        END
+    END
+    SYMBOL
+        NAME "VEGATN03"
+        TYPE VECTOR
+        POINTS
+        176 399 176 2 -99 -99 0 99 362 99 -99 -99 67 197 284 197 -99 -99 110 0 240 0 -99 -99 121 399 241 399 -99 -99 64 48 284 48 -99 -99 47 146 309 146
+        END
+    END
+    SYMBOL
+        NAME "VEGATN04"
+        TYPE VECTOR
+        POINTS
+        200 150 -99 -99 0 300 400 300 -99 -99 200 298 200 137
+        END
+    END
+    SYMBOL
+        NAME "NODATA04"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/NODATA04.png"
+    END
+    SYMBOL
+        NAME "FOULAR02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FOULAR02.png"
+    END
+    SYMBOL
+        NAME "FOULAR01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/FOULAR01.png"
+    END
+    SYMBOL
+        NAME "CROSSX01"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CROSSX01.png"
+    END
+    SYMBOL
+        NAME "CROSSX02"
+        TYPE PIXMAP
+        IMAGE "symbols-dark/CROSSX02.png"
+    END
+
+    INCLUDE "symbols/symbols.sym"
+    
+END
