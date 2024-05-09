@@ -128,7 +128,7 @@ module.exports.getAllRequestFiles = () =>{
 
 module.exports.acceptRequestedFiles = (filesWantToAccept) => {
     return new Promise((resolve, reject) => {
-        client.updateOne({ _id: filesWantToAccept.clientID}, { $set: { requests: filesWantToAccept.requestedFiles  } })
+        client.updateOne({ _id: filesWantToAccept.clientID},  { $push: { requests: { $each: filesWantToAccept.requestedFiles } } })
             .then(result => {
                 return requestsManagement.updateOne(
                     { clientID: filesWantToAccept.clientID,
