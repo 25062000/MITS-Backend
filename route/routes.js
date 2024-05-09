@@ -1,11 +1,16 @@
 var express = require('express');
 var clientController = require('../src/client/clientController.js');
 var adminController = require('../src/admin/adminController.js');
+var test = require('../src/client/test.js');
 const router = express.Router();
 const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
 const { setCurrentUser, isAdmin, isUser} = require('../middleware/authMiddleware.js');
+const {
+  Worker
+ } = require('node:worker_threads');
+
 
 const uploadDir = path.join(__dirname,'..', 'uploads');
 const storage = multer.diskStorage({
@@ -33,5 +38,18 @@ router.post('/admin/uploadFiles', setCurrentUser, isAdmin, upload.single('logo')
 router.get('/admin/getAllRequestedFiles', clientController.getAllRequestedFiles);
 router.post('/admin/acceptRequestFiles', clientController.acceptRequestedFiles);
 router.post('/admin/rejectRequestFiles', clientController.rejectRequestFiles);
+router.get('/test', (req, res) =>{
+  const worker = new Worker('./src/client/testWorker.js');
+
+  worker.on('message', (result) => {
+      res.json(result);
+  });
+
+  worker.on('error', (error) => {
+      console.error(error);
+      res.status(500).send('Internal Server Error');
+  });
+});
+router.get('/test2', test.test2);
 
 module.exports = router;
