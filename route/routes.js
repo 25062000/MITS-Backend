@@ -6,6 +6,7 @@ const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
 const { setCurrentUser, isAdmin, isUser} = require('../middleware/authMiddleware.js');
+const { client } = require('../src/client/clientModel.js');
 
 const uploadDir = path.join(__dirname,'..', 'uploads');
 const storage = multer.diskStorage({
@@ -26,6 +27,7 @@ router.route('/client/register').post(clientController.createClient)
 router.post('/client/getEncFiles', setCurrentUser, isUser, clientController.getEncFiles);
 router.post('/client/requestFiles',setCurrentUser, isUser, clientController.requestFiles),
 router.post('/client/getPermittedFiles', clientController.getPermittedFiles);
+router.post('/client/singleUserDetails', clientController.singleUserDetails)
 
 router.route('/admin/login').post(adminController.adminLogin)
 router.get('/admin/allUser', setCurrentUser, isAdmin, clientController.getAllUserDetails);

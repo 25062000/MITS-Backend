@@ -178,3 +178,17 @@ module.exports.getPermittedFiles=(clientID)=>{
         })
     })
 };
+
+module.exports.singleUserDetails =(clientID) =>{
+    const objectIdString = clientID.clientID;       
+    const objectId = new mongoose.Types.ObjectId(objectIdString);
+    return new Promise((resolve, reject)=>{
+        client.findOne({_id: objectId}).then(result =>{
+            console.log("SingleUserDetail", result);
+            resolve(result);
+        }).catch(error =>{
+            console.log(error);
+            reject(false);
+        })
+    })
+}

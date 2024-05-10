@@ -154,5 +154,19 @@ var getPermittedFiles = async(req, res) =>{
     }
 }
 
+var singleUserDetails = async(req, res) =>{
+    try{
+        result = await clientService.singleUserDetails(req.body);
+        if(res.status){
+            res.send({"status": true, "message":"User Found", "data": result})
+        }else{
+            res.send({"status": false, "message":"Error occured"});
+        }
+    }catch(error){
+        console.log(error);
+        res.send({"status": false, "message": "Error occured while getting user details"});
+    }
+}
+
 module.exports = { createClient, loginClient, getAllUserDetails, getEncFiles,
-     requestFiles, getAllRequestedFiles, acceptRequestedFiles, rejectRequestFiles,getPermittedFiles};
+     requestFiles, getAllRequestedFiles, acceptRequestedFiles, rejectRequestFiles,getPermittedFiles, singleUserDetails};
