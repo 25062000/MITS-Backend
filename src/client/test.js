@@ -11,4 +11,4 @@ test2 = (req, res) =>{
 
 }
 
-module.exports ={  test2 };
+module.exports ={ test2 };

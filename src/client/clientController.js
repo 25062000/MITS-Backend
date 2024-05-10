@@ -3,6 +3,7 @@ var path = require('path');
 var fs = require('fs');
 const { client } = require('./clientModel.js');
 
+
 var createClient = async (req, res) =>{
     try{
         console.log(req.body);
@@ -123,6 +124,15 @@ var acceptRequestedFiles = async(req, res) =>{
         res.send({"status": false, "message": "Error occured while accepting files"});
     }
 }
+
+// var acceptRequestedFiles = async(req, res) =>{
+//     try{
+
+
+//     }catch(error){
+//         res.send({"status": false, "message": "Error occured while accepting files"});
+//     }
+// }
 
 var rejectRequestFiles = async(req, res) =>{
     try{
