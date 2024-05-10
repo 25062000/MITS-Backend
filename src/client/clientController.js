@@ -2,6 +2,7 @@ var clientService = require('./clientService.js');
 var path = require('path');
 var fs = require('fs');
 const { client } = require('./clientModel.js');
+const { Worker, workerData } = require('node:worker_threads');
 
 var createClient = async (req, res) =>{
     try{
@@ -96,32 +97,68 @@ var getAllRequestedFiles = async(req, res) =>{
     }
 }
 
+// var acceptRequestedFiles = async(req, res) =>{
+//     try{
+//         console.log("Accept",req.body);
+//         result = await clientService.acceptRequestedFiles(req.body);
+//         if(res.status){
+//             var clientId =req.body.clientID._id;
+//             var requestedFiles = req.body.requestedFiles;
+//             console.log("RF", requestedFiles);
+//             requestedFiles.forEach(element => {
+//                 var src = path.join(__dirname,'../..', 'uploads/',element);
+//                 var destDir = path.join(__dirname,'../..', 'userData/',clientId);
+//                 var dest = path.join(destDir,'/',element)
+//                 fs.mkdir(destDir, { recursive: true }, (err) => {
+//                     if (err) throw err;
+//                     fs.symlink(src, dest,(err)=>{
+//                         if(err) throw err;
+//                     })
+//                 })
+//             });
+//             res.send({"status": true, "message":"Files are accepted"})
+//         }else{
+//             res.send({"status": false, "message":"Error occured"});
+//         }
+//     }catch(error){
+//         res.send({"status": false, "message": "Error occured while accepting files"});
+//     }
+// }
+
 var acceptRequestedFiles = async(req, res) =>{
-    try{
-        console.log("Accept",req.body);
-        result = await clientService.acceptRequestedFiles(req.body);
-        if(res.status){
-            var clientId =req.body.clientID._id;
-            var requestedFiles = req.body.requestedFiles;
-            console.log("RF", requestedFiles);
-            requestedFiles.forEach(element => {
-                var src = path.join(__dirname,'../..', 'uploads/',element);
-                var destDir = path.join(__dirname,'../..', 'userData/',clientId);
-                var dest = path.join(destDir,'/',element)
-                fs.mkdir(destDir, { recursive: true }, (err) => {
-                    if (err) throw err;
-                    fs.symlink(src, dest,(err)=>{
-                        if(err) throw err;
+ try{
+    const worker = new Worker('./src/client/workerProcess.js', {workerData: req.body})
+    worker.on('message', (message)=>{
+        console.log(message);
+    })
+    worker.on('error', (error) => {
+        console.error(error);
+        res.status(500).send('Internal Server Error');
+    });
+    result = await clientService.acceptRequestedFiles(req.body);
+            if(res.status){
+                var clientId =req.body.clientID._id;
+                var requestedFiles = req.body.requestedFiles;
+                console.log("RF", requestedFiles);
+                requestedFiles.forEach(element => {
+                    var src = path.join(__dirname,'../..', 'uploads/',element);
+                    var destDir = path.join(__dirname,'../..', 'userData/',clientId);
+                    var dest = path.join(destDir,'/',element)
+                    fs.mkdir(destDir, { recursive: true }, (err) => {
+                        if (err) throw err;
+                        fs.symlink(src, dest,(err)=>{
+                            if(err) throw err;
+                        })
                     })
-                })
-            });
-            res.send({"status": true, "message":"Files are accepted"})
-        }else{
-            res.send({"status": false, "message":"Error occured"});
-        }
-    }catch(error){
-        res.send({"status": false, "message": "Error occured while accepting files"});
-    }
+                });
+                res.send({"status": true, "message":"Files are accepted"})
+            }else{
+                res.send({"status": false, "message":"Error occured"});
+            }
+ }catch(error){
+    console.log(error);
+    res.send({"status": false, "message": "Error occured while accepting files"});
+ }
 }
 
 var rejectRequestFiles = async(req, res) =>{
