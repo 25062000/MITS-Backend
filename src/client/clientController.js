@@ -3,6 +3,7 @@ var path = require('path');
 var fs = require('fs');
 const { client } = require('./clientModel.js');
 const { Worker, workerData } = require('node:worker_threads');
+const { config } = require('./configfile.js') 
 
 var createClient = async (req, res) =>{
     try{
@@ -97,64 +98,51 @@ var getAllRequestedFiles = async(req, res) =>{
     }
 }
 
-// var acceptRequestedFiles = async(req, res) =>{
-//     try{
-//         console.log("Accept",req.body);
-//         result = await clientService.acceptRequestedFiles(req.body);
-//         if(res.status){
-//             var clientId =req.body.clientID._id;
-//             var requestedFiles = req.body.requestedFiles;
-//             console.log("RF", requestedFiles);
-//             requestedFiles.forEach(element => {
-//                 var src = path.join(__dirname,'../..', 'uploads/',element);
-//                 var destDir = path.join(__dirname,'../..', 'userData/',clientId);
-//                 var dest = path.join(destDir,'/',element)
-//                 fs.mkdir(destDir, { recursive: true }, (err) => {
-//                     if (err) throw err;
-//                     fs.symlink(src, dest,(err)=>{
-//                         if(err) throw err;
-//                     })
-//                 })
-//             });
-//             res.send({"status": true, "message":"Files are accepted"})
-//         }else{
-//             res.send({"status": false, "message":"Error occured"});
-//         }
-//     }catch(error){
-//         res.send({"status": false, "message": "Error occured while accepting files"});
-//     }
-// }
 
 var acceptRequestedFiles = async(req, res) =>{
  try{
+    var clientId =req.body.clientID._id;
+    var requestedFiles = req.body.requestedFiles;
+    console.log("RF", requestedFiles);
+    requestedFiles.forEach(element => {
+        var src = path.join(__dirname,'../..', 'uploads/',element);
+        var destDir = path.join(__dirname,'../..', 'userData/',clientId, '/encData');
+        var dest = path.join(destDir,'/',element)
+        fs.mkdir(destDir, { recursive: true }, (err) => {
+            if (err) throw err;
+                fs.symlink(src, dest,(err)=>{
+                    if(err) throw err;
+                })
+            })
+        });
+    ENC_DATA = path.join(__dirname,'../..', 'userData/',clientId,'/encData');
+    ENC_SHAPE_FILE  = path.join(__dirname,'../..', 'userData/',clientId,'/shp/'); 
+    fs.mkdir( ENC_SHAPE_FILE , { recursive: true }, (err) => {
+        if (err) throw err;
+    });
+    ENC_MAP_FILE = path.join(__dirname,'../..', 'userData/',clientId,'/map/'); 
+    fs.mkdir( ENC_MAP_FILE  , { recursive: true }, (err) => {
+        if (err) throw err;
+    });
+
+    configuration = config.replace('ENC_CHART_DIRECTORY',ENC_DATA).replace('ENC_SHAPE_FILE',ENC_SHAPE_FILE ).replace('ENC_MAP_FILE',ENC_MAP_FILE);
+    configPath='./submodules/SMAC-M/noaa/config.enc.noaa.toml';
+    fs.writeFileSync(configPath, configuration);
     const worker = new Worker('./src/client/workerProcess.js', {workerData: req.body})
     worker.on('message', (message)=>{
         console.log(message);
+        result = clientService.acceptRequestedFiles(req.body);
+        if(res.status){
+            res.send({"status": true, "message":"Files are accepted"})
+        }else{
+            res.send({"status": false, "message":"Error occured"});
+        }
     })
     worker.on('error', (error) => {
         console.error(error);
         res.status(500).send('Internal Server Error');
     });
-    result = await clientService.acceptRequestedFiles(req.body);
-            if(res.status){
-                var clientId =req.body.clientID._id;
-                var requestedFiles = req.body.requestedFiles;
-                console.log("RF", requestedFiles);
-                requestedFiles.forEach(element => {
-                    var src = path.join(__dirname,'../..', 'uploads/',element);
-                    var destDir = path.join(__dirname,'../..', 'userData/',clientId);
-                    var dest = path.join(destDir,'/',element)
-                    fs.mkdir(destDir, { recursive: true }, (err) => {
-                        if (err) throw err;
-                        fs.symlink(src, dest,(err)=>{
-                            if(err) throw err;
-                        })
-                    })
-                });
-                res.send({"status": true, "message":"Files are accepted"})
-            }else{
-                res.send({"status": false, "message":"Error occured"});
-            }
+    
  }catch(error){
     console.log(error);
     res.send({"status": false, "message": "Error occured while accepting files"});
@@ -205,5 +193,21 @@ var singleUserDetails = async(req, res) =>{
     }
 }
 
+var getMapSource = async(req, res)=>{
+    try{
+        console.log("Get Map Source",req.clientID);
+        clientId = req.clientID;
+        var getDir = path.join(__dirname,'../..', 'userData/',clientId,'/map/'); 
+        var sourcefiles = ['SeaChart_DAY_BRIGHT.map'];
+        var files = fs.readdirSync(getDir, {withFileTypes: true})
+            .filter(item => !item.isDirectory())
+            .filter(fileName => sourcefiles.includes(fileName));
+            console.log("Get map source", files);
+    }catch(error){
+        console.log(error);
+        res.send({"status": false, "message": "Error occured while getting map source"});
+    }
+}
+
 module.exports = { createClient, loginClient, getAllUserDetails, getEncFiles,
-     requestFiles, getAllRequestedFiles, acceptRequestedFiles, rejectRequestFiles,getPermittedFiles, singleUserDetails};
+     requestFiles, getAllRequestedFiles, acceptRequestedFiles, rejectRequestFiles,getPermittedFiles, singleUserDetails, getMapSource};

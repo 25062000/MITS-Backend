@@ -10,13 +10,14 @@ function setCurrentUser(req, res, next){
         try{
             var decodedToken = jwt.verify(token,secretKey)
             var decodedRole = decodedToken.role;
+            var clientID = decodedToken.clientID;
             if(decodedRole === "admin"){
-                console.log(decodedRole);
                 req.currentUser = decodedRole;
                 next();
                 return
             }else{
                 req.currentUser = decodedRole;
+                req.clientID = clientID;
                 next();
                 return
             }
