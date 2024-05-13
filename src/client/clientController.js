@@ -199,10 +199,20 @@ var getMapSource = async(req, res)=>{
         clientId = req.clientID;
         var getDir = path.join(__dirname,'../..', 'userData/',clientId,'/map/'); 
         var sourcefiles = ['SeaChart_DAY_BRIGHT.map'];
-        var files = fs.readdirSync(getDir, {withFileTypes: true})
-            .filter(item => !item.isDirectory())
-            .filter(fileName => sourcefiles.includes(fileName));
-            console.log("Get map source", files);
+        var srcPath = Promise.all(
+            sourcefiles.map(item => new Promise(resolve => {
+                var srcDir = path.join(getDir, item);
+                if (fs.existsSync(srcDir)) {
+                    resolve(srcDir);
+                } else {
+                    resolve(null);
+                }
+            }))
+        );
+        
+        srcPath.then(results => {
+            console.log("Get map source", results);
+        });
     }catch(error){
         console.log(error);
         res.send({"status": false, "message": "Error occured while getting map source"});
