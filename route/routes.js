@@ -38,6 +38,7 @@ router.post('/admin/uploadFiles', setCurrentUser, isAdmin, upload.single('logo')
 router.get('/admin/getAllRequestedFiles',setCurrentUser, isAdmin, clientController.getAllRequestedFiles);
 router.post('/admin/acceptRequestFiles', setCurrentUser, isAdmin,clientController.acceptRequestedFiles);
 router.post('/admin/rejectRequestFiles',setCurrentUser, isAdmin, clientController.rejectRequestFiles);
+router.get('/admin/getAllUploadedFiles', setCurrentUser, isAdmin, adminController.getAllUploadedFiles)
 
 
 module.exports = router;

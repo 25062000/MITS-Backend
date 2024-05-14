@@ -33,5 +33,19 @@ var uploadFiles = async(req, res, next)=> {
     } catch (err) {
         next(err)
     } 
-  }
-module.exports = { adminLogin, uploadFiles };
+}
+
+var getAllUploadedFiles = async(req, res) =>{
+    try{
+        var getDir = path.join(__dirname,'../..', 'uploads');
+        var files = fs.readdirSync(getDir, {withFileTypes: true})
+            .filter(item => !item.isDirectory())
+            .map(item => item.name)
+        res.send({ "status": true, "message": "Successfully", "data": files});
+
+    }catch(error){
+        res.send({ "status": false, "message": error});
+    }
+}
+
+module.exports = { adminLogin, uploadFiles, getAllUploadedFiles };

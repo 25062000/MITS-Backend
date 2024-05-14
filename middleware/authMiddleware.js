@@ -32,7 +32,6 @@ function setCurrentUser(req, res, next){
 
 function isAdmin(req, res, next){
     if(req.currentUser && req.currentUser === "admin"){
-        console.log("isAdminexecuted");
         next();
     }else{
         return res.status(401).json({message: "Unauthorized Admin request"});
@@ -40,7 +39,7 @@ function isAdmin(req, res, next){
 }
 
 function isUser(req, res, next){
-    if(req.currentUser && req.currentUser === "user"){
+    if(req.currentUser && req.currentUser === "user" || req.currentUser === "admin"){
         next();
     }else{
         return res.status(401).json({message: "Unauthorized Admin request"});
