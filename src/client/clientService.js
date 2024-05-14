@@ -149,6 +149,7 @@ module.exports.acceptRequestedFiles = (filesWantToAccept) => {
 
 
 module.exports.rejectRequestFiles = (filesWantToReject) =>{
+    console.log(filesWantToReject,"fwr");
     return new Promise((resolve, reject) =>{
         requestsManagement.updateOne({
             clientID: filesWantToReject.clientID,
@@ -190,4 +191,20 @@ module.exports.singleUserDetails =(clientID) =>{
             reject(false);
         })
     })
+}
+
+module.exports.removePermittedFiles=(fileWanttoRemove, clientID)=>{
+    const objectIdString = clientID;       
+    const objectId = new mongoose.Types.ObjectId(objectIdString);
+    return new Promise((resolve, reject) => {
+        client.updateOne({ _id: objectId },{ $pull: { requests: { $in: fileWanttoRemove.requestedFiles } } })
+            .then(result => {
+                console.log(result);
+                resolve(true);
+            })
+            .catch(error => {
+                console.log(error);
+                reject(false);
+            });
+    });
 }

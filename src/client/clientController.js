@@ -112,7 +112,7 @@ var acceptRequestedFiles = async(req, res) =>{
         var dest = path.join(destDir,'/',element)
         fs.mkdir(destDir, { recursive: true }, (err) => {
             if (err) throw err;
-                fs.link(src, dest,(err)=>{
+                fs.symlink(src, dest,(err)=>{
                     if(err) throw err;
                 })
         })
@@ -222,7 +222,46 @@ var getMapSource = async(req, res)=>{
 }
 
 var removePermittedFiles = async(req, res)=>{
-    console.log(req.body);
+    console.log(req.clientID);
+    var clientId = req.clientID;
+    console.log("Remove Permited files",req.body);
+    requestedFiles = req.body.requestedFiles;
+    requestedFiles.forEach(element => {
+        console.log(element);
+        // var src = path.join(__dirname,'../..', 'uploads/',element);
+        var destDir = path.join(__dirname,'../..', 'userData/',clientId, '/encData');
+        // console.log("Destination",destDir);
+        var dest = path.join(destDir,'/',element)
+        fs.mkdir(destDir, { recursive: true }, (err) => {
+            if (err) throw err;
+                fs.unlink(dest,(err)=>{
+                    if(err) throw err;
+                })
+        })
+       
+    });
+    ENC_DATA = path.join(__dirname,'../..', 'userData/',clientId,'/encData');
+    ENC_SHAPE_FILE  = path.join(__dirname,'../..', 'userData/',clientId,'/shp/'); 
+
+    ENC_MAP_FILE = path.join(__dirname,'../..', 'userData/',clientId,'/map/'); 
+ 
+    configuration = config.replace('ENC_CHART_DIRECTORY',ENC_DATA).replace('ENC_SHAPE_FILE',ENC_SHAPE_FILE ).replace('ENC_MAP_FILE',ENC_MAP_FILE);
+    configPath='./submodules/SMAC-M/noaa/config.enc.noaa.toml';
+    fs.writeFileSync(configPath, configuration);
+    const worker = new Worker('./src/client/workerProcess.js', {workerData: req.body})
+    worker.on('message', (message)=>{
+        console.log(message);
+        result = clientService.removePermittedFiles(req.body, req.clientID);
+        if(res.status){
+            res.send({"status": true, "message":"Files are removed"})
+        }else{
+            res.send({"status": false, "message":"Error occured"});
+        }
+    })
+    worker.on('error', (error) => {
+        console.error(error);
+        res.status(500).send('Internal Server Error');
+    });
 }
 
 module.exports = { createClient, loginClient, getAllUserDetails, getEncFiles,

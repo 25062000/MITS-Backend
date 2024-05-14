@@ -29,7 +29,7 @@ router.post('/client/requestFiles',setCurrentUser, isUser, clientController.requ
 router.post('/client/getMapSources',setCurrentUser, isUser, clientController.getMapSource);
 router.post('/client/getPermittedFiles',setCurrentUser, isUser, clientController.getPermittedFiles);
 router.post('/client/singleUserDetails',setCurrentUser,isUser, clientController.singleUserDetails);
-router.post('client/removePermittedFiles', setCurrentUser, isUser, clientController.removePermittedFiles);
+router.post('/client/removePermittedFiles', setCurrentUser, isUser, clientController.removePermittedFiles);
 
 
 router.route('/admin/login').post(adminController.adminLogin)
