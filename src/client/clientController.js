@@ -101,20 +101,22 @@ var getAllRequestedFiles = async(req, res) =>{
 
 var acceptRequestedFiles = async(req, res) =>{
  try{
-    var clientId =req.body.clientID._id;
+    var clientId = req.body.clientID._id;
+    console.log("ClientID",clientId);
     var requestedFiles = req.body.requestedFiles;
     console.log("RF", requestedFiles);
     requestedFiles.forEach(element => {
         var src = path.join(__dirname,'../..', 'uploads/',element);
         var destDir = path.join(__dirname,'../..', 'userData/',clientId, '/encData');
+        console.log("Destination",destDir);
         var dest = path.join(destDir,'/',element)
         fs.mkdir(destDir, { recursive: true }, (err) => {
             if (err) throw err;
-                fs.symlink(src, dest,(err)=>{
+                fs.link(src, dest,(err)=>{
                     if(err) throw err;
                 })
-            })
-        });
+        })
+    });
     ENC_DATA = path.join(__dirname,'../..', 'userData/',clientId,'/encData');
     ENC_SHAPE_FILE  = path.join(__dirname,'../..', 'userData/',clientId,'/shp/'); 
     fs.mkdir( ENC_SHAPE_FILE , { recursive: true }, (err) => {
@@ -124,7 +126,6 @@ var acceptRequestedFiles = async(req, res) =>{
     fs.mkdir( ENC_MAP_FILE  , { recursive: true }, (err) => {
         if (err) throw err;
     });
-
     configuration = config.replace('ENC_CHART_DIRECTORY',ENC_DATA).replace('ENC_SHAPE_FILE',ENC_SHAPE_FILE ).replace('ENC_MAP_FILE',ENC_MAP_FILE);
     configPath='./submodules/SMAC-M/noaa/config.enc.noaa.toml';
     fs.writeFileSync(configPath, configuration);
@@ -195,10 +196,10 @@ var singleUserDetails = async(req, res) =>{
 
 var getMapSource = async(req, res)=>{
     try{
-        console.log("Get Map Source",req.clientID);
+        var srcFile = req.body.map(item => item.id+'.map');
         clientId = req.clientID;
         var getDir = path.join(__dirname,'../..', 'userData/',clientId,'/map/'); 
-        var sourcefiles = ['SeaChart_DAY_BRIGHT.map'];
+        var sourcefiles = srcFile;
         var srcPath = Promise.all(
             sourcefiles.map(item => new Promise(resolve => {
                 var srcDir = path.join(getDir, item);
@@ -211,6 +212,7 @@ var getMapSource = async(req, res)=>{
         );
         
         srcPath.then(results => {
+            res.send({status:true, message:'Source accessed', data:results})
             console.log("Get map source", results);
         });
     }catch(error){
@@ -219,5 +221,10 @@ var getMapSource = async(req, res)=>{
     }
 }
 
+var removePermittedFiles = async(req, res)=>{
+    console.log(req.body);
+}
+
 module.exports = { createClient, loginClient, getAllUserDetails, getEncFiles,
-     requestFiles, getAllRequestedFiles, acceptRequestedFiles, rejectRequestFiles,getPermittedFiles, singleUserDetails, getMapSource};
+     requestFiles, getAllRequestedFiles, acceptRequestedFiles, rejectRequestFiles,getPermittedFiles,
+      singleUserDetails, getMapSource, removePermittedFiles};

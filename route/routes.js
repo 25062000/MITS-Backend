@@ -26,17 +26,18 @@ router.route('/client/login').post(clientController.loginClient)
 router.route('/client/register').post(clientController.createClient)
 router.post('/client/getEncFiles', setCurrentUser, isUser, clientController.getEncFiles);
 router.post('/client/requestFiles',setCurrentUser, isUser, clientController.requestFiles),
-router.post('/client/getMapSource',setCurrentUser, isUser, clientController.getMapSource);
-router.post('/client/getPermittedFiles', clientController.getPermittedFiles);
-router.post('/client/singleUserDetails', clientController.singleUserDetails);
+router.post('/client/getMapSources',setCurrentUser, isUser, clientController.getMapSource);
+router.post('/client/getPermittedFiles',setCurrentUser, isUser, clientController.getPermittedFiles);
+router.post('/client/singleUserDetails',setCurrentUser,isUser, clientController.singleUserDetails);
+router.post('client/removePermittedFiles', setCurrentUser, isUser, clientController.removePermittedFiles);
 
 
 router.route('/admin/login').post(adminController.adminLogin)
 router.get('/admin/allUser', setCurrentUser, isAdmin, clientController.getAllUserDetails);
 router.post('/admin/uploadFiles', setCurrentUser, isAdmin, upload.single('logo'), adminController.uploadFiles);
-router.get('/admin/getAllRequestedFiles', clientController.getAllRequestedFiles);
-router.post('/admin/acceptRequestFiles', clientController.acceptRequestedFiles);
-router.post('/admin/rejectRequestFiles', clientController.rejectRequestFiles);
+router.get('/admin/getAllRequestedFiles',setCurrentUser, isAdmin, clientController.getAllRequestedFiles);
+router.post('/admin/acceptRequestFiles', setCurrentUser, isAdmin,clientController.acceptRequestedFiles);
+router.post('/admin/rejectRequestFiles',setCurrentUser, isAdmin, clientController.rejectRequestFiles);
 
 
 module.exports = router;
