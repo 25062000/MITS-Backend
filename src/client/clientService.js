@@ -156,7 +156,6 @@ module.exports.rejectRequestFiles = (filesWantToReject) =>{
             "requestedFiles.name": { $in: filesWantToReject.requestedFiles}
         }, { $pull: { requestedFiles: { name: { $in: filesWantToReject.requestedFiles } }}}
         ).then(result => {
-            console.log("RequestsManagement document updated successfully:", result);
             resolve(true);
         })
         .catch(error => {
@@ -199,7 +198,6 @@ module.exports.removePermittedFiles=(fileWanttoRemove, clientID)=>{
     return new Promise((resolve, reject) => {
         client.updateOne({ _id: objectId },{ $pull: { requests: { $in: fileWanttoRemove.requestedFiles } } })
             .then(result => {
-                console.log(result);
                 resolve(true);
             })
             .catch(error => {

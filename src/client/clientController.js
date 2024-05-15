@@ -9,12 +9,11 @@ var createClient = async (req, res) =>{
     try{
         console.log(req.body);
         var status = await clientService.createClientDB(req.body);
-        console.log("status",status);
 
         if(status){
             res.send({ "status": true, "message": "Client created successfully"})
         }else{
-            res.sedn({ "status": false, "message": "Error creating client"})
+            res.send({ "status": false, "message": "Error creating client"})
         }
     }catch(err){
         console.log("err",err);
@@ -24,7 +23,6 @@ var createClient = async (req, res) =>{
 var loginClient = async (req, res) =>{
     var result = null;
     try{
-        console.log(req.body);
         result = await clientService.logInClientDB(req.body);
         if(result.status){
             res.send({ "status": true, "message": result.msg, "data": result.data });
@@ -52,15 +50,12 @@ var getAllUserDetails = async(req, res) =>{
 
 var getEncFiles = async(req, res) =>{
     try{
-        console.log(req.body);
         var permittedFiles = await clientService.getPermittedFiles(req.body);
-        console.log("Permitted Files", permittedFiles);
         var getDir = path.join(__dirname,'../..', 'uploads');
         var files = fs.readdirSync(getDir, {withFileTypes: true})
             .filter(item => !item.isDirectory())
             .map(item => item.name)
             .filter(fileName => !permittedFiles.includes(fileName));
-        console.log("Get Enc files", files);
      
         res.send({ "status": true, "message": "Successfully", "data": files});
 
@@ -73,7 +68,6 @@ var getEncFiles = async(req, res) =>{
 var requestFiles = async(req, res) =>{
     try{
         var status = await clientService.createRequestDB(req.body);
-        console.log("status",status);
         if(status){
             res.send({ "status": true, "message": "Requests Sent"})
         }else{
@@ -102,13 +96,10 @@ var getAllRequestedFiles = async(req, res) =>{
 var acceptRequestedFiles = async(req, res) =>{
  try{
     var clientId = req.body.clientID._id;
-    console.log("ClientID",clientId);
     var requestedFiles = req.body.requestedFiles;
-    console.log("RF", requestedFiles);
     requestedFiles.forEach(element => {
         var src = path.join(__dirname,'../..', 'uploads/',element);
         var destDir = path.join(__dirname,'../..', 'userData/',clientId, '/encData');
-        console.log("Destination",destDir);
         var dest = path.join(destDir,'/',element)
         fs.mkdir(destDir, { recursive: true }, (err) => {
             if (err) throw err;
@@ -131,7 +122,6 @@ var acceptRequestedFiles = async(req, res) =>{
     fs.writeFileSync(configPath, configuration);
     const worker = new Worker('./src/client/workerProcess.js', {workerData: req.body})
     worker.on('message', (message)=>{
-        console.log(message);
         result = clientService.acceptRequestedFiles(req.body);
         if(res.status){
             res.send({"status": true, "message":"Files are accepted"})
@@ -140,12 +130,10 @@ var acceptRequestedFiles = async(req, res) =>{
         }
     })
     worker.on('error', (error) => {
-        console.error(error);
         res.status(500).send('Internal Server Error');
     });
     
  }catch(error){
-    console.log(error);
     res.send({"status": false, "message": "Error occured while accepting files"});
  }
 }
@@ -154,14 +142,12 @@ var rejectRequestFiles = async(req, res) =>{
     try{
         console.log("RejectFiles",req.body);
         result = await clientService.rejectRequestFiles(req.body);
-        console.log(result);
         if(res.status){
             res.send({"status": true, "message":"Files are rejected"})
         }else{
             res.send({"status": false, "message":"Error occured"});
         }
     }catch(error){
-        console.log(error);
         res.send({"status": false, "message": "Error occured while rejecting files"});
     }
 };
@@ -213,7 +199,6 @@ var getMapSource = async(req, res)=>{
         
         srcPath.then(results => {
             res.send({status:true, message:'Source accessed', data:results})
-            console.log("Get map source", results);
         });
     }catch(error){
         console.log(error);
@@ -222,15 +207,10 @@ var getMapSource = async(req, res)=>{
 }
 
 var removePermittedFiles = async(req, res)=>{
-    console.log(req.clientID);
     var clientId = req.clientID;
-    console.log("Remove Permited files",req.body);
     requestedFiles = req.body.requestedFiles;
     requestedFiles.forEach(element => {
-        console.log(element);
-        // var src = path.join(__dirname,'../..', 'uploads/',element);
         var destDir = path.join(__dirname,'../..', 'userData/',clientId, '/encData');
-        // console.log("Destination",destDir);
         var dest = path.join(destDir,'/',element)
         fs.mkdir(destDir, { recursive: true }, (err) => {
             if (err) throw err;
@@ -250,7 +230,6 @@ var removePermittedFiles = async(req, res)=>{
     fs.writeFileSync(configPath, configuration);
     const worker = new Worker('./src/client/workerProcess.js', {workerData: req.body})
     worker.on('message', (message)=>{
-        console.log(message);
         result = clientService.removePermittedFiles(req.body, req.clientID);
         if(res.status){
             res.send({"status": true, "message":"Files are removed"})
