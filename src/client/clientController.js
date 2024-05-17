@@ -198,7 +198,22 @@ var getMapSource = async(req, res)=>{
         );
         
         srcPath.then(results => {
-            res.send({status:true, message:'Source accessed', data:results})
+            var sourcekey = ['chart-source',{
+                'type': 'raster',
+                'tiles': [results],
+                'titeSize': 256
+            }];
+            var layerkey =[{
+                'id':'chart-layer',
+                'type':'raster',
+                'source':'chart-source',
+                'paint':{}
+            },'building'];
+            console.log(sourcekey);
+            console.log(layerkey);
+            console.log(results);
+            // data={ sourcekey, layerkey, results;
+            res.send({status:true, message:'Source accessed', sourcekey:sourcekey, layerkey:layerkey, data:results})
         });
     }catch(error){
         console.log(error);
