@@ -6,6 +6,8 @@ var routes = require('./route/routes.js');
 const cors = require('cors');
 const jwt = require('jsonwebtoken');
 const multer = require('multer');
+require('dotenv').config();
+// var admin = require('./src/admin/adminModel.js');
 // const middleware = require('./middleware/authMiddleware.js');
 
 const app = express()
@@ -27,9 +29,11 @@ app.listen(3000,function check(err)
 });
 
 
-const uri = 'mongodb://localhost:27017/mits';
-
-mongoose.connect(uri);
+const uri = process.env.MONGODB_URI;
+console.log("uri", uri);
+mongoose.connect(uri) 
+.then(() => console.log('MongoDB connected...'))
+.catch(err => console.error('MongoDB connection error:', err));;
 
 const db = mongoose.connection;
 
@@ -37,6 +41,23 @@ db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', () => {
   console.log('Connected to MongoDB');
 });
+
+// Create a new user document
+// const adminData = new admin({
+//   name: 'Admin',
+//   email: 'admin123@gmail.com',
+//   password: 'Admin@123'
+// });
+
+// admin.create(adminData)
+//       .then(admin => {
+//         console.log('Admin data inserted successfully:', admin);
+//         // mongoose.connection.close();
+//       })
+//       .catch(error => {
+//         console.error('Error inserting admin data:', error);
+//         // mongoose.connection.close();
+//       });
 
 // app.use(middleware.setCurrentUser)
 app.use(routes);
