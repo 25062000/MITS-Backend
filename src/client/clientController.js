@@ -182,39 +182,32 @@ var singleUserDetails = async(req, res) =>{
 
 var getMapSource = async(req, res)=>{
     try{
-        var srcFile = req.body.map(item => item.id+'.map');
+        console.log("reqn=body", req.body);
+        var srcFile= req.body.id+'.map';
+        console.log(srcFile, "srcfiles");
         clientId = req.clientID;
         var getDir = path.join(__dirname,'../..', 'userData/',clientId,'/map/'); 
-        var sourcefiles = srcFile;
-        var srcPath = Promise.all(
-            sourcefiles.map(item => new Promise(resolve => {
-                var srcDir = path.join(getDir, item);
-                if (fs.existsSync(srcDir)) {
-                    resolve(srcDir);
-                } else {
-                    resolve(null);
-                }
-            }))
-        );
-        
-        srcPath.then(results => {
+        var srcDir = path.join(getDir, srcFile);
+        if (fs.existsSync(srcDir)) {
             var sourcekey = ['chart-source',{
-                'type': 'raster',
-                'tiles': [results],
-                'titeSize': 256
-            }];
-            var layerkey =[{
-                'id':'chart-layer',
-                'type':'raster',
-                'source':'chart-source',
-                'paint':{}
-            },'building'];
-            console.log(sourcekey);
-            console.log(layerkey);
-            console.log(results);
-            // data={ sourcekey, layerkey, results;
-            res.send({status:true, message:'Source accessed', sourcekey:sourcekey, layerkey:layerkey, data:results})
-        });
+                        'type': 'raster',
+                        'tiles': [srcDir],
+                        'titeSize': 256
+                    }];
+                    var layerkey =[{
+                                'id':'chart-layer',
+                                'type':'raster',
+                                'source':'chart-source',
+                                'paint':{}
+                            },'building'];
+                            console.log(sourcekey);
+                            console.log(layerkey);
+                            console.log(srcDir);
+                            res.send({status:true, message:'Source accessed', sourcekey:sourcekey, layerkey:layerkey, data:srcDir});
+        } else {
+            res.send({"status": false, "message": "Error occured while getting map source"});
+        }
+
     }catch(error){
         console.log(error);
         res.send({"status": false, "message": "Error occured while getting map source"});
