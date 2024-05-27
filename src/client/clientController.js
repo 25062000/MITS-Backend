@@ -189,21 +189,25 @@ var getMapSource = async(req, res)=>{
         var getDir = path.join(__dirname,'../..', 'userData/',clientId,'/map/'); 
         var srcDir = path.join(getDir, srcFile);
         if (fs.existsSync(srcDir)) {
-            var sourcekey = ['chart-source',{
-                        'type': 'raster',
-                        'tiles': [srcDir],
-                        'titeSize': 256
-                    }];
-                    var layerkey =[{
-                                'id':'chart-layer',
-                                'type':'raster',
-                                'source':'chart-source',
-                                'paint':{}
-                            },'building'];
-                            console.log(sourcekey);
-                            console.log(layerkey);
-                            console.log(srcDir);
-                            res.send({status:true, message:'Source accessed', sourcekey:sourcekey, layerkey:layerkey, data:srcDir});
+            var sources = {
+                'chart-source': {
+                    'type': 'raster',
+                    'tiles': [`http://localhost/cgi-bin/mapserv?map=${srcDir}&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=${req.body.id}&srs=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256`],
+                    'titeSize': 256
+                }
+            };
+            var layers =[
+                {
+                    'id': 'chart-layer',
+                    'type': 'raster',
+                    'source': 'chart-source',
+                    'paint': {}
+                }
+            ];
+            console.log(sources);
+            console.log(layers);
+            console.log(srcDir);
+            res.send({status:true, message:'Source accessed', sources, layers, data:srcDir});
         } else {
             res.send({"status": false, "message": "Error occured while getting map source"});
         }
