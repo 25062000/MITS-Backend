@@ -192,7 +192,7 @@ var getMapSource = async(req, res)=>{
             var sources = {
                 'chart-source': {
                     'type': 'raster',
-                    'tiles': [`http://localhost/cgi-bin/mapserv?map=${srcDir}&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=${req.body.id}&srs=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256`],
+                    'tiles': [`http://localhost:8080/cgi-bin/mapserv?map=/u02/userData/${clientId}/map/${req.body.id}.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=${req.body.id}&srs=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256`],
                     'titeSize': 256
                 }
             };

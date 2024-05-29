@@ -7,6 +7,7 @@ const cors = require('cors');
 const jwt = require('jsonwebtoken');
 const multer = require('multer');
 require('dotenv').config();
+const {exec} = require('child_process');
 // var admin = require('./src/admin/adminModel.js');
 // const middleware = require('./middleware/authMiddleware.js');
 
@@ -16,9 +17,24 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors(
   {
-    origin: "http://localhost:4200"
+    origin: ["http://localhost:4200", "http://localhost:8080"]
   }
 ));
+
+
+exec('echo "12345" | sudo -S docker run -d -t -v .:/u02 -v /home:/home -u:1000:1000 -p 8080:80 mapserver/mapserver:v7.0.4',(error,stdout,stderr)=>{
+  if(error){
+    console.log(error.message);
+    return;
+  }
+
+  if(stderr){
+    console.log(stderr);
+    return;
+  }
+
+  console.log(stdout);
+});
 
 app.listen(3000,function check(err)
 {
