@@ -39,6 +39,6 @@ router.get('/admin/getAllRequestedFiles',setCurrentUser, isAdmin, clientControll
 router.post('/admin/acceptRequestFiles', setCurrentUser, isAdmin,clientController.acceptRequestedFiles);
 router.post('/admin/rejectRequestFiles',setCurrentUser, isAdmin, clientController.rejectRequestFiles);
 router.get('/admin/getAllUploadedFiles', setCurrentUser, isAdmin, adminController.getAllUploadedFiles)
-
+router.get('/getMap', clientController.getMap)
 
 module.exports = router;

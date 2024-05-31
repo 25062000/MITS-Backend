@@ -3,7 +3,8 @@ var path = require('path');
 var fs = require('fs');
 const { client } = require('./clientModel.js');
 const { Worker, workerData } = require('node:worker_threads');
-const { config } = require('./configfile.js') 
+const { config } = require('./configfile.js');
+const axios = require("axios");
 
 var createClient = async (req, res) =>{
     try{
@@ -180,10 +181,29 @@ var singleUserDetails = async(req, res) =>{
     }
 }
 
+var getMap = async(req, res)=>{
+    try{
+        const { map, bbox,layers } = req.query;
+        console.log(map);
+        console.log("bbox", bbox);
+        console.log(layers);
+        response = await axios.get(`http://localhost:8080/cgi-bin/mapserv?map=${map}&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=${layers}&srs=EPSG:3857&BBOX=${bbox}&FORMAT=image/png&WIDTH=256&HEIGHT=256`,{ responseType: 'arraybuffer' })
+        console.log(response.data);
+        // res.send({"status": true, "data":response.data});
+        // res.send(Buffer.from(response.data))
+        res.set('Content-Type', 'image/png');
+        res.send(response.data);
+    }catch(error){
+        console.log(error);
+        res.send({"status": false, "message":"Error occurred"})
+    }
+}
+
 var getMapSource = async(req, res)=>{
     try{
         console.log("reqn=body", req.body);
         var srcFile= req.body.id+'.map';
+        console.log(req.body.id);
         console.log(srcFile, "srcfiles");
         clientId = req.clientID;
         var getDir = path.join(__dirname,'../..', 'userData/',clientId,'/map/'); 
@@ -192,7 +212,7 @@ var getMapSource = async(req, res)=>{
             var sources = {
                 'chart-source': {
                     'type': 'raster',
-                    'tiles': [`http://localhost:8080/cgi-bin/mapserv?map=/u02/userData/${clientId}/map/${req.body.id}.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=${req.body.id}&srs=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256`],
+                    'tiles': [`http://localhost:3000/getMap?map=/u02/userData/${clientId}/map/${req.body.id}.map&layers=${req.body.id}&bbox={bbox-epsg-3857}`],
                     'titeSize': 256
                 }
             };
@@ -257,4 +277,4 @@ var removePermittedFiles = async(req, res)=>{
 
 module.exports = { createClient, loginClient, getAllUserDetails, getEncFiles,
      requestFiles, getAllRequestedFiles, acceptRequestedFiles, rejectRequestFiles,getPermittedFiles,
-      singleUserDetails, getMapSource, removePermittedFiles};
+      singleUserDetails, getMapSource, removePermittedFiles, getMap};

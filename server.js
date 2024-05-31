@@ -8,6 +8,7 @@ const jwt = require('jsonwebtoken');
 const multer = require('multer');
 require('dotenv').config();
 const {exec} = require('child_process');
+const axios = require("axios");
 // var admin = require('./src/admin/adminModel.js');
 // const middleware = require('./middleware/authMiddleware.js');
 
@@ -20,6 +21,28 @@ app.use(cors(
     origin: ["http://localhost:4200", "http://localhost:8080"]
   }
 ));
+
+// var allowedOrigins = ['http://localhost:4200',
+//                       'http://localhost:8080'];
+// app.use(cors({
+//   origin: function(origin, callback){
+//     if(!origin) return callback(null, true);
+//     if(allowedOrigins.indexOf(origin) === -1){
+//       var msg = 'The CORS policy for this site does not ' +
+//                 'allow access from the specified Origin.';
+//       return callback(new Error(msg), false);
+//     }
+//     return callback(null, true);
+//   }
+// }));
+
+
+// const corsOptions = {   origin: "*",   methods:
+// "GET,HEAD,PUT,PATCH,POST,DELETE",   allowedHeaders:
+//     "Access-Control-Allow-Headers,Access-Control-Allow-Origin,Access-Control-Request-Method,Access-Control-Request-Headers,Origin,Cache-Control,Content-Type,X-Token,X-Refresh-Token",   credentials: true,   preflightContinue: false,  
+// optionsSuccessStatus: 204 };
+
+// app.use(cors(corsOptions))
 
 
 exec('echo "12345" | sudo -S docker run -d -t -v .:/u02 -v /home:/home -u:1000:1000 -p 8080:80 mapserver/mapserver:v7.0.4',(error,stdout,stderr)=>{
