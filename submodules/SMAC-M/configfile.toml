@@ -1,0 +1,11 @@
+point_table = "Paper"
+area_table = "Plain"
+displaycategory = "Standard"
+debug = false
+
+[paths]
+chartsymbols = "/home/pcd1/Documents/SMAC-M/chart-installation/generate_map_files/resources/chartsymbols/chartsymbols_S57.xml"
+ruleset = "/home/pcd1/Documents/SMAC-M/chart-installation/generate_map_files/resources/rules"
+chart = "/home/pcd1/Documents/noaa_enc/ENC_ROOT"
+data = "/home/pcd1/Documents/noaa_enc/shp"
+map = "/home/pcd1/Documents/noaa_enc/map"

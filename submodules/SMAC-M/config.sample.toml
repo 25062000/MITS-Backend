@@ -1,0 +1,29 @@
+debug = false                 # Enable the Mapserver debug if true
+point_table = "Simplified"    # Style table used for point features (Simplified or Paper)
+area_table = "Plain"          # Style table used for area features (Plain or Symbolized)
+displaycategory = "Standard"  # Comma-separated list of categories of symbols displayed (Standard,Other,Displaybase)
+topmark_type = "rigid"        # Type of top marks to display
+excluded_lookups = ["M_QUAL"] # List of lookups to exclude from the mapfiles
+
+# MAXSCALEDENOM downgrade shift.  All layers have default navigation level
+# defined in layer_msd.csv.
+# The `maxscale_shift` array variable allow to change the MAXSCALEDENOM of a
+# layer. For example, given LIGHTS=0.4 and default maxscale of 100000, LIGHTS
+# will be 1000000 * 0.4 = 400000 
+[maxscale_shift]
+LIGHTS = 0.4
+BUAARE = 0.1
+
+[symbol_size_override]
+# The `symbol_size_override` variable allows overwriting the SIZE of a symbol.
+# All symbols starting with one of the keys will use the specified SIZE instead
+# of the one derived from the chartsymbols
+BUA = 5
+RSR = 10
+
+[paths]  # All paths in this section are relative to this file's location
+chart = "ENC_ROOT"    # Path to the ENC_ROOT of this dataset
+data = "data/shape"   # Path to the converted data files (Mandatory)
+map = "data/map"      # Path to the mapfile output directory. Defaults to a `map` directory adjacent to the data path
+chartsymbols = ""     # Path to the chartsymbols.xml to use for the generation. Defaults to the fixed chartsymbols_S57.xml file provided in this repository
+ruleset = ""          # Path to the rule set to use. Defaults to the resources provided in this repository
