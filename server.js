@@ -45,19 +45,19 @@ app.use(cors(
 // app.use(cors(corsOptions))
 
 
-exec('echo "12345" | sudo -S docker run -d -t -v .:/u02 -v /home:/home -u:1000:1000 -p 8080:80 mapserver/mapserver:v7.0.4',(error,stdout,stderr)=>{
-  if(error){
-    console.log(error.message);
-    return;
-  }
+// exec('echo "12345" | sudo -S docker run -d -t -v .:/u02 -v /home:/home -u:1000:1000 -p 8080:80 mapserver/mapserver:v7.0.4',(error,stdout,stderr)=>{
+//   if(error){
+//     console.log(error.message);
+//     return;
+//   }
 
-  if(stderr){
-    console.log(stderr);
-    return;
-  }
+//   if(stderr){
+//     console.log(stderr);
+//     return;
+//   }
 
-  console.log(stdout);
-});
+//   console.log(stdout);
+// });
 
 app.listen(3000,function check(err)
 {
