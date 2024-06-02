@@ -9,7 +9,7 @@ const multer = require('multer');
 require('dotenv').config();
 const {exec} = require('child_process');
 const axios = require("axios");
-// var admin = require('./src/admin/adminModel.js');
+var admin = require('./src/admin/adminModel.js');
 // const middleware = require('./middleware/authMiddleware.js');
 
 const app = express()
@@ -82,21 +82,21 @@ db.once('open', () => {
 });
 
 // Create a new user document
-// const adminData = new admin({
-//   name: 'Admin',
-//   email: 'admin123@gmail.com',
-//   password: 'Admin@123'
-// });
+const adminData = new admin({
+  name: 'Admin',
+  email: 'admin123@gmail.com',
+  password: 'Admin@123'
+});
 
-// admin.create(adminData)
-//       .then(admin => {
-//         console.log('Admin data inserted successfully:', admin);
-//         // mongoose.connection.close();
-//       })
-//       .catch(error => {
-//         console.error('Error inserting admin data:', error);
-//         // mongoose.connection.close();
-//       });
+admin.create(adminData)
+      .then(admin => {
+        console.log('Admin data inserted successfully:', admin);
+        // mongoose.connection.close();
+      })
+      .catch(error => {
+        console.error('Error inserting admin data:', error);
+        // mongoose.connection.close();
+      });
 
 // app.use(middleware.setCurrentUser)
 app.use(routes);

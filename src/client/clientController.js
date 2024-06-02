@@ -5,6 +5,7 @@ const { client } = require('./clientModel.js');
 const { Worker, workerData } = require('node:worker_threads');
 const { config } = require('./configfile.js');
 const axios = require("axios");
+const { response } = require('express');
 
 var createClient = async (req, res) =>{
     try{
@@ -187,12 +188,12 @@ var getMap = async(req, res)=>{
         console.log(map);
         console.log("bbox", bbox);
         console.log(layers);
-        response = await axios.get(`http://localhost:8080/cgi-bin/mapserv?map=${map}&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=${layers}&srs=EPSG:3857&BBOX=${bbox}&FORMAT=image/png&WIDTH=256&HEIGHT=256`,{ responseType: 'arraybuffer' })
-        console.log(response.data);
+        // response = await axios.get(`http://localhost:8080/cgi-bin/mapserv?map=${map}&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=${layers}&srs=EPSG:3857&BBOX=${bbox}&FORMAT=image/png&WIDTH=256&HEIGHT=256`,{ responseType: 'arraybuffer' })
+        const mapRes = await axios.get(`http://localhost/cgi-bin/mapserv?map=/home/mts/server/userData${map}&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&STYLES=&TRANSPARENT=true&LAYERS=${layers}&srs=EPSG:3857&BBOX=${bbox}&FORMAT=image/png&WIDTH=256&HEIGHT=256`, { responseType: 'arraybuffer' })
         // res.send({"status": true, "data":response.data});
         // res.send(Buffer.from(response.data))
         res.set('Content-Type', 'image/png');
-        res.send(response.data);
+        res.send(mapRes.data);
     }catch(error){
         console.log(error);
         res.send({"status": false, "message":"Error occurred"})
@@ -213,7 +214,8 @@ var getMapSource = async(req, res)=>{
                 'chart-source': {
                     'type': 'raster',
                     // 'tiles': [`http://localhost:3000/getMap?map=/u02/userData/${clientId}/map/${req.body.id}.map&layers=${req.body.id}&bbox={bbox-epsg-3857}`],
-                    'tiles': `http://localhost/cgi-bin/mapserv?map=/home/mts/server/userData/${clientId}/map/${req.body.id}.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=${req.body.id}&srs=EPSG:3857&BBOX=${bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256`,
+                    'tiles': [`http://localhost:3000/getMap?map=/${clientId}/map/${req.body.id}.map&layers=${req.body.id}&bbox={bbox-epsg-3857}`],
+                    // 'tiles': [`http://localhost/cgi-bin/mapserv?map=/home/mts/server/userData/${clientId}/map/${req.body.id}.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&STYLES=&TRANSPARENT=true&LAYERS=${req.body.id}&srs=EPSG:3857&BBOX={bbox-epsg-3857}&FORMAT=image/png&WIDTH=256&HEIGHT=256`],
                     'titeSize': 256
                 }
             };
@@ -225,9 +227,6 @@ var getMapSource = async(req, res)=>{
                     'paint': {}
                 }
             ];
-            console.log(sources);
-            console.log(layers);
-            console.log(srcDir);
             res.send({status:true, message:'Source accessed', sources, layers, data:srcDir});
         } else {
             res.send({"status": false, "message": "Error occured while getting map source"});

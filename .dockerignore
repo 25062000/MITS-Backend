@@ -2,6 +2,8 @@
 data/
 uploads/
 userData/
+database/
 Dockerfile
 .dockerignore
 docker-compose.yml
+start.sh
