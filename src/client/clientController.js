@@ -103,12 +103,14 @@ var acceptRequestedFiles = async(req, res) =>{
         var src = path.join(__dirname,'../..', 'uploads/',element);
         var destDir = path.join(__dirname,'../..', 'userData/',clientId, '/encData');
         var dest = path.join(destDir,'/',element)
-        fs.mkdir(destDir, { recursive: true }, (err) => {
-            if (err) throw err;
-                fs.symlink(src, dest,(err)=>{
-                    if(err) throw err;
-                })
-        })
+        if (!fs.existsSync(dest)){
+            fs.mkdir(destDir, { recursive: true }, (err) => {
+                if (err) throw err;
+                    fs.symlink(src, dest,(err)=>{
+                        if(err) throw err;
+                    })
+            })
+        }
     });
     ENC_DATA = path.join(__dirname,'../..', 'userData/',clientId,'/encData');
     ENC_SHAPE_FILE  = path.join(__dirname,'../..', 'userData/',clientId,'/shp/'); 
@@ -122,14 +124,16 @@ var acceptRequestedFiles = async(req, res) =>{
     configuration = config.replace('ENC_CHART_DIRECTORY',ENC_DATA).replace('ENC_SHAPE_FILE',ENC_SHAPE_FILE ).replace('ENC_MAP_FILE',ENC_MAP_FILE);
     configPath='./submodules/SMAC-M/noaa/config.enc.noaa.toml';
     fs.writeFileSync(configPath, configuration);
+    
     const worker = new Worker('./src/client/workerProcess.js', {workerData: req.body})
     worker.on('message', (message)=>{
         result = clientService.acceptRequestedFiles(req.body);
         if(res.status){
+            console.log("Files are accepted");
             res.send({"status": true, "message":"Files are accepted"})
         }else{
             res.send({"status": false, "message":"Error occured"});
-        }
+        }  
     })
     worker.on('error', (error) => {
         res.status(500).send('Internal Server Error');
